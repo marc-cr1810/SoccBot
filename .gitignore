@@ -1,2 +1,7 @@
+CAD/Exports
+PCB/KiCAD/Exports
+
 *.FCBak
 *.zip
+*.log
+*.round-tracks-config

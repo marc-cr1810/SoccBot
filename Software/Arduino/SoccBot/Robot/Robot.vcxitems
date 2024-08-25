@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{26e1466a-c2c6-4f92-92d1-f89d041d6484}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)readme.txt" />
+    <Text Include="$(MSBuildThisFileDirectory)library.properties" />
+    <Text Include="$(MSBuildThisFileDirectory)src\robot.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- <ClInclude Include="$(MSBuildThisFileDirectory)Robot.h" /> -->
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\core\platform_detection.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\core\robot_state.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\button.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\digital.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\digital_pwm.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\led.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\utils\timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\core\robot_state.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\button.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\digital.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\digital_pwm.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\led.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\robot.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\utils\timer.cpp" />
+  </ItemGroup>
+</Project>

@@ -6,5 +6,5 @@
 *.zip
 *.log
 *.round-tracks-config
-*.vcxitems*
+*.vcxitems.*
 *.vcxproj.*

@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(general
-		(thickness 1.6)
+		(thickness 1)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -39,6 +39,45 @@
 		(58 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 0.91)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
@@ -1138,7 +1177,7 @@
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
-			(end 0.227066 0.735)
+			(end 0.227067 0.735)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1147,7 +1186,7 @@
 			(uuid "4afbffa3-03db-4420-86d4-21a5edbe38b1")
 		)
 		(fp_line
-			(start -0.227066 -0.735)
+			(start -0.227067 -0.735)
 			(end 0.227064 -0.735)
 			(stroke
 				(width 0.12)
@@ -2909,7 +2948,7 @@
 		(sheetfile "Lightsensor.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.227066 -0.735)
+			(start -0.227067 -0.735)
 			(end 0.227064 -0.735)
 			(stroke
 				(width 0.12)
@@ -2920,7 +2959,7 @@
 		)
 		(fp_line
 			(start -0.227064 0.735)
-			(end 0.227066 0.735)
+			(end 0.227067 0.735)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -15703,7 +15742,7 @@
 		(sheetfile "Lightsensor.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.227066 -0.735)
+			(start -0.227067 -0.735)
 			(end 0.227064 -0.735)
 			(stroke
 				(width 0.12)
@@ -15714,7 +15753,7 @@
 		)
 		(fp_line
 			(start -0.227064 0.735)
-			(end 0.227066 0.735)
+			(end 0.227067 0.735)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -17431,7 +17470,7 @@
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
-			(end 0.227066 0.735)
+			(end 0.227067 0.735)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -17440,7 +17479,7 @@
 			(uuid "0e67d197-5519-4311-950c-01ca0047fde3")
 		)
 		(fp_line
-			(start -0.227066 -0.735)
+			(start -0.227067 -0.735)
 			(end 0.227064 -0.735)
 			(stroke
 				(width 0.12)

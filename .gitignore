@@ -1,7 +1,10 @@
-CAD/Exports
-PCB/KiCAD/Exports
+**/Exports
+**/.vs
+**/__vm
 
 *.FCBak
 *.zip
 *.log
 *.round-tracks-config
+*.vcxitems*
+*.vcxproj.*

@@ -22,18 +22,26 @@
     <!-- <ClInclude Include="$(MSBuildThisFileDirectory)Robot.h" /> -->
     <ClInclude Include="$(MSBuildThisFileDirectory)src\core\platform_detection.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)src\core\robot_state.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\analog\analog.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\analog\analog_multi.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\button.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\digital.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\digital_multi.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\digital_pwm.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\led.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\led_array.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)src\utils\timer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)src\core\robot_state.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\analog\analog.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\analog\analog_multi.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\button.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\digital.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\digital_multi.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\digital_pwm.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\led.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\led_array.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\robot.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\utils\timer.cpp" />
   </ItemGroup>

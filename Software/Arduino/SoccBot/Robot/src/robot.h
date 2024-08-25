@@ -13,5 +13,6 @@
 #include "hardware/digital/digital.h"
 #include "hardware/digital/digital_pwm.h"
 #include "hardware/digital/led.h"
+#include "hardware/digital/led_array.h"
 
 #include "utils/timer.h"

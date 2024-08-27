@@ -6826,6 +6826,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 186.69) (xy 49.53 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02454584-8cb1-46cb-9f79-9bb00d600e48")
+	)
+	(wire
+		(pts
 			(xy 49.53 330.2) (xy 49.53 327.66)
 		)
 		(stroke
@@ -7656,7 +7666,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 187.96) (xy 49.53 186.69)
+			(xy 49.53 186.69) (xy 46.99 186.69)
 		)
 		(stroke
 			(width 0)
@@ -9046,16 +9056,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 186.69) (xy 48.26 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5893db55-4023-4710-bf75-1671cf7e3252")
-	)
-	(wire
-		(pts
 			(xy 26.67 130.81) (xy 27.94 130.81)
 		)
 		(stroke
@@ -9986,16 +9986,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 184.15) (xy 49.53 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ffec711-f776-470e-93ee-ec1cbcf24f6e")
-	)
-	(wire
-		(pts
 			(xy 140.97 250.19) (xy 142.24 250.19)
 		)
 		(stroke
@@ -10113,6 +10103,16 @@
 			(type default)
 		)
 		(uuid "848b132e-04b6-45a8-9d72-dc8e381ea2a9")
+	)
+	(wire
+		(pts
+			(xy 46.99 184.15) (xy 49.53 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e39030-6280-4a7e-892c-d7adc3772346")
 	)
 	(wire
 		(pts
@@ -26770,8 +26770,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 43.18 184.15 0)
-		(mirror y)
+		(at 41.91 186.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26779,7 +26778,7 @@
 		(dnp no)
 		(uuid "a4baf65d-71fe-4f85-9ba3-fa369d6a6112")
 		(property "Reference" "J2"
-			(at 43.18 181.356 0)
+			(at 41.91 189.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26787,7 +26786,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 43.18 190.5 0)
+			(at 41.91 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26796,7 +26795,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
-			(at 43.18 184.15 0)
+			(at 41.91 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26805,7 +26804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 184.15 0)
+			(at 41.91 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26814,7 +26813,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 184.15 0)
+			(at 41.91 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

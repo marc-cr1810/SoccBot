@@ -16,3 +16,7 @@
 		#endif
 	#endif
 #endif
+
+#ifdef ARDUINO_ATMEGA328
+typedef uint32_t ssize_t;
+#endif

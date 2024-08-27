@@ -2,6 +2,8 @@
 
 #include <Arduino.h>
 
+#include "../../core/platform_detection.h"
+
 class led_array_t
 {
 public:

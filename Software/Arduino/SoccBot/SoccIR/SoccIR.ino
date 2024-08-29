@@ -1,6 +1,58 @@
 #include <Wire.h>
 #include <robot.h>
 
+#define TSSP_ANGLE_0	0
+#define TSSP_ANGLE_1	14
+#define TSSP_ANGLE_2	27
+#define TSSP_ANGLE_3	39
+#define TSSP_ANGLE_4	53
+#define TSSP_ANGLE_5	67
+#define TSSP_ANGLE_6	82
+#define TSSP_ANGLE_7	98
+#define TSSP_ANGLE_8	113
+#define TSSP_ANGLE_9	127
+#define TSSP_ANGLE_10	145
+#define TSSP_ANGLE_11	162
+#define TSSP_ANGLE_12	180
+#define TSSP_ANGLE_13	198
+#define TSSP_ANGLE_14	215
+#define TSSP_ANGLE_15	233
+#define TSSP_ANGLE_16	247
+#define TSSP_ANGLE_17	262
+#define TSSP_ANGLE_18	278
+#define TSSP_ANGLE_19	292
+#define TSSP_ANGLE_20	307
+#define TSSP_ANGLE_21	321
+#define TSSP_ANGLE_22	333
+#define TSSP_ANGLE_23	346
+
+uint16_t tssp_angles[24] = {
+	TSSP_ANGLE_0,
+	TSSP_ANGLE_1,
+	TSSP_ANGLE_2,
+	TSSP_ANGLE_3,
+	TSSP_ANGLE_4,
+	TSSP_ANGLE_5,
+	TSSP_ANGLE_6,
+	TSSP_ANGLE_7,
+	TSSP_ANGLE_8,
+	TSSP_ANGLE_9,
+	TSSP_ANGLE_10,
+	TSSP_ANGLE_11,
+	TSSP_ANGLE_12,
+	TSSP_ANGLE_13,
+	TSSP_ANGLE_14,
+	TSSP_ANGLE_15,
+	TSSP_ANGLE_16,
+	TSSP_ANGLE_17,
+	TSSP_ANGLE_18,
+	TSSP_ANGLE_19,
+	TSSP_ANGLE_20,
+	TSSP_ANGLE_21,
+	TSSP_ANGLE_22,
+	TSSP_ANGLE_23
+}
+
 robot_state_t state(11, 10);
 
 analog_multi_t tssp_cluster_1(14, 0, 1, 2);

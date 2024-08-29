@@ -30,6 +30,8 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\digital_pwm.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\led.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\led_array.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\switch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\hardware\digital\switch_array.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)src\utils\timer.h" />
   </ItemGroup>
   <ItemGroup>
@@ -42,6 +44,8 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\digital_pwm.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\led.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\led_array.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\switch.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\hardware\digital\switch_array.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\robot.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\utils\timer.cpp" />
   </ItemGroup>

@@ -22,6 +22,11 @@ void robot_state_t::update()
 
 void robot_state_t::set_state(state_e state)
 {
+	if (state == m_state)
+	{
+		return;
+	}
+
 	m_red_blink = false;
 	m_green_blink = false;
 

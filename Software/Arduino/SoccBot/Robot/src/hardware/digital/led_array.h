@@ -15,6 +15,8 @@ public:
 
 	void on(ssize_t index);
 	void off(ssize_t index);
+
+	ssize_t count() const;
 private:
 	uint8_t* m_pins;
 	ssize_t m_count;

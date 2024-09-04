@@ -2,6 +2,7 @@
 #include <robot.h>
 
 #include "hardware/ir_controller.h"
+#include "hardware/light_sensor.h"
 
 robot_state_t state(13, 9);
 
@@ -14,7 +15,9 @@ led_array_t led_array(led_pins, 16);
 uint8_t opt_switch_pins[] = { 2, 3, 4, 5, 6, 32 };
 switch_array_t opt_switch(opt_switch_pins, 6);
 
+analog_t lightgate(14);
 ir_controller_t ir_controller(IR_I2C_ADDRESS);
+light_sensor_t light_sensor(LIGHT_I2C_ADDRESS);
 
 bool running = false;
 int current_led = 0;
@@ -27,7 +30,18 @@ void setup()
 	Wire.begin();
 	Serial.begin(115200);
 
-	if (ir_controller.check_connection())
+	bool error = false;
+	if (!ir_controller.check_connection())
+	{
+		error = true;
+	}
+
+	if (light_sensor.check_connection())
+	{
+		error = true;
+	}
+
+	if (error)
 	{
 		state.set_state(robot_state_t::standby);
 	}
@@ -37,12 +51,36 @@ void setup()
 	}
 }
 
+void light_ball_direction()
+{
+	if (!ir_controller.ball_detected())
+	{
+		led_array.all_off();
+		return;
+	}
+
+	float angle = ir_controller.ball_angle();
+	int led_index = floor(angle / (360.0f / led_array.count()));
+	for (ssize_t i = 0; i < led_array.count(); i++)
+	{
+		if (i == led_index)
+		{
+			led_array.on(i);
+		}
+		else
+		{
+			led_array.off(i);
+		}
+	}
+}
+
 void loop()
 {
 	ir_controller.update();
+	light_sensor.update();
 	state.update();
 
-	Serial.printf("Ball detected: %s  Ball Angle: %f\n", ir_controller.ball_detected() ? "true" : "false", ir_controller.ball_angle());
+	Serial.printf("Ball detected: %s  Ball Angle: %.02f\n", ir_controller.ball_detected() ? "true" : "false", ir_controller.ball_angle());
 
 	if (button_start.released())
 	{
@@ -53,22 +91,13 @@ void loop()
 
 	if (running)
 	{
-		if ((uint32_t)led_timer >= 50)
+		if (lightgate.read() < 150)
 		{
-			for (int i = 0; i < 16; i++)
-			{
-				if (i == current_led)
-				{
-					led_array.on(i);
-				}
-				else
-				{
-					led_array.off(i);
-				}
-			}
-			current_led++;
-			current_led %= 16;
-			led_timer.restart();
+			led_array.all_on();
+		}
+		else
+		{
+			light_ball_direction();
 		}
 	}
 

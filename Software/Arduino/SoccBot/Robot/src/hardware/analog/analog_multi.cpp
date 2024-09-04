@@ -15,6 +15,7 @@ analog_multi_t::analog_multi_t(const uint8_t pin, const uint8_t addr_pin_a, cons
 uint16_t analog_multi_t::read(uint8_t address)
 {
 	set_address(address);
+	delayMicroseconds(1);
 	return analog_t::read();
 }
 

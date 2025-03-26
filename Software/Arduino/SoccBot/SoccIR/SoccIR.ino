@@ -82,7 +82,7 @@ void loop()
 				max = i;
 				if (count > 0 && light_clusters[0].get_min() == 0)
 				{
-					light_clusters[0].set_min(max);
+					light_clusters[0].set_min(min);
 					min = -1;
 					max = -1;
 					is_cluster = false;
@@ -102,7 +102,17 @@ void loop()
 		else if (value)
 		{
 			min = i;
-			is_cluster = true;
+			if (i == (TSSP_COUNT - 1))
+			{
+				light_clusters[0].set_min(min);
+				min = -1;
+				max = -1;
+				is_cluster = false;
+			}
+			else
+			{
+				is_cluster = true;
+			}
 		}
 	}
 

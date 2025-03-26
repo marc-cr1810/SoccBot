@@ -37,8 +37,8 @@ void light_sensor_t::update()
 				m_ball_angle = (float)angle / 100.0f;
 				m_ball_detected = bytes[2] != 0;
 
-				Serial.printf("light: %c%c%c%c%c%c%c%c %c%c%c%c%c%c%c%c %c%c%c%c%c%c%c%c\n",
-					BYTE_TO_BINARY(bytes[3]), BYTE_TO_BINARY(bytes[4]), BYTE_TO_BINARY(bytes[5]));
+				//Serial.printf("light: %c%c%c%c%c%c%c%c %c%c%c%c%c%c%c%c %c%c%c%c%c%c%c%c\n",
+				//	BYTE_TO_BINARY(bytes[3]), BYTE_TO_BINARY(bytes[4]), BYTE_TO_BINARY(bytes[5]));
 			}
 		}
 		m_timer.restart();

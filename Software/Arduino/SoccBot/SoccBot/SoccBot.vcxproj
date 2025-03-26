@@ -47,8 +47,10 @@
     <wiringPiIncludePath>c:\visualmicro\pi-ignore</wiringPiIncludePath>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="hardware\camera.cpp" />
     <ClCompile Include="hardware\ir_controller.cpp" />
     <ClCompile Include="hardware\light_sensor.cpp" />
+    <ClCompile Include="hardware\motor_controller.cpp" />
     <ClCompile Include="SoccBot.ino">
       <DeploymentContent>true</DeploymentContent>
     </ClCompile>
@@ -57,15 +59,17 @@
     <ProjectCapability Include="VisualMicro" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="hardware\camera.h" />
     <ClInclude Include="hardware\ir_controller.h" />
     <ClInclude Include="hardware\light_sensor.h" />
+    <ClInclude Include="hardware\motor_controller.h" />
     <ClInclude Include="__vm\.SoccBot.vsarduino.h" />
   </ItemGroup>
   <PropertyGroup>
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
-    <IncludePath>$(ProjectDir)..\SoccBot;$(ProjectDir)..\Robot\src;$(ProjectDir)..\..\..\..\..\..\\Users\\MarcC\\AppData\\Local\\Arduino15\\packages\\teensy\\hardware\\avr\\1.59.0\\cores\\teensy4;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include\c++\11.3.1;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include\c++\11.3.1\arm-none-eabi\thumb\v7e-m+dp\hard;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include\c++\11.3.1\backward;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\lib\gcc\arm-none-eabi\11.3.1\include;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\lib\gcc\arm-none-eabi\11.3.1\include-fixed;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include;$(ProjectDir)..\Robot\src</IncludePath>
+    <IncludePath>$(ProjectDir)..\..\..\..\..\..\\Users\\MarcC\\AppData\\Local\\Arduino15\\packages\\teensy\\hardware\\avr\\1.59.0\\cores\\teensy4;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include\c++\11.3.1;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include\c++\11.3.1\arm-none-eabi\thumb\v7e-m+dp\hard;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include\c++\11.3.1\backward;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\lib\gcc\arm-none-eabi\11.3.1\include;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\lib\gcc\arm-none-eabi\11.3.1\include-fixed;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include;$(ProjectDir)..\..\..\..\..\..\Users\MarcC\AppData\Local\Arduino15\packages\teensy\hardware\avr\1.59.0\libraries\Wire;$(ProjectDir)..\..\..\..\..\..\Users\MarcC\AppData\Local\Arduino15\packages\teensy\hardware\avr\1.59.0\libraries\Wire\utility;$(ProjectDir)..\Robot\src</IncludePath>
     <RemoteCCompileToolExe>$(ProjectDir)..\..\..\..\..\..\\Users\\MarcC\\AppData\\Local\\Arduino15\\packages\\teensy\\tools\\teensy-compile\\11.3.1\arm\bin\arm-none-eabi-g++</RemoteCCompileToolExe>
     <RemoteCppCompileToolExe>$(ProjectDir)..\..\..\..\..\..\\Users\\MarcC\\AppData\\Local\\Arduino15\\packages\\teensy\\tools\\teensy-compile\\11.3.1\arm\bin\arm-none-eabi-g++</RemoteCppCompileToolExe>
     <ValidateArchitecture>false</ValidateArchitecture>
@@ -78,7 +82,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\SoccBot;$(ProjectDir)..\Robot\src;$(ProjectDir)..\..\..\..\..\..\\Users\\MarcC\\AppData\\Local\\Arduino15\\packages\\teensy\\hardware\\avr\\1.59.0\\cores\\teensy4;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include\c++\11.3.1;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include\c++\11.3.1\arm-none-eabi\thumb\v7e-m+dp\hard;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include\c++\11.3.1\backward;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\lib\gcc\arm-none-eabi\11.3.1\include;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\lib\gcc\arm-none-eabi\11.3.1\include-fixed;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include;$(ProjectDir)..\Robot\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\..\..\..\\Users\\MarcC\\AppData\\Local\\Arduino15\\packages\\teensy\\hardware\\avr\\1.59.0\\cores\\teensy4;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include\c++\11.3.1;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include\c++\11.3.1\arm-none-eabi\thumb\v7e-m+dp\hard;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include\c++\11.3.1\backward;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\lib\gcc\arm-none-eabi\11.3.1\include;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\lib\gcc\arm-none-eabi\11.3.1\include-fixed;$(ProjectDir)..\..\..\..\..\..\users\marcc\appdata\local\arduino15\packages\teensy\tools\teensy-compile\11.3.1\arm\arm-none-eabi\include;$(ProjectDir)..\..\..\..\..\..\Users\MarcC\AppData\Local\Arduino15\packages\teensy\hardware\avr\1.59.0\libraries\Wire;$(ProjectDir)..\..\..\..\..\..\Users\MarcC\AppData\Local\Arduino15\packages\teensy\hardware\avr\1.59.0\libraries\Wire\utility;$(ProjectDir)..\Robot\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <GccToolChain>$(ProjectDir)..\..\..\..\..\..\\Users\\MarcC\\AppData\\Local\\Arduino15\\packages\\teensy\\tools\\teensy-compile\\11.3.1\arm\bin\arm-none-eabi-g++</GccToolChain>
       <CppLanguageStandard>c++17</CppLanguageStandard>
       <CLanguageStandard>gnu11</CLanguageStandard>

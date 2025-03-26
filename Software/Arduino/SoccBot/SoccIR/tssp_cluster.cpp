@@ -63,7 +63,7 @@ tssp_cluster_t::tssp_cluster_t(uint8_t min, uint8_t max)
 float tssp_cluster_t::angle() const
 {
 	int i = m_min;
-	int sum = 0;
+	float sum = 0;
 	while (i != m_max + 1)
 	{
 		float angle = tssp_angles[i];

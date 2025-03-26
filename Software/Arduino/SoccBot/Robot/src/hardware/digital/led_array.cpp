@@ -51,3 +51,8 @@ void led_array_t::off(ssize_t index)
 
 	digitalWrite(m_pins[index], LOW);
 }
+
+ssize_t led_array_t::count() const
+{
+	return m_count;
+}

@@ -1,66 +1,21 @@
 #include <Wire.h>
 #include <robot.h>
 
-#define TSSP_ANGLE_0	0
-#define TSSP_ANGLE_1	14
-#define TSSP_ANGLE_2	27
-#define TSSP_ANGLE_3	39
-#define TSSP_ANGLE_4	53
-#define TSSP_ANGLE_5	67
-#define TSSP_ANGLE_6	82
-#define TSSP_ANGLE_7	98
-#define TSSP_ANGLE_8	113
-#define TSSP_ANGLE_9	127
-#define TSSP_ANGLE_10	145
-#define TSSP_ANGLE_11	162
-#define TSSP_ANGLE_12	180
-#define TSSP_ANGLE_13	198
-#define TSSP_ANGLE_14	215
-#define TSSP_ANGLE_15	233
-#define TSSP_ANGLE_16	247
-#define TSSP_ANGLE_17	262
-#define TSSP_ANGLE_18	278
-#define TSSP_ANGLE_19	292
-#define TSSP_ANGLE_20	307
-#define TSSP_ANGLE_21	321
-#define TSSP_ANGLE_22	333
-#define TSSP_ANGLE_23	346
+#include "tssp_cluster.h"
 
-uint16_t tssp_angles[24] = {
-	TSSP_ANGLE_0,
-	TSSP_ANGLE_1,
-	TSSP_ANGLE_2,
-	TSSP_ANGLE_3,
-	TSSP_ANGLE_4,
-	TSSP_ANGLE_5,
-	TSSP_ANGLE_6,
-	TSSP_ANGLE_7,
-	TSSP_ANGLE_8,
-	TSSP_ANGLE_9,
-	TSSP_ANGLE_10,
-	TSSP_ANGLE_11,
-	TSSP_ANGLE_12,
-	TSSP_ANGLE_13,
-	TSSP_ANGLE_14,
-	TSSP_ANGLE_15,
-	TSSP_ANGLE_16,
-	TSSP_ANGLE_17,
-	TSSP_ANGLE_18,
-	TSSP_ANGLE_19,
-	TSSP_ANGLE_20,
-	TSSP_ANGLE_21,
-	TSSP_ANGLE_22,
-	TSSP_ANGLE_23
-}
+#define THRESHOLD	120
 
 robot_state_t state(11, 10);
 
-analog_multi_t tssp_cluster_1(14, 0, 1, 2);
-analog_multi_t tssp_cluster_2(15, 3, 4, 5);
-analog_multi_t tssp_cluster_3(16, 6, 7, 8);
+analog_multi_t tssp_cluster_1(PIN_PC0, PIN_PD0, PIN_PD1, PIN_PD2);
+analog_multi_t tssp_cluster_2(PIN_PC1, PIN_PD3, PIN_PD4, PIN_PD5);
+analog_multi_t tssp_cluster_3(PIN_PC2, PIN_PD6, PIN_PD7, PIN_PB0);
+
+tssp_cluster_t light_clusters[TSSP_COUNT - 1];
 
 bool has_ball = false;
-uint8_t angle = 0;
+uint16_t angle = 0;
+uint32_t tssps = 0;
 
 void setup()
 {
@@ -83,48 +38,112 @@ uint16_t read_ir_sensor(uint8_t index)
 	case 0: cluster = &tssp_cluster_1; break;
 	case 1: cluster = &tssp_cluster_2; break;
 	case 2: cluster = &tssp_cluster_3; break;
-	default: state.set_state(robot_state_t::error); break;
+	default: state.set_state(robot_state_t::error); return 0;
 	}
 
 	uint8_t cluster_tssp_index = index - (cluster_index * 8);
+	if (cluster_tssp_index > 0b111)
+	{
+		state.set_state(robot_state_t::error);
+		return 0;
+	}
 	return cluster->read(cluster_tssp_index);
 }
 
 void loop()
 {
 	state.update();
-	int min = 24;
-	int max = -1;
 
-	for (int i = 0; i < 24; i++)
+	int count = 0;
+	int8_t min = -1;
+	int8_t max = -1;
+	uint32_t values = 0;
+	bool is_cluster = false;
+
+	for (ssize_t i = 0; i < TSSP_COUNT; i++)
 	{
-		bool value = read_ir_sensor(i) < 10;
-		if (value)
+		bool value = read_ir_sensor(i) < THRESHOLD;
+		values |= (uint32_t)(value ? 1 : 0) << (23 - i);
+
+		if (is_cluster)
 		{
-			has_ball = true;
-			angle = i;
-			if (min > i)
+			if (!value)
 			{
-				min = i;
+				max = i - 1;
+				light_clusters[count].set_min(min);
+				light_clusters[count].set_max(max);
+				count++;
+				min = -1;
+				max = -1;
+				is_cluster = false;
 			}
-			if (max < i)
+			else if (i == (TSSP_COUNT - 1))
 			{
 				max = i;
+				if (count > 0 && light_clusters[0].get_min() == 0)
+				{
+					light_clusters[0].set_min(min);
+					min = -1;
+					max = -1;
+					is_cluster = false;
+				}
+				else
+				{
+					max = i - 1;
+					light_clusters[count].set_min(min);
+					light_clusters[count].set_max(max);
+					count++;
+					min = -1;
+					max = -1;
+					is_cluster = false;
+				}
+			}
+		}
+		else if (value)
+		{
+			min = i;
+			if (i == (TSSP_COUNT - 1))
+			{
+				light_clusters[0].set_min(min);
+				min = -1;
+				max = -1;
+				is_cluster = false;
+			}
+			else
+			{
+				is_cluster = true;
 			}
 		}
 	}
 
-	angle = (max + min) / 2;
+	if (count > 0)
+	{
+		tssp_cluster_t& cluster = light_clusters[0];
+		for (int i = 1; i < count; i++)
+		{
+			if (light_clusters[i].count() > cluster.count())
+			{
+				cluster = light_clusters[i];
+			}
+		}
+		angle = round(cluster.angle() * 100);
+	}
+	else
+	{
+		angle = 0;
+	}
+	tssps = values;
+	has_ball = count > 0;
 }
 
 void i2c_request_event()
 {
-	Wire.write((uint8_t)0x00);
-	Wire.write((uint8_t)angle);
+	Wire.write((uint8_t)((angle >> 8) & 0xFF));
+	Wire.write((uint8_t)(angle & 0xFF));
 	Wire.write((uint8_t)has_ball);
-
-	has_ball = false;
-	angle = 0;
+	Wire.write((uint8_t)(tssps >> 16) & 0xFF);
+	Wire.write((uint8_t)(tssps >> 8)  & 0xFF);
+	Wire.write((uint8_t)tssps & 0xFF);
 }
 
 void i2c_recieve_event(int bytes)

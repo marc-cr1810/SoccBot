@@ -1,9 +1,9 @@
-#include "ir_controller.h"
+#include "light_sensor.h"
 
 #include <Wire.h>
 #include <WireIMXRT.h>
 
-ir_controller_t::ir_controller_t(const uint8_t address)
+light_sensor_t::light_sensor_t(const uint8_t address)
 	: m_address(address)
 {
 }
@@ -19,7 +19,7 @@ ir_controller_t::ir_controller_t(const uint8_t address)
   ((byte) & 0x02 ? '1' : '0'), \
   ((byte) & 0x01 ? '1' : '0') 
 
-void ir_controller_t::update()
+void light_sensor_t::update()
 {
 	if ((uint32_t)m_timer >= I2C_DELAY_MS)
 	{
@@ -37,7 +37,7 @@ void ir_controller_t::update()
 				m_ball_angle = (float)angle / 100.0f;
 				m_ball_detected = bytes[2] != 0;
 
-				//Serial.printf("ir: %c%c%c%c%c%c%c%c %c%c%c%c%c%c%c%c %c%c%c%c%c%c%c%c\n", 
+				//Serial.printf("light: %c%c%c%c%c%c%c%c %c%c%c%c%c%c%c%c %c%c%c%c%c%c%c%c\n",
 				//	BYTE_TO_BINARY(bytes[3]), BYTE_TO_BINARY(bytes[4]), BYTE_TO_BINARY(bytes[5]));
 			}
 		}
@@ -45,19 +45,19 @@ void ir_controller_t::update()
 	}
 }
 
-bool ir_controller_t::check_connection() const
+bool light_sensor_t::check_connection() const
 {
 	Wire.beginTransmission(m_address);
 	uint8_t result = Wire.endTransmission();
 	return result == 0;
 }
 
-bool ir_controller_t::ball_detected() const
+bool light_sensor_t::ball_detected() const
 {
 	return m_ball_detected;
 }
 
-float ir_controller_t::ball_angle() const
+float light_sensor_t::ball_angle() const
 {
 	return m_ball_angle;
 }

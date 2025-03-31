@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "1101M2S3CGE2")(type "KiCad")(uri "${KIPRJMOD}/../lib/1101M2S3CGE2/1101M2S3CGE2.kicad_sym")(options "")(descr ""))
+  (lib (name "Pololu")(type "KiCad")(uri "${KIPRJMOD}/../lib/Pololu/Pololu.kicad_sym")(options "")(descr ""))
+)

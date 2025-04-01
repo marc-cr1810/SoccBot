@@ -2831,6 +2831,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 83.82) (xy 86.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231edada-472d-43c3-85ae-bb1ad5e4992c")
+	)
+	(wire
+		(pts
 			(xy 158.75 93.98) (xy 158.75 92.71)
 		)
 		(stroke
@@ -3061,6 +3071,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 83.82) (xy 86.36 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4593320a-fb4c-45a8-8183-e8e049434fd9")
+	)
+	(wire
+		(pts
 			(xy 30.48 45.72) (xy 31.75 45.72)
 		)
 		(stroke
@@ -3138,6 +3158,16 @@
 			(type default)
 		)
 		(uuid "5175f114-badc-42c1-8d00-7a6d4483a81e")
+	)
+	(wire
+		(pts
+			(xy 86.36 92.71) (xy 86.36 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ab4ccc-7da8-4aed-b8bb-cbaeadc74eb6")
 	)
 	(wire
 		(pts
@@ -5354,7 +5384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 189.23 123.19 0)
 			(effects
 				(font
@@ -5740,6 +5770,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 86.36 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2836ee0d-de9a-4393-857f-2a65f7e879bf")
+		(property "Reference" "R8"
+			(at 88.9 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 88.9 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 88.138 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c74fb543-10e9-4106-a5a4-f0e564eaf55a")
+		)
+		(pin "2"
+			(uuid "1fe56c5e-0411-4205-a4aa-c5f86ecd415f")
+		)
+		(instances
+			(project "Lower PCB"
+				(path "/ce5ddd0c-e3c7-41d2-82e8-7cf5c6a3a2a3/5ff91d1b-d345-4f28-b2f0-8a2ac55be9dc"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 189.23 53.34 180)
 		(unit 1)
@@ -5768,7 +5867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 189.23 53.34 0)
 			(effects
 				(font
@@ -6273,7 +6372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 274.32 53.34 0)
 			(effects
 				(font
@@ -8290,6 +8389,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 86.36 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9688343e-6e2a-4c9a-b5e2-4fbb1433affe")
+		(property "Reference" "#PWR049"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 86.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30d4ac6e-97d2-4ca0-84f1-0f78d3b8ed42")
+		)
+		(instances
+			(project "Lower PCB"
+				(path "/ce5ddd0c-e3c7-41d2-82e8-7cf5c6a3a2a3/5ff91d1b-d345-4f28-b2f0-8a2ac55be9dc"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 175.26 128.27 0)
 		(unit 1)
@@ -8798,7 +8963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 274.32 123.19 0)
 			(effects
 				(font

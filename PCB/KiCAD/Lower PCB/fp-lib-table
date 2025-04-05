@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "1101M2S3CGE2")(type "KiCad")(uri "${KIPRJMOD}/../lib/1101M2S3CGE2")(options "")(descr ""))
   (lib (name "Pololu")(type "KiCad")(uri "${KIPRJMOD}/../lib/Pololu/Pololu.pretty")(options "")(descr ""))
+  (lib (name "ADG608BRZ")(type "KiCad")(uri "${KIPRJMOD}/../lib/ADG608BRZ")(options "")(descr ""))
 )

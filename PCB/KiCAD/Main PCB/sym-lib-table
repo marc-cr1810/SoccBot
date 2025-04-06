@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADG608BRZ")(type "KiCad")(uri "${KIPRJMOD}/../lib/ADG608BRZ/ADG608BRZ.kicad_sym")(options "")(descr ""))
+  (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/../lib/Teensy/teensy.kicad_sym")(options "")(descr ""))
+)

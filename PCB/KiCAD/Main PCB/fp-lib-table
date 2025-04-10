@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "ADG608BRZ")(type "KiCad")(uri "${KIPRJMOD}/../lib/ADG608BRZ")(options "")(descr ""))
   (lib (name "Teensy")(type "KiCad")(uri "${KIPRJMOD}/../lib/Teensy")(options "")(descr ""))
+  (lib (name "TSOP4038")(type "KiCad")(uri "${KIPRJMOD}/../lib/TSOP4038")(options "")(descr ""))
 )

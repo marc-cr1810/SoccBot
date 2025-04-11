@@ -502,8 +502,8 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
-        "via_diameter": 1.016,
-        "via_drill": 0.6096,
+        "via_diameter": 1.1,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -519,8 +519,8 @@
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.208,
-        "via_diameter": 1.016,
-        "via_drill": 0.6096,
+        "via_diameter": 1.1,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -536,8 +536,8 @@
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 4.5,
-        "via_diameter": 4.525,
-        "via_drill": 4.375,
+        "via_diameter": 7.35,
+        "via_drill": 2.85,
         "wire_width": 6
       },
       {
@@ -551,8 +551,8 @@
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 6.0,
-        "via_diameter": 6.025,
-        "via_drill": 5.875
+        "via_diameter": 9.75,
+        "via_drill": 3.75
       },
       {
         "bus_width": 12,
@@ -567,8 +567,8 @@
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.68,
-        "via_diameter": 0.69775,
-        "via_drill": 0.63,
+        "via_diameter": 1.25,
+        "via_drill": 0.45,
         "wire_width": 6
       },
       {
@@ -582,8 +582,8 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.78,
-        "via_diameter": 1.85,
-        "via_drill": 1.7
+        "via_diameter": 2.93,
+        "via_drill": 1.15
       },
       {
         "bus_width": 12,
@@ -598,8 +598,8 @@
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
-        "via_diameter": 0.523875,
-        "via_drill": 0.34925,
+        "via_diameter": 1.15,
+        "via_drill": 0.35,
         "wire_width": 6
       }
     ],
@@ -660,6 +660,10 @@
       {
         "netclass": "+5V",
         "pattern": "+3V3"
+      },
+      {
+        "netclass": "5V-VCC",
+        "pattern": "TSSP_PWR"
       }
     ]
   },

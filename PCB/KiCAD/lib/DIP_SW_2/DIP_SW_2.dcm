@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1825360-1
+D Body Features: Case Color Black | Actuator Color White | Case Material Polyphenylene Sulfide (PPS) | Product Orientation Vertical | Configuration Features: Number of Switches 2 | Number of Positions 2 | Configuration (Pole-Throw) Single Pole - Single Throw | Contact Features: Contact Base Material Copper Alloy | Switch Contact Plating Material Gold Flash | Switch Contact Plating Material Thickness 1.2 MICIN | PCB Contact Termination Area Plating Material Gold | Contact Current Rating 1 AMP | Contact Underpl
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=ADE_ADP_ADF_Datasheet&DocType=Data%20Sheet&DocLang=English&PartCntxt=1825360-1&DocFormat=pdf
+$ENDCMP
+#
+#End Doc Library

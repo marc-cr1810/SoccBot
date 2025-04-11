@@ -3,4 +3,8 @@
   (lib (name "ADG608BRZ")(type "KiCad")(uri "${KIPRJMOD}/../lib/ADG608BRZ/ADG608BRZ.kicad_sym")(options "")(descr ""))
   (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/../lib/Teensy/teensy.kicad_sym")(options "")(descr ""))
   (lib (name "TSSP4038")(type "KiCad")(uri "${KIPRJMOD}/../lib/TSOP4038/TSSP4038.kicad_sym")(options "")(descr ""))
+  (lib (name "DIP_6_SWITCH")(type "KiCad")(uri "${KIPRJMOD}/../lib/DIP_SW_6/DIP_6_SWITCH.kicad_sym")(options "")(descr ""))
+  (lib (name "TS04-66-70-BK-260-SMT")(type "KiCad")(uri "${KIPRJMOD}/../lib/TS04/TS04-66-70-BK-260-SMT.kicad_sym")(options "")(descr ""))
+  (lib (name "DIP_2_SWITCH")(type "KiCad")(uri "${KIPRJMOD}/../lib/DIP_SW_2/DIP_SW_2.kicad_sym")(options "")(descr ""))
+  (lib (name "MSLPT5252BG4MTR")(type "KiCad")(uri "${KIPRJMOD}/../lib/MSLPT5252BG4MTR/MSLPT5252BG4MTR.kicad_sym")(options "")(descr ""))
 )

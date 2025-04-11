@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1825360-1
+#/304552/915238/2.50/4/2/Switch
+DEF 1825360-1 S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "1825360-1" 650 200 50 H V L CNN
+F2 "18253601" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=ADE_ADP_ADF_Datasheet&DocType=Data%20Sheet&DocLang=English&PartCntxt=1825360-1&DocFormat=pdf" 650 0 50 H I L CNN
+F4 "Body Features: Case Color Black | Actuator Color White | Case Material Polyphenylene Sulfide (PPS) | Product Orientation Vertical | Configuration Features: Number of Switches 2 | Number of Positions 2 | Configuration (Pole-Throw) Single Pole - Single Throw | Contact Features: Contact Base Material Copper Alloy | Switch Contact Plating Material Gold Flash | Switch Contact Plating Material Thickness 1.2 MICIN | PCB Contact Termination Area Plating Material Gold | Contact Current Rating 1 AMP | Contact Underpl" 650 -100 50 H I L CNN "Description"
+F5 "5.8" 650 -200 50 H I L CNN "Height"
+F6 "655-1825360-1" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/1825360-1?qs=Ftb%252BnBCDTZKCT4kLG1kHfw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1825360-1" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+X 4 4 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

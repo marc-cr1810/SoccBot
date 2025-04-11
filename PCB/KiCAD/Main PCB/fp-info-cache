@@ -1,4 +1,4 @@
-24760020561603397
+24766751086696973
 ADG608BRZ
 SOIC127P600X175-16N
 16 lead soic
@@ -55236,6 +55236,20 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DIP_SW_2
+DIP_SW_2
+1825360-1-1
+Switch
+0
+4
+4
+DIP_SW_6
+DIP_6_SWITCH_THT
+2454982-4-2
+Switch
+0
+12
+12
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -65855,6 +65869,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MSLPT5252BG4MTR
+MSLPT5252BG4MTR
+MSLPT5252BG4MTR-1
+Switch
+0
+6
+6
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -92875,6 +92896,13 @@ Logo WEEE
 0
 0
 0
+TS04
+SW_TS04-66-70-BK-260-SMT
+
+
+0
+4
+4
 TSOP4038
 TSSP4038
 TSSP4038

@@ -3,4 +3,8 @@
   (lib (name "ADG608BRZ")(type "KiCad")(uri "${KIPRJMOD}/../lib/ADG608BRZ")(options "")(descr ""))
   (lib (name "Teensy")(type "KiCad")(uri "${KIPRJMOD}/../lib/Teensy")(options "")(descr ""))
   (lib (name "TSOP4038")(type "KiCad")(uri "${KIPRJMOD}/../lib/TSOP4038")(options "")(descr ""))
+  (lib (name "DIP_SW_6")(type "KiCad")(uri "${KIPRJMOD}/../lib/DIP_SW_6")(options "")(descr ""))
+  (lib (name "TS04")(type "KiCad")(uri "${KIPRJMOD}/../lib/TS04")(options "")(descr ""))
+  (lib (name "DIP_SW_2")(type "KiCad")(uri "${KIPRJMOD}/../lib/DIP_SW_2")(options "")(descr ""))
+  (lib (name "MSLPT5252BG4MTR")(type "KiCad")(uri "${KIPRJMOD}/../lib/MSLPT5252BG4MTR")(options "")(descr ""))
 )

@@ -1,0 +1,235 @@
+(footprint "SW_TS04-66-70-BK-260-SMT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.675 -4.385 0)
+		(layer "F.SilkS")
+		(uuid "29eb6687-64d4-41fd-bbfe-27e4b2276f64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_TS04-66-70-BK-260-SMT"
+		(at 9.39 4.385 0)
+		(layer "F.Fab")
+		(uuid "06d1a965-552d-4ff5-824e-d7b536bc060b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2798364d-1666-46d0-a8c9-a0fb30f61828")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1dd2b161-51f1-40fc-8a2d-39f8904b9a3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -3)
+		(end -3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5350ddc4-2a94-43db-ab1b-c90618c759fe")
+	)
+	(fp_line
+		(start -3 3)
+		(end 3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8d3f29f-4173-4c94-a9b0-4eb93d5e3e4f")
+	)
+	(fp_line
+		(start 3 -3)
+		(end -3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15649233-ffa1-4a52-a128-23d35fe66971")
+	)
+	(fp_line
+		(start 3 3)
+		(end 3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13d1b801-3d70-4b1e-8de2-be70b74f0011")
+	)
+	(fp_circle
+		(center -6.25 -2.25)
+		(end -6.15 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "40231526-a3ac-4448-9527-3e0f80075854")
+	)
+	(fp_line
+		(start -5.85 -3.25)
+		(end -5.85 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8dce3f4c-6204-41a7-ab6c-db5d23580a34")
+	)
+	(fp_line
+		(start -5.85 3.25)
+		(end 5.85 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e99e3eb-6fc2-4225-846b-2bd32e17571c")
+	)
+	(fp_line
+		(start 5.85 -3.25)
+		(end -5.85 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9f698b2-ee5e-448f-888c-491b64d000b3")
+	)
+	(fp_line
+		(start 5.85 3.25)
+		(end 5.85 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a04f4be-f534-47ec-991a-29327f8b47a5")
+	)
+	(fp_line
+		(start -3 -3)
+		(end -3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1644f1b0-7192-4feb-9632-34d6f3d13646")
+	)
+	(fp_line
+		(start -3 3)
+		(end 3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "910bcff4-25e2-4d11-b76b-52539335b289")
+	)
+	(fp_line
+		(start 3 -3)
+		(end -3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c07c4ac-4c12-4c55-901e-5f0244bcdf36")
+	)
+	(fp_line
+		(start 3 3)
+		(end 3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e4c762c-6316-419b-ab48-d2fdab383ca2")
+	)
+	(fp_circle
+		(center -6.25 -2.25)
+		(end -6.15 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8117b243-b24a-4d69-bfe9-03d6a7306392")
+	)
+	(pad "1" smd rect
+		(at -4.55 -2.25)
+		(size 2.1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e126b642-fc31-4641-8798-9679795716f4")
+	)
+	(pad "2" smd rect
+		(at -4.55 2.25)
+		(size 2.1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "3e335029-d309-41e7-b903-b7ecdd5ee0fd")
+	)
+	(pad "3" smd rect
+		(at 4.55 -2.25)
+		(size 2.1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "0d8f759d-03eb-4a8d-8a5f-524deac35029")
+	)
+	(pad "4" smd rect
+		(at 4.55 2.25)
+		(size 2.1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "33f9f9f0-71ed-463f-9236-572c3648ebde")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/TS04/TS04-66-70-BK-260-SMT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

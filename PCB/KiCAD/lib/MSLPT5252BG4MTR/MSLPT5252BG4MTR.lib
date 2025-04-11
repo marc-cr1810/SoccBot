@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MSLPT5252BG4MTR
+#/1798450/915238/2.50/6/2/Switch
+DEF MSLPT5252BG4MTR S 0 30 Y Y 1 F N
+F0 "S" 1350 700 50 H V L CNN
+F1 "MSLPT5252BG4MTR" 1350 600 50 H V L CNN
+F2 "MSLPT5252BG4MTR" 1350 500 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2337236-1&DocType=Data%20Sheet&DocLang=English&PartCntxt=2337237-4&DocFormat=pdf" 1350 400 50 H I L CNN
+F4 "Tactile Switch SPST-NO Top Actuated Surface Mount" 1350 300 50 H I L CNN "Description"
+F5 "1.7" 1350 200 50 H I L CNN "Height"
+F6 "506-MSLPT5252BG4MTR" 1350 100 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Alcoswitch/MSLPT5252BG4MTR?qs=qSfuJ%252Bfl%2Fd5wQKp21ENdNQ%3D%3D" 1350 0 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 1350 -100 50 H I L CNN "Manufacturer_Name"
+F9 "MSLPT5252BG4MTR" 1350 -200 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NO_1 T1 800 700 200 D 50 50 0 0 P
+X NO_2 T2 800 -700 200 U 50 50 0 0 P
+X COM_1 T3 700 700 200 D 50 50 0 0 P
+X COM_2 T4 700 -700 200 U 50 50 0 0 P
+X GROUND_1 T5 1500 0 200 L 50 50 0 0 P
+X GROUND_2 T6 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 500 1300 500 1300 -500 200 -500 200 500 N
+ENDDRAW
+ENDDEF
+#
+#End Library

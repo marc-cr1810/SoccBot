@@ -1,2 +1,10 @@
+**/Exports
+**/.vs
+**/__vm
+
 *.FCBak
 *.zip
+*.log
+*.round-tracks-config
+*.vcxitems.*
+*.vcxproj.*

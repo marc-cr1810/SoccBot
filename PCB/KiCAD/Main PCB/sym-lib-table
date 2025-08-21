@@ -7,4 +7,7 @@
   (lib (name "TS04-66-70-BK-260-SMT")(type "KiCad")(uri "${KIPRJMOD}/../lib/TS04/TS04-66-70-BK-260-SMT.kicad_sym")(options "")(descr ""))
   (lib (name "DIP_2_SWITCH")(type "KiCad")(uri "${KIPRJMOD}/../lib/DIP_SW_2/DIP_SW_2.kicad_sym")(options "")(descr ""))
   (lib (name "MSLPT5252BG4MTR")(type "KiCad")(uri "${KIPRJMOD}/../lib/MSLPT5252BG4MTR/MSLPT5252BG4MTR.kicad_sym")(options "")(descr ""))
+  (lib (name "1101M2S3CGE2")(type "Legacy")(uri "${KIPRJMOD}/../lib/1101M2S3CGE2/1101M2S3CGE2.lib")(options "")(descr ""))
+  (lib (name "Pololu")(type "KiCad")(uri "${KIPRJMOD}/../lib/Pololu/Pololu.kicad_sym")(options "")(descr ""))
+  (lib (name "XB3-24Z8CM")(type "KiCad")(uri "${KIPRJMOD}/../lib/XB3-24Z8CM/XB3-24Z8CM.kicad_sym")(options "")(descr ""))
 )

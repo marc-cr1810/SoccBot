@@ -13887,7 +13887,7 @@
 		(property "Reference" "R9"
 			(at 0 1.5 90)
 			(layer "F.SilkS")
-			(uuid "6eab1c80-1540-4db9-b549-ee45061e09c1")
+			(uuid "0c55e364-5158-4513-987e-676d6d4390b3")
 			(effects
 				(font
 					(size 1 1)
@@ -13898,7 +13898,7 @@
 		(property "Value" "10k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "c7cc4c31-ddb4-499d-b955-dc320925c780")
+			(uuid "ac0d00b3-f9ed-41ce-8e08-371bfc26afa6")
 			(effects
 				(font
 					(size 1 1)
@@ -13911,7 +13911,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0aa543c9-a25b-46fb-9676-c07b62adc0cf")
+			(uuid "2d469fec-5688-46f6-bf71-9c7e2c941944")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13924,7 +13924,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae60c501-b08d-4340-96ea-d7166f715cb5")
+			(uuid "cb7d3a57-091d-4dd9-af97-aefb1a80b034")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33137,7 +33137,7 @@
 	(footprint "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 		(layer "B.Cu")
 		(uuid "811f5868-3b11-4a69-8a61-95a05350f6c8")
-		(at -29.5 26.5)
+		(at -29.5 31)
 		(descr "JST PH series connector, B4B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH side entry")
 		(property "Reference" "J6"
@@ -34659,7 +34659,7 @@
 	(footprint "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 		(layer "B.Cu")
 		(uuid "a47d4173-1a8f-451b-94ca-73f9300df65d")
-		(at 23.5 26.5)
+		(at 23.5 31)
 		(descr "JST PH series connector, B4B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH side entry")
 		(property "Reference" "J7"
@@ -37596,7 +37596,7 @@
 		(property "Reference" "J3"
 			(at 1 2.9 90)
 			(layer "B.SilkS")
-			(uuid "59d64141-11f1-47a3-b7ef-9675d4949d0d")
+			(uuid "d3324d4a-fc09-4938-b1b1-a80029f9d293")
 			(effects
 				(font
 					(size 1 1)
@@ -37608,7 +37608,7 @@
 		(property "Value" "Conn_01x02"
 			(at 1 -4 90)
 			(layer "B.Fab")
-			(uuid "70e1a082-f7f4-434e-b19f-e9c3b9911885")
+			(uuid "381bf93d-9257-4134-9527-97f0b58e2c4c")
 			(effects
 				(font
 					(size 1 1)
@@ -37622,7 +37622,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "32429914-d143-4365-bfcd-31c86fee30b1")
+			(uuid "37b7bc80-aef8-477b-9bc0-6c1a292329b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37636,7 +37636,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0b7e6450-66c7-47a3-920b-62789cfbf3be")
+			(uuid "891de1c6-ee95-4021-a930-26b64f8901db")
 			(effects
 				(font
 					(size 1.27 1.27)

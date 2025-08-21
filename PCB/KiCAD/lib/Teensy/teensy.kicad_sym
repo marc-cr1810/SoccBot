@@ -18059,7 +18059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Teensy:Teensy41"
 			(at -10.16 10.16 0)
 			(effects
 				(font

@@ -1,4 +1,11 @@
-24766751086696973
+24771971457523925
+1101M2S3CGE2
+1101M2S3CGE2
+1101M2S3CGE2-1
+Switch
+0
+3
+3
 ADG608BRZ
 SOIC127P600X175-16N
 16 lead soic
@@ -86708,6 +86715,13 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Pololu
+D36V28F5
+
+
+0
+6
+6
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -99637,3 +99651,10 @@ Varistor VF
 0
 2
 2
+XB3-24Z8CM
+XB324Z8CMJ
+XBEE3 MICRO
+Integrated Circuit
+0
+34
+34

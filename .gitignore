@@ -1,6 +1,7 @@
 **/Exports
 **/.vs
 **/__vm
+**/production
 
 *.FCBak
 *.zip

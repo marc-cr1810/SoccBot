@@ -646,6 +646,10 @@
       {
         "netclass": "3V3",
         "pattern": "TSSP_PWR"
+      },
+      {
+        "netclass": "5V-VCC",
+        "pattern": "GND"
       }
     ]
   },

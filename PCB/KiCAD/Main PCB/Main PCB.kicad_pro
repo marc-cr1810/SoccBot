@@ -644,7 +644,7 @@
         "pattern": "+3V3*"
       },
       {
-        "netclass": "3V3",
+        "netclass": "+5V",
         "pattern": "TSSP_PWR"
       },
       {

@@ -1,4 +1,4 @@
-(footprint "D36V28F5"
+(footprint "D36V28F3"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "D36V28F5"
+	(property "Value" "D36V28F3"
 		(at 0 13 0)
 		(unlocked yes)
 		(layer "F.Fab")

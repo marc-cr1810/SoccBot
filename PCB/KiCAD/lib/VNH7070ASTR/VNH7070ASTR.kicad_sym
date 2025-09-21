@@ -24,7 +24,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "VNH7070ASTR Eval Board:SOIC127P600X175-16N"
+		(property "Footprint" "VNH7070ASTR:SOIC127P600X175-16N"
 			(at 31.75 -94.92 0)
 			(effects
 				(font

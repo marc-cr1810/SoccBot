@@ -10,4 +10,5 @@
   (lib (name "1101M2S3CGE2")(type "KiCad")(uri "${KIPRJMOD}/../lib/1101M2S3CGE2")(options "")(descr ""))
   (lib (name "Pololu")(type "KiCad")(uri "${KIPRJMOD}/../lib/Pololu/Pololu.pretty")(options "")(descr ""))
   (lib (name "XB3-24Z8CM")(type "KiCad")(uri "${KIPRJMOD}/../lib/XB3-24Z8CM")(options "")(descr ""))
+  (lib (name "VNH7070ASTR")(type "KiCad")(uri "${KIPRJMOD}/../lib/VNH7070ASTR")(options "")(descr ""))
 )

@@ -548,291 +548,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TSSP4038:TSSP4038"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1267,12 +982,6 @@
 		(uuid "66737df3-3a10-454c-9b6f-408664f970e1")
 	)
 	(junction
-		(at 35.56 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "683884b4-10b7-439d-8c28-211245d80464")
-	)
-	(junction
 		(at 130.81 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1423,16 +1132,6 @@
 			(type default)
 		)
 		(uuid "24f97e07-cb05-4afb-8c39-b59f319f7acf")
-	)
-	(wire
-		(pts
-			(xy 25.4 53.34) (xy 35.56 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2601f595-53f3-45dc-af7b-e8ffa59fde42")
 	)
 	(wire
 		(pts
@@ -1626,16 +1325,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 60.96) (xy 35.56 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc6da7e-f9ac-4651-89a3-51c45f8d38dc")
-	)
-	(wire
-		(pts
 			(xy 52.07 38.1) (xy 54.61 38.1)
 		)
 		(stroke
@@ -1796,16 +1485,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 60.96) (xy 26.67 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84235bd8-6546-4c72-95ba-741507f1615d")
-	)
-	(wire
-		(pts
 			(xy 182.88 48.26) (xy 184.15 48.26)
 		)
 		(stroke
@@ -1963,16 +1642,6 @@
 			(type default)
 		)
 		(uuid "a8cfec2f-f7dc-4bc0-a641-5a568d430b5c")
-	)
-	(wire
-		(pts
-			(xy 35.56 60.96) (xy 38.1 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad26f3d8-e6b7-47c8-a800-c63911247cbb")
 	)
 	(wire
 		(pts
@@ -2612,28 +2281,6 @@
 			)
 		)
 	)
-	(global_label "TSSP_PWR"
-		(shape input)
-		(at 38.1 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "700e57a3-e7b9-404b-8b06-e0b0921aa5ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.7008 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TSSP_2_OUT"
 		(shape input)
 		(at 135.89 34.29 180)
@@ -2988,7 +2635,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ded74f7-a5a2-48cd-aa7c-7299f75b326a")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR032"
 			(at 67.31 48.26 0)
 			(effects
 				(font
@@ -3039,7 +2686,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR039")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3248,7 +2895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c0fbbf9-9d48-4727-ba76-426dba53553e")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR047"
 			(at 176.53 105.41 0)
 			(effects
 				(font
@@ -3299,76 +2946,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 35.56 57.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1fe07267-f8ff-44cb-94f7-29440b300640")
-		(property "Reference" "C2"
-			(at 38.862 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 38.862 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
-			(at 34.5948 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 35.56 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cd1563b-0f1f-49ef-9e81-ed7cd44c9bb1")
-		)
-		(pin "2"
-			(uuid "a9eed993-4b30-4755-bb83-7291e7e99fd1")
-		)
-		(instances
-			(project ""
-				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "C2")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3383,7 +2961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2acf6aac-512a-4a96-9d0b-75f6f2be075d")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR041"
 			(at 176.53 36.83 0)
 			(effects
 				(font
@@ -3434,7 +3012,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR048")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3449,7 +3027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b1c4225-bfc5-4d51-bc11-92b9404f6515")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR037"
 			(at 67.31 105.41 0)
 			(effects
 				(font
@@ -3500,7 +3078,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR044")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3516,7 +3094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e608bc7-9037-4bc2-9e4b-72a44e5990c6")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR039"
 			(at 142.24 46.99 0)
 			(effects
 				(font
@@ -3567,7 +3145,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR046")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3868,7 +3446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43a0ad24-a512-4e2c-839a-6a2326b1bc87")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR044"
 			(at 176.53 71.12 0)
 			(effects
 				(font
@@ -3919,7 +3497,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR051")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3934,7 +3512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4762b50c-8ea7-4b91-9e79-5e2b7e2ebd3d")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR034"
 			(at 67.31 71.12 0)
 			(effects
 				(font
@@ -3985,7 +3563,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR041")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4000,7 +3578,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53331efe-7d05-480d-aeb1-34189b83c781")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR045"
 			(at 176.53 82.55 0)
 			(effects
 				(font
@@ -4051,7 +3629,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR052")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4566,7 +4144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "671d35f6-b86e-444a-9fea-2d3805affae3")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR033"
 			(at 67.31 59.69 0)
 			(effects
 				(font
@@ -4617,7 +4195,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR040")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4633,7 +4211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bbcfe11-407a-4528-9649-4c0558b03662")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR028"
 			(at 24.13 21.59 0)
 			(effects
 				(font
@@ -4642,7 +4220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_4_0"
+		(property "Value" "+3V3"
 			(at 16.51 21.5899 90)
 			(effects
 				(font
@@ -4684,7 +4262,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR033")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4699,7 +4277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e137344-a970-4652-97c5-89423ccb5ad8")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR035"
 			(at 67.31 82.55 0)
 			(effects
 				(font
@@ -4750,7 +4328,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR042")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4765,7 +4343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6eab04fb-2ba4-4671-a126-0ff487171c75")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR042"
 			(at 176.53 48.26 0)
 			(effects
 				(font
@@ -4816,73 +4394,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 53.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7020ddd5-a700-434b-b5b4-f548f6a069e8")
-		(property "Reference" "#PWR034"
-			(at 19.05 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.162 55.626 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20300b33-4fae-4442-b507-182249964ba3")
-		)
-		(instances
-			(project "Main PCB"
-				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR034")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4897,7 +4409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7349726e-9565-49e9-b5bc-3169dab8ee2d")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 124.968 42.164 0)
 			(effects
 				(font
@@ -4951,7 +4463,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5091,7 +4603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96a6a44b-5d6a-4ae6-8ec6-ebe6aedfb756")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR046"
 			(at 176.53 93.98 0)
 			(effects
 				(font
@@ -5142,7 +4654,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR053")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5158,7 +4670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "975e6c27-e5a0-49e0-9d20-d22dc7f39e1b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR038"
 			(at 133.35 21.59 0)
 			(effects
 				(font
@@ -5167,7 +4679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_4_0"
+		(property "Value" "+3V3"
 			(at 125.73 21.5899 90)
 			(effects
 				(font
@@ -5209,7 +4721,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR045")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5335,73 +4847,6 @@
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
 					(reference "IR5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 30.48 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a10ffb1f-7a08-400a-91e0-cf01be2abee6")
-		(property "Reference" "R15"
-			(at 30.48 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 30.48 63.246 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 30.48 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 30.48 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "780b51eb-6607-460a-84ef-6a6b2ccbec32")
-		)
-		(pin "2"
-			(uuid "f7301815-c086-4ca1-8c78-e4a74247945c")
-		)
-		(instances
-			(project "Main PCB"
-				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5541,7 +4986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab981c35-3853-4947-aaa0-3d912abd6530")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR040"
 			(at 176.53 25.4 0)
 			(effects
 				(font
@@ -5592,7 +5037,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR047")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5857,7 +5302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b957e20f-011d-424e-8d86-9e902f514f2f")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR036"
 			(at 67.31 93.98 0)
 			(effects
 				(font
@@ -5908,7 +5353,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR043")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5923,7 +5368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba9ba3f0-33cc-418e-b0ed-413bf5ab9d40")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR031"
 			(at 67.31 36.83 0)
 			(effects
 				(font
@@ -5974,7 +5419,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR038")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6239,7 +5684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca4a7497-4bab-4d4d-a384-c4f07d557a7b")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR030"
 			(at 67.31 25.4 0)
 			(effects
 				(font
@@ -6290,7 +5735,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR037")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6716,7 +6161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f79a66ef-f5cf-4a2e-b2ac-e241482e643b")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR043"
 			(at 176.53 59.69 0)
 			(effects
 				(font
@@ -6767,73 +6212,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 25.4 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa9fd09c-00d8-4cf9-80e6-909e3572454e")
-		(property "Reference" "#PWR035"
-			(at 29.21 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_4_0"
-			(at 25.4 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 25.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5fa6a98-8918-45bf-ba75-4ce133d45983")
-		)
-		(instances
-			(project "Main PCB"
-				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR035")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6849,7 +6228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdf42221-d2b6-415f-bfef-ea9469754d58")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR029"
 			(at 33.02 46.99 0)
 			(effects
 				(font
@@ -6900,7 +6279,7 @@
 		(instances
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/fe36acf4-b057-4eb8-a4a0-f8cb43994c67"
-					(reference "#PWR036")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)

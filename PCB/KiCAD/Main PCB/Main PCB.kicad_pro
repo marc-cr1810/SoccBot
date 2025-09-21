@@ -802,6 +802,10 @@
     [
       "ab22dc4d-1004-4b41-8ca9-5648e42ab9ec",
       "Communication"
+    ],
+    [
+      "32920b8a-8ee4-4be3-8c67-c1587aa84161",
+      "Power"
     ]
   ],
   "text_variables": {}

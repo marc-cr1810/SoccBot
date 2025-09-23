@@ -11,4 +11,5 @@
   (lib (name "Pololu")(type "KiCad")(uri "${KIPRJMOD}/../lib/Pololu/Pololu.kicad_sym")(options "")(descr ""))
   (lib (name "XB3-24Z8CM")(type "KiCad")(uri "${KIPRJMOD}/../lib/XB3-24Z8CM/XB3-24Z8CM.kicad_sym")(options "")(descr ""))
   (lib (name "VNH7070ASTR")(type "KiCad")(uri "${KIPRJMOD}/../lib/VNH7070ASTR/VNH7070ASTR.kicad_sym")(options "")(descr ""))
+  (lib (name "Adafruit")(type "KiCad")(uri "C:/Projects/SoccBot/PCB/KiCAD/lib/Adafruit/Adafruit.kicad_sym")(options "")(descr ""))
 )

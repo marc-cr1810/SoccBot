@@ -1948,6 +1948,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 148.59 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b11554c-56b8-4408-8c03-001e9979eac9")
+		(property "Reference" "#PWR0136"
+			(at 142.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 145.796 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6b96d8e-42f3-4d87-87e9-9de48da91e09")
+		)
+		(instances
+			(project "Main PCB"
+				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/32920b8a-8ee4-4be3-8c67-c1587aa84161"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 152.4 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2075,6 +2141,76 @@
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/32920b8a-8ee4-4be3-8c67-c1587aa84161"
 					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 153.67 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a893a5b-1afa-4755-88b0-66b41333a2aa")
+		(property "Reference" "J10"
+			(at 156.21 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 156.21 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f98b9de-608e-42a0-b48f-a73408c0571a")
+		)
+		(pin "2"
+			(uuid "c8c4856f-8e98-41cc-9a1b-7365a534b680")
+		)
+		(instances
+			(project ""
+				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/32920b8a-8ee4-4be3-8c67-c1587aa84161"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -2342,6 +2478,72 @@
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/32920b8a-8ee4-4be3-8c67-c1587aa84161"
 					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 148.59 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de567ba1-195b-416b-afe8-dd6943a8a65f")
+		(property "Reference" "#PWR0135"
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 145.796 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 148.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6a86a7c-7e79-4574-9c60-e8d71bc0fb9e")
+		)
+		(instances
+			(project "Main PCB"
+				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/32920b8a-8ee4-4be3-8c67-c1587aa84161"
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)

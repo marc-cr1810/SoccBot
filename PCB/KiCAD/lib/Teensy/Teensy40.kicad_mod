@@ -743,7 +743,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../lib/Teensy/Teensy_4.0_Assembly.STEP"
 		(offset
-			(xyz 33 9.5 0)
+			(xyz 33 9.5 -11)
 		)
 		(scale
 			(xyz 1 1 1)

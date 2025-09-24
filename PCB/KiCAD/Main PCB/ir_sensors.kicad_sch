@@ -2520,7 +2520,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 199.39 38.0999 0)
 			(effects
 				(font
@@ -2711,7 +2711,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 90.17 38.0999 0)
 			(effects
 				(font
@@ -3170,7 +3170,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 199.39 72.3899 0)
 			(effects
 				(font
@@ -3654,7 +3654,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 199.39 95.2499 0)
 			(effects
 				(font
@@ -3779,7 +3779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 90.17 60.9599 0)
 			(effects
 				(font
@@ -3904,7 +3904,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 90.17 106.6799 0)
 			(effects
 				(font
@@ -4029,7 +4029,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 90.17 49.5299 0)
 			(effects
 				(font
@@ -4488,7 +4488,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 90.17 95.2499 0)
 			(effects
 				(font
@@ -4746,7 +4746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 90.17 72.3899 0)
 			(effects
 				(font
@@ -4871,7 +4871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 199.39 60.9599 0)
 			(effects
 				(font
@@ -5062,7 +5062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 199.39 83.8199 0)
 			(effects
 				(font
@@ -5187,7 +5187,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 90.17 26.6699 0)
 			(effects
 				(font
@@ -5444,7 +5444,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 90.17 83.8199 0)
 			(effects
 				(font
@@ -5569,7 +5569,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 199.39 106.6799 0)
 			(effects
 				(font
@@ -5760,7 +5760,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 199.39 26.6699 0)
 			(effects
 				(font
@@ -6046,7 +6046,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSSP4038"
+		(property "Value" "TSOP34840"
 			(at 199.39 49.5299 0)
 			(effects
 				(font

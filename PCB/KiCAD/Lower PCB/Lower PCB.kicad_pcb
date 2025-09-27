@@ -108,6 +108,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -135,78 +136,66 @@
 	(net 11 "Net-(IC3-S7)")
 	(net 12 "Net-(IC3-S6)")
 	(net 13 "Net-(IC3-S4)")
-	(net 14 "unconnected-(IC3-A1-Pad16)")
-	(net 15 "unconnected-(IC3-D-Pad8)")
-	(net 16 "Net-(IC3-S3)")
-	(net 17 "unconnected-(IC3-A0-Pad1)")
-	(net 18 "unconnected-(IC3-A2-Pad15)")
-	(net 19 "Net-(IC3-S2)")
-	(net 20 "Net-(IC3-S8)")
-	(net 21 "Net-(IC3-S5)")
-	(net 22 "Net-(IC3-S1)")
-	(net 23 "Net-(D3-A)")
-	(net 24 "Net-(D4-A)")
-	(net 25 "Net-(D5-A)")
-	(net 26 "Net-(D6-A)")
-	(net 27 "Net-(D7-A)")
-	(net 28 "Net-(D8-A)")
-	(net 29 "Net-(IC1-S3)")
-	(net 30 "Net-(IC1-S5)")
-	(net 31 "Net-(IC1-S2)")
-	(net 32 "Net-(IC1-S4)")
-	(net 33 "Net-(IC1-S1)")
-	(net 34 "unconnected-(IC1-A0-Pad1)")
-	(net 35 "Net-(IC1-S6)")
-	(net 36 "Net-(IC1-S7)")
-	(net 37 "Net-(IC1-S8)")
-	(net 38 "unconnected-(IC1-A1-Pad16)")
-	(net 39 "Net-(IC2-S4)")
-	(net 40 "unconnected-(IC1-D-Pad8)")
-	(net 41 "Net-(IC2-S3)")
-	(net 42 "Net-(IC2-S7)")
-	(net 43 "Net-(IC2-S1)")
-	(net 44 "unconnected-(IC1-A2-Pad15)")
-	(net 45 "Net-(IC2-S2)")
-	(net 46 "Net-(IC2-S6)")
-	(net 47 "Net-(IC2-S5)")
-	(net 48 "unconnected-(IC2-A2-Pad15)")
-	(net 49 "Net-(IC2-S8)")
-	(net 50 "unconnected-(IC2-A0-Pad1)")
-	(net 51 "unconnected-(IC2-A1-Pad16)")
-	(net 52 "unconnected-(IC2-D-Pad8)")
-	(net 53 "Net-(D9-A)")
-	(net 54 "Net-(D10-A)")
-	(net 55 "Net-(D11-A)")
-	(net 56 "Net-(D12-A)")
-	(net 57 "Net-(D13-A)")
-	(net 58 "Net-(D14-A)")
-	(net 59 "Net-(D15-A)")
-	(net 60 "Net-(D16-A)")
-	(net 61 "Net-(D17-A)")
-	(net 62 "Net-(D18-A)")
-	(net 63 "Net-(D19-A)")
-	(net 64 "Net-(D20-A)")
-	(net 65 "Net-(D21-A)")
-	(net 66 "Net-(D22-A)")
-	(net 67 "Net-(D23-A)")
-	(net 68 "Net-(D24-A)")
-	(net 69 "unconnected-(J1-MountPin-PadMP)")
-	(net 70 "LED_1_A1")
-	(net 71 "LED_1_OUT")
-	(net 72 "LED_1_A2")
-	(net 73 "LED_1_A0")
-	(net 74 "LED_2_A2")
-	(net 75 "LED_2_A1")
-	(net 76 "LED_2_OUT")
-	(net 77 "unconnected-(J2-MountPin-PadMP)")
-	(net 78 "LED_2_A0")
-	(net 79 "LED_3_A2")
-	(net 80 "LED_3_A0")
-	(net 81 "unconnected-(J3-MountPin-PadMP)")
-	(net 82 "LED_3_OUT")
-	(net 83 "LED_3_A1")
-	(net 84 "+3V3")
-	(net 85 "unconnected-(J4-MountPin-PadMP)")
+	(net 14 "Net-(IC3-S3)")
+	(net 15 "Net-(IC3-S2)")
+	(net 16 "Net-(IC3-S8)")
+	(net 17 "Net-(IC3-S5)")
+	(net 18 "Net-(IC3-S1)")
+	(net 19 "Net-(D3-A)")
+	(net 20 "Net-(D4-A)")
+	(net 21 "Net-(D5-A)")
+	(net 22 "Net-(D6-A)")
+	(net 23 "Net-(D7-A)")
+	(net 24 "Net-(D8-A)")
+	(net 25 "Net-(IC1-S3)")
+	(net 26 "Net-(IC1-S5)")
+	(net 27 "Net-(IC1-S2)")
+	(net 28 "Net-(IC1-S4)")
+	(net 29 "Net-(IC1-S1)")
+	(net 30 "Net-(IC1-S6)")
+	(net 31 "Net-(IC1-S7)")
+	(net 32 "Net-(IC1-S8)")
+	(net 33 "Net-(IC2-S4)")
+	(net 34 "Net-(IC2-S3)")
+	(net 35 "Net-(IC2-S7)")
+	(net 36 "Net-(IC2-S1)")
+	(net 37 "Net-(IC2-S2)")
+	(net 38 "Net-(IC2-S6)")
+	(net 39 "Net-(IC2-S5)")
+	(net 40 "Net-(IC2-S8)")
+	(net 41 "Net-(D9-A)")
+	(net 42 "Net-(D10-A)")
+	(net 43 "Net-(D11-A)")
+	(net 44 "Net-(D12-A)")
+	(net 45 "Net-(D13-A)")
+	(net 46 "Net-(D14-A)")
+	(net 47 "Net-(D15-A)")
+	(net 48 "Net-(D16-A)")
+	(net 49 "Net-(D17-A)")
+	(net 50 "Net-(D18-A)")
+	(net 51 "Net-(D19-A)")
+	(net 52 "Net-(D20-A)")
+	(net 53 "Net-(D21-A)")
+	(net 54 "Net-(D22-A)")
+	(net 55 "Net-(D23-A)")
+	(net 56 "Net-(D24-A)")
+	(net 57 "unconnected-(J1-MountPin-PadMP)")
+	(net 58 "LED_1_A1")
+	(net 59 "LED_1_OUT")
+	(net 60 "LED_1_A2")
+	(net 61 "LED_1_A0")
+	(net 62 "LED_2_A2")
+	(net 63 "LED_2_A1")
+	(net 64 "LED_2_OUT")
+	(net 65 "unconnected-(J2-MountPin-PadMP)")
+	(net 66 "LED_2_A0")
+	(net 67 "LED_3_A2")
+	(net 68 "LED_3_A0")
+	(net 69 "unconnected-(J3-MountPin-PadMP)")
+	(net 70 "LED_3_OUT")
+	(net 71 "LED_3_A1")
+	(net 72 "+3V3")
+	(net 73 "unconnected-(J4-MountPin-PadMP)")
 	(footprint "ADG608BRZ:SOIC127P600X175-16N"
 		(layer "F.Cu")
 		(uuid "05472ac5-ed23-49f3-ad5b-7241e80f82ed")
@@ -484,7 +473,7 @@
 			(at -2.712 -4.445 180)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 34 "unconnected-(IC1-A0-Pad1)")
+			(net 61 "LED_1_A0")
 			(pinfunction "A0")
 			(pintype "passive")
 			(uuid "3bd6fc6a-04f7-4a98-9107-45fda291a024")
@@ -511,7 +500,7 @@
 			(at -2.712 -0.635 180)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 33 "Net-(IC1-S1)")
+			(net 29 "Net-(IC1-S1)")
 			(pinfunction "S1")
 			(pintype "passive")
 			(uuid "82b58b6a-d061-4792-9b3c-2470590f2e81")
@@ -520,7 +509,7 @@
 			(at -2.712 0.635 180)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 31 "Net-(IC1-S2)")
+			(net 27 "Net-(IC1-S2)")
 			(pinfunction "S2")
 			(pintype "passive")
 			(uuid "49dc7081-bcba-4641-acca-5d90f8db201c")
@@ -529,7 +518,7 @@
 			(at -2.712 1.905 180)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 29 "Net-(IC1-S3)")
+			(net 25 "Net-(IC1-S3)")
 			(pinfunction "S3")
 			(pintype "passive")
 			(uuid "1449f2ba-7574-4291-a3bf-dbb928b752ee")
@@ -538,7 +527,7 @@
 			(at -2.712 3.175 180)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 32 "Net-(IC1-S4)")
+			(net 28 "Net-(IC1-S4)")
 			(pinfunction "S4")
 			(pintype "passive")
 			(uuid "61592229-006f-4997-a0d8-1be2ec9f6c25")
@@ -547,7 +536,7 @@
 			(at -2.712 4.445 180)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 40 "unconnected-(IC1-D-Pad8)")
+			(net 59 "LED_1_OUT")
 			(pinfunction "D")
 			(pintype "passive")
 			(uuid "bfbb4d9a-e876-490f-ab77-9fb7db16b1df")
@@ -556,7 +545,7 @@
 			(at 2.712 4.445 180)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 37 "Net-(IC1-S8)")
+			(net 32 "Net-(IC1-S8)")
 			(pinfunction "S8")
 			(pintype "passive")
 			(uuid "cffaf264-780f-4c11-9d2d-802a67471b76")
@@ -565,7 +554,7 @@
 			(at 2.712 3.175 180)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 36 "Net-(IC1-S7)")
+			(net 31 "Net-(IC1-S7)")
 			(pinfunction "S7")
 			(pintype "passive")
 			(uuid "cbb7ceb8-21dc-4b00-8484-36b81109812d")
@@ -574,7 +563,7 @@
 			(at 2.712 1.905 180)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 35 "Net-(IC1-S6)")
+			(net 30 "Net-(IC1-S6)")
 			(pinfunction "S6")
 			(pintype "passive")
 			(uuid "c565bcd5-b113-4158-a935-c81fa4332622")
@@ -583,7 +572,7 @@
 			(at 2.712 0.635 180)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 30 "Net-(IC1-S5)")
+			(net 26 "Net-(IC1-S5)")
 			(pinfunction "S5")
 			(pintype "passive")
 			(uuid "4012417f-a1a4-4a7e-9fad-c65555a59fad")
@@ -610,7 +599,7 @@
 			(at 2.712 -3.175 180)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 44 "unconnected-(IC1-A2-Pad15)")
+			(net 60 "LED_1_A2")
 			(pinfunction "A2")
 			(pintype "passive")
 			(uuid "ec54cd40-d58e-44da-8556-ba969670955a")
@@ -619,7 +608,7 @@
 			(at 2.712 -4.445 180)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 38 "unconnected-(IC1-A1-Pad16)")
+			(net 58 "LED_1_A1")
 			(pinfunction "A1")
 			(pintype "passive")
 			(uuid "6fe6f06d-7672-4b45-ae52-db384e3ab1cc")
@@ -676,7 +665,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -830,7 +819,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 21 "Net-(IC3-S5)")
+			(net 17 "Net-(IC3-S5)")
 			(pintype "passive")
 			(uuid "b7f77da3-11c0-4e7a-a347-089def893756")
 		)
@@ -850,7 +839,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "088f6bc3-9c9e-4be7-b6df-25a0e01248d2")
-		(at 2.48 -78.75 90)
+		(at 2.48 -98 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R41"
@@ -875,7 +864,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1031,7 +1020,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 41 "Net-(IC2-S3)")
+			(net 34 "Net-(IC2-S3)")
 			(pintype "passive")
 			(uuid "9820f2e7-b332-4577-881d-3c36a92dca29")
 		)
@@ -1051,7 +1040,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "08967947-cad4-4c8c-9ff4-432953ea9dc2")
-		(at 4.98 -78.75 -90)
+		(at 4.98 -98 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R14"
@@ -1076,7 +1065,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1223,7 +1212,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 58 "Net-(D14-A)")
+			(net 46 "Net-(D14-A)")
 			(pintype "passive")
 			(uuid "e8c43cc9-7fac-4299-8aae-d0978531e533")
 		)
@@ -1252,13 +1241,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0de3d40a-7756-43b7-8840-3a7ffb18df42")
-		(at 0 50.5 90)
+		(at -15 51.75 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
 			(at 0 -1.65 90)
 			(layer "F.SilkS")
-			(uuid "31f24fcb-961a-4dd0-aaf2-433e7954637d")
+			(uuid "92b032cf-6579-4eca-8807-7842d986f38b")
 			(effects
 				(font
 					(size 1 1)
@@ -1269,7 +1258,7 @@
 		(property "Value" "330"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "8a70a3cc-c92e-49ce-b04a-c957c33bae26")
+			(uuid "3f16b494-43fe-432a-bfa7-8f78f7539872")
 			(effects
 				(font
 					(size 1 1)
@@ -1277,12 +1266,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "100bce4d-abce-422a-b155-6591852f711c")
+			(uuid "e0b5174f-03b7-47f4-8052-66a3bd00c971")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,7 +1284,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e73006b7-edab-4b5e-b827-02a6192df6d2")
+			(uuid "1d035c12-61e1-4e47-9768-35ca34bc3674")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +1442,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "14ed6155-12d4-49e8-9cbf-0dfbb0f599a9")
-		(at 78.75 -2.5)
+		(at 99 -2.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R44"
@@ -1478,7 +1467,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1634,7 +1623,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 46 "Net-(IC2-S6)")
+			(net 38 "Net-(IC2-S6)")
 			(pintype "passive")
 			(uuid "2f5393b8-170b-4799-a553-d5691da28bc7")
 		)
@@ -1654,7 +1643,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "20c3fb02-2dbd-4a6d-9308-57a1eae96ffd")
-		(at -78.5 5)
+		(at -117.5 -1.25)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
@@ -1679,7 +1668,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1826,7 +1815,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 53 "Net-(D9-A)")
+			(net 41 "Net-(D9-A)")
 			(pintype "passive")
 			(uuid "f9cbf2c6-4182-4bf5-93ae-800939fc3b66")
 		)
@@ -2129,7 +2118,7 @@
 			(at -2.712 -4.445 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 50 "unconnected-(IC2-A0-Pad1)")
+			(net 66 "LED_2_A0")
 			(pinfunction "A0")
 			(pintype "passive")
 			(uuid "c2b69ad2-ed1d-47f7-bfe4-36fc75fb1bad")
@@ -2156,7 +2145,7 @@
 			(at -2.712 -0.635 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 43 "Net-(IC2-S1)")
+			(net 36 "Net-(IC2-S1)")
 			(pinfunction "S1")
 			(pintype "passive")
 			(uuid "6ea464a4-2283-4cda-98e2-2a6e7f3894a0")
@@ -2165,7 +2154,7 @@
 			(at -2.712 0.635 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 45 "Net-(IC2-S2)")
+			(net 37 "Net-(IC2-S2)")
 			(pinfunction "S2")
 			(pintype "passive")
 			(uuid "79d21d63-9988-411a-8994-cc1cd96554ce")
@@ -2174,7 +2163,7 @@
 			(at -2.712 1.905 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 41 "Net-(IC2-S3)")
+			(net 34 "Net-(IC2-S3)")
 			(pinfunction "S3")
 			(pintype "passive")
 			(uuid "37de0bae-6434-4be7-a63f-c95eb4791d39")
@@ -2183,7 +2172,7 @@
 			(at -2.712 3.175 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 39 "Net-(IC2-S4)")
+			(net 33 "Net-(IC2-S4)")
 			(pinfunction "S4")
 			(pintype "passive")
 			(uuid "34732668-042a-4863-ba1a-6e6e256c66c7")
@@ -2192,7 +2181,7 @@
 			(at -2.712 4.445 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 52 "unconnected-(IC2-D-Pad8)")
+			(net 64 "LED_2_OUT")
 			(pinfunction "D")
 			(pintype "passive")
 			(uuid "eed40f8d-5175-49bc-b0ef-86b852f72000")
@@ -2201,7 +2190,7 @@
 			(at 2.712 4.445 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 49 "Net-(IC2-S8)")
+			(net 40 "Net-(IC2-S8)")
 			(pinfunction "S8")
 			(pintype "passive")
 			(uuid "fec18cf4-9cf0-4357-9262-61f082be9b58")
@@ -2210,7 +2199,7 @@
 			(at 2.712 3.175 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 42 "Net-(IC2-S7)")
+			(net 35 "Net-(IC2-S7)")
 			(pinfunction "S7")
 			(pintype "passive")
 			(uuid "5141a5be-8f29-4c0d-b8aa-46064b20c431")
@@ -2219,7 +2208,7 @@
 			(at 2.712 1.905 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 46 "Net-(IC2-S6)")
+			(net 38 "Net-(IC2-S6)")
 			(pinfunction "S6")
 			(pintype "passive")
 			(uuid "a32e1f03-7135-4498-adf8-e9ff2b86e5bd")
@@ -2228,7 +2217,7 @@
 			(at 2.712 0.635 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 47 "Net-(IC2-S5)")
+			(net 39 "Net-(IC2-S5)")
 			(pinfunction "S5")
 			(pintype "passive")
 			(uuid "bed2ddbb-d3ef-422f-94ee-b1120d6c9d4b")
@@ -2255,7 +2244,7 @@
 			(at 2.712 -3.175 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 48 "unconnected-(IC2-A2-Pad15)")
+			(net 62 "LED_2_A2")
 			(pinfunction "A2")
 			(pintype "passive")
 			(uuid "65b54aff-5640-4d09-a9ab-fe28146cc72a")
@@ -2264,7 +2253,7 @@
 			(at 2.712 -4.445 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 51 "unconnected-(IC2-A1-Pad16)")
+			(net 63 "LED_2_A1")
 			(pinfunction "A1")
 			(pintype "passive")
 			(uuid "d7657148-4749-4411-8559-68948ec92b91")
@@ -2321,7 +2310,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2466,7 +2455,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 65 "Net-(D21-A)")
+			(net 53 "Net-(D21-A)")
 			(pintype "passive")
 			(uuid "2a317eec-d15d-4b61-add8-b2d951a6e7b6")
 		)
@@ -2495,7 +2484,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2d223aaa-ce46-4f22-9369-ea9f56c11b62")
-		(at 78.75 5 180)
+		(at 99 5 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R19"
@@ -2520,7 +2509,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2667,7 +2656,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 63 "Net-(D19-A)")
+			(net 51 "Net-(D19-A)")
 			(pintype "passive")
 			(uuid "92d3800f-ba67-4a29-8d95-a193b92c2512")
 		)
@@ -2696,7 +2685,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2e3db8c8-11f6-43c0-845a-b67e0d776fe1")
-		(at 78.75 -7.5)
+		(at 99 -7.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R43"
@@ -2721,7 +2710,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2877,7 +2866,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 47 "Net-(IC2-S5)")
+			(net 39 "Net-(IC2-S5)")
 			(pintype "passive")
 			(uuid "3d4d41d3-97e7-4d00-a68f-3fe263b9155f")
 		)
@@ -2922,7 +2911,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3096,7 +3085,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2f7fca7f-641f-4669-8af3-4095788337b4")
-		(at -78.5 -5)
+		(at -117.5 -11.25)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
@@ -3121,7 +3110,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3268,7 +3257,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 27 "Net-(D7-A)")
+			(net 23 "Net-(D7-A)")
 			(pintype "passive")
 			(uuid "2f7ec4ce-bdeb-484c-b14c-bd57f162d359")
 		)
@@ -3322,7 +3311,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3711,7 +3700,7 @@
 			(size 1 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 82 "LED_3_OUT")
+			(net 70 "LED_3_OUT")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "dc0854d7-3494-49e9-a393-0330d5fab334")
@@ -3721,7 +3710,7 @@
 			(size 1 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 80 "LED_3_A0")
+			(net 68 "LED_3_A0")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "8bbb5e04-e331-41bd-bebc-b4600c4617f2")
@@ -3731,7 +3720,7 @@
 			(size 1 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 83 "LED_3_A1")
+			(net 71 "LED_3_A1")
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "f2bdca8c-7d8e-4127-ac1c-affe51c894a3")
@@ -3741,7 +3730,7 @@
 			(size 1 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 79 "LED_3_A2")
+			(net 67 "LED_3_A2")
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "12f1eed3-b6fb-45b6-ba19-69838fddde57")
@@ -3751,7 +3740,7 @@
 			(size 1.6 3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
-			(net 81 "unconnected-(J3-MountPin-PadMP)")
+			(net 69 "unconnected-(J3-MountPin-PadMP)")
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(uuid "e1988385-0d55-447f-8bd2-ed06a2cf92a9")
@@ -3761,7 +3750,7 @@
 			(size 1.6 3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
-			(net 81 "unconnected-(J3-MountPin-PadMP)")
+			(net 69 "unconnected-(J3-MountPin-PadMP)")
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(uuid "97af5c8f-19ae-4b25-b935-6564facd3cdf")
@@ -3807,7 +3796,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3961,7 +3950,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 16 "Net-(IC3-S3)")
+			(net 14 "Net-(IC3-S3)")
 			(pintype "passive")
 			(uuid "366241c6-1e90-4ace-b3de-d331d3cc38d5")
 		)
@@ -3981,13 +3970,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3a998a3d-086b-40d0-818d-038a2a403218")
-		(at -2 46 -90)
+		(at -37.5 51.75 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R23"
 			(at 0 -1.65 90)
 			(layer "F.SilkS")
-			(uuid "1e73ba7f-bc14-45a0-b218-dffa131c93cf")
+			(uuid "8d52cc01-99ad-4898-b462-20e5cba6bde0")
 			(effects
 				(font
 					(size 1 1)
@@ -3998,7 +3987,7 @@
 		(property "Value" "10k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "67c05f3f-3106-415a-8470-a63a3c456820")
+			(uuid "382398ec-b8e7-44db-b796-918270ce2f34")
 			(effects
 				(font
 					(size 1 1)
@@ -4006,12 +3995,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23d64c9a-a15f-4719-b895-6aced6a22179")
+			(uuid "ff3bd5bb-4abd-42ea-8e6f-d071a9b25882")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +4013,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "17bb1e75-5cf2-4481-9a94-ed5c1c786284")
+			(uuid "ab23576b-3eee-4703-817d-fa2bdda25d02")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4151,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 29 "Net-(IC1-S3)")
+			(net 25 "Net-(IC1-S3)")
 			(pintype "passive")
 			(uuid "ee3a322a-3ee3-46c9-968e-e61f368523cc")
 		)
@@ -4207,7 +4196,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4381,7 +4370,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3d48f7fc-5c16-44dd-9367-fc04725cebd4")
-		(at 78.75 -10 180)
+		(at 99 -10 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
@@ -4406,7 +4395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4553,7 +4542,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 60 "Net-(D16-A)")
+			(net 48 "Net-(D16-A)")
 			(pintype "passive")
 			(uuid "db237811-c878-48c7-9b59-778f96b147cf")
 		)
@@ -4582,7 +4571,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4008ad78-af45-4003-b14b-268627345a52")
-		(at 78.75 -5 180)
+		(at 99 -5 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R17"
@@ -4607,7 +4596,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4754,7 +4743,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 61 "Net-(D17-A)")
+			(net 49 "Net-(D17-A)")
 			(pintype "passive")
 			(uuid "f338fa78-bf7c-4ec4-8bcb-e54c33951fc2")
 		)
@@ -4783,7 +4772,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "406f484e-d5c7-46fc-8523-2881d67f655c")
-		(at -78.5 -2.5 180)
+		(at -117.5 -8.75 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R27"
@@ -4808,7 +4797,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4964,7 +4953,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 36 "Net-(IC1-S7)")
+			(net 31 "Net-(IC1-S7)")
 			(pintype "passive")
 			(uuid "256cc534-2e5d-4c93-8810-61699211f38f")
 		)
@@ -4984,7 +4973,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4fd98223-a7ef-4857-8c72-ef0821f59204")
-		(at -78.5 0)
+		(at -117.5 -6.25)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
@@ -5009,7 +4998,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5156,7 +5145,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 28 "Net-(D8-A)")
+			(net 24 "Net-(D8-A)")
 			(pintype "passive")
 			(uuid "3cf2bac8-9c7e-4472-af31-8ca30c4d72f2")
 		)
@@ -5185,7 +5174,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "563d8a26-67e0-4c73-98a0-9936fe8a00fe")
-		(at 0 -78.75 -90)
+		(at 0 -98 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
@@ -5210,7 +5199,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5357,7 +5346,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 57 "Net-(D13-A)")
+			(net 45 "Net-(D13-A)")
 			(pintype "passive")
 			(uuid "57bd5eb2-ef32-485b-912a-c22353989809")
 		)
@@ -5411,7 +5400,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5610,7 +5599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5764,7 +5753,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 20 "Net-(IC3-S8)")
+			(net 16 "Net-(IC3-S8)")
 			(pintype "passive")
 			(uuid "2885be67-91f0-44fc-9c5a-388872cd4dbd")
 		)
@@ -5809,7 +5798,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5985,7 +5974,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "60b3ae48-4b17-421a-874a-447d9a484f64")
-		(at -78.5 10)
+		(at -117.5 3.75)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
@@ -6010,7 +5999,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6157,7 +6146,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 54 "Net-(D10-A)")
+			(net 42 "Net-(D10-A)")
 			(pintype "passive")
 			(uuid "de59b28d-4442-4034-a42b-08828ebb96a1")
 		)
@@ -6186,7 +6175,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "61f4ed5e-0a93-460d-b5ed-8f632c34f8f4")
-		(at 78.75 7.5)
+		(at 99 7.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R46"
@@ -6211,7 +6200,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6367,7 +6356,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 49 "Net-(IC2-S8)")
+			(net 40 "Net-(IC2-S8)")
 			(pintype "passive")
 			(uuid "ba44277a-aa7b-429d-9852-b43e892a1a4f")
 		)
@@ -6412,7 +6401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6566,7 +6555,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 22 "Net-(IC3-S1)")
+			(net 18 "Net-(IC3-S1)")
 			(pintype "passive")
 			(uuid "044ca730-7105-410b-a2e1-d21b5986e7c3")
 		)
@@ -6611,7 +6600,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6978,7 +6967,7 @@
 			(size 1 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 84 "+3V3")
+			(net 72 "+3V3")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "9d372ef0-66ab-479d-819d-2f4e0b84addb")
@@ -6998,7 +6987,7 @@
 			(size 1.6 3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
-			(net 85 "unconnected-(J4-MountPin-PadMP)")
+			(net 73 "unconnected-(J4-MountPin-PadMP)")
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(uuid "c501f5be-59b8-4cbf-91ad-a25cc6644cd4")
@@ -7008,7 +6997,7 @@
 			(size 1.6 3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
-			(net 85 "unconnected-(J4-MountPin-PadMP)")
+			(net 73 "unconnected-(J4-MountPin-PadMP)")
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(uuid "eda7244f-a054-4ea0-ad74-3d6e7c685154")
@@ -7029,7 +7018,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "80be6a66-8be9-4aef-a538-53801b07cca5")
-		(at 9.98 -78.75 -90)
+		(at 9.98 -98 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R15"
@@ -7054,7 +7043,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7201,7 +7190,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 59 "Net-(D15-A)")
+			(net 47 "Net-(D15-A)")
 			(pintype "passive")
 			(uuid "af9ad08b-da0b-4bbe-ba32-cac6f9ebdd1a")
 		)
@@ -7255,7 +7244,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7454,7 +7443,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7628,7 +7617,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "867dec36-8f81-4c75-9255-4dd14c3dc0be")
-		(at -5.02 -78.75 -90)
+		(at -5.02 -98 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R12"
@@ -7653,7 +7642,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7800,7 +7789,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 56 "Net-(D12-A)")
+			(net 44 "Net-(D12-A)")
 			(pintype "passive")
 			(uuid "793a2fac-9e69-43ea-9857-a6b2cbabaf8c")
 		)
@@ -7829,13 +7818,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "882e63ab-f226-44dc-9478-822b38f1ffb3")
-		(at -6 46 -90)
+		(at -52.5 51.75 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R24"
 			(at 0 -1.65 90)
 			(layer "F.SilkS")
-			(uuid "5166e1a5-e247-4e61-a0a2-ffd62fb125cf")
+			(uuid "c4d5e9f7-cf65-4323-93a5-9eebedfb458a")
 			(effects
 				(font
 					(size 1 1)
@@ -7846,7 +7835,7 @@
 		(property "Value" "10k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "1207f701-23a6-4436-9bcf-ce77d6500b24")
+			(uuid "97191116-d4ae-41e5-ba79-bf775359af6f")
 			(effects
 				(font
 					(size 1 1)
@@ -7854,12 +7843,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a01322f3-dd3d-45a6-9590-a5bc496f36ba")
+			(uuid "747500b0-4f0e-467b-8ff6-9994b32af582")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,7 +7861,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3ce3bb2-cf73-42b4-bf5d-8ab2e9d5bb5d")
+			(uuid "4b12281d-58bd-49a8-8097-74cccfbdc72f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,7 +7999,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 32 "Net-(IC1-S4)")
+			(net 28 "Net-(IC1-S4)")
 			(pintype "passive")
 			(uuid "739b89db-75dc-4744-8d28-030327c275d9")
 		)
@@ -8055,7 +8044,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8229,7 +8218,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "946a1369-8bd2-42e5-b730-bc622f5f7233")
-		(at 78.75 2.5)
+		(at 99 2.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R45"
@@ -8254,7 +8243,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8410,7 +8399,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 42 "Net-(IC2-S7)")
+			(net 35 "Net-(IC2-S7)")
 			(pintype "passive")
 			(uuid "fd90ca3e-704c-4ca5-8e9e-72c8d1199c41")
 		)
@@ -8430,7 +8419,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a3bc2a64-a9b1-420c-b89a-d59e3ca18d54")
-		(at -78.5 2.5 180)
+		(at -117.5 -3.75 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R26"
@@ -8455,7 +8444,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8611,7 +8600,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 35 "Net-(IC1-S6)")
+			(net 30 "Net-(IC1-S6)")
 			(pintype "passive")
 			(uuid "0d1b5e13-7253-4993-9d21-9acc9b3e391e")
 		)
@@ -8631,7 +8620,7 @@
 	(footprint "ADG608BRZ:SOIC127P600X175-16N"
 		(layer "F.Cu")
 		(uuid "a9afe369-be9a-44ae-a18b-627f788ccfd3")
-		(at -73.462 -58.695)
+		(at 49.462 -17.425)
 		(descr "16 lead soic")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC3"
@@ -8905,7 +8894,7 @@
 			(at -2.712 -4.445 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 17 "unconnected-(IC3-A0-Pad1)")
+			(net 68 "LED_3_A0")
 			(pinfunction "A0")
 			(pintype "passive")
 			(uuid "6cf5fb73-1c1c-4cce-93c1-b84e270050ad")
@@ -8932,7 +8921,7 @@
 			(at -2.712 -0.635 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 22 "Net-(IC3-S1)")
+			(net 18 "Net-(IC3-S1)")
 			(pinfunction "S1")
 			(pintype "passive")
 			(uuid "eb2a99e0-c4df-4c89-9d50-5b090e8cbe8b")
@@ -8941,7 +8930,7 @@
 			(at -2.712 0.635 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 19 "Net-(IC3-S2)")
+			(net 15 "Net-(IC3-S2)")
 			(pinfunction "S2")
 			(pintype "passive")
 			(uuid "8c935c14-f4e0-4faa-8f9e-0f56dd1dbd5e")
@@ -8950,7 +8939,7 @@
 			(at -2.712 1.905 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 16 "Net-(IC3-S3)")
+			(net 14 "Net-(IC3-S3)")
 			(pinfunction "S3")
 			(pintype "passive")
 			(uuid "43a4aeff-673c-4e7e-95fa-622e1ec40227")
@@ -8968,7 +8957,7 @@
 			(at -2.712 4.445 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 15 "unconnected-(IC3-D-Pad8)")
+			(net 70 "LED_3_OUT")
 			(pinfunction "D")
 			(pintype "passive")
 			(uuid "2060ba9a-99f1-40f7-8764-f1a9a0deb72d")
@@ -8977,7 +8966,7 @@
 			(at 2.712 4.445 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 20 "Net-(IC3-S8)")
+			(net 16 "Net-(IC3-S8)")
 			(pinfunction "S8")
 			(pintype "passive")
 			(uuid "a7df087d-75cf-4a1f-80ad-57894b1c036f")
@@ -9004,7 +8993,7 @@
 			(at 2.712 0.635 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 21 "Net-(IC3-S5)")
+			(net 17 "Net-(IC3-S5)")
 			(pinfunction "S5")
 			(pintype "passive")
 			(uuid "dc30f067-5c19-4ff3-8b7b-e0b2a233cddc")
@@ -9031,7 +9020,7 @@
 			(at 2.712 -3.175 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 18 "unconnected-(IC3-A2-Pad15)")
+			(net 67 "LED_3_A2")
 			(pinfunction "A2")
 			(pintype "passive")
 			(uuid "7d36eea4-db71-4283-abd9-8d9855c454ea")
@@ -9040,7 +9029,7 @@
 			(at 2.712 -4.445 90)
 			(size 0.65 1.525)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 14 "unconnected-(IC3-A1-Pad16)")
+			(net 71 "LED_3_A1")
 			(pinfunction "A1")
 			(pintype "passive")
 			(uuid "18cab198-d009-48cb-822f-601858f30067")
@@ -9072,7 +9061,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b33963d5-1c1f-404c-9928-ce564b41d648")
-		(at -78.5 -7.5 180)
+		(at -117.5 -13.75 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R28"
@@ -9097,7 +9086,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9253,7 +9242,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 37 "Net-(IC1-S8)")
+			(net 32 "Net-(IC1-S8)")
 			(pintype "passive")
 			(uuid "08d95ef4-0df8-47ce-8860-9222efff5601")
 		)
@@ -9273,7 +9262,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b593f18f-934f-4214-9802-4773c0b61d9a")
-		(at -78.5 7.5 180)
+		(at -117.5 1.25 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R25"
@@ -9298,7 +9287,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9454,7 +9443,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 30 "Net-(IC1-S5)")
+			(net 26 "Net-(IC1-S5)")
 			(pintype "passive")
 			(uuid "b3073eb4-b6a7-4678-8ed2-02bdd570d2f8")
 		)
@@ -9474,7 +9463,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b70947e0-5280-4a42-9398-ad61930f9b60")
-		(at -7.52 -78.75 90)
+		(at -7.52 -98 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R39"
@@ -9499,7 +9488,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9655,7 +9644,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 43 "Net-(IC2-S1)")
+			(net 36 "Net-(IC2-S1)")
 			(pintype "passive")
 			(uuid "98e040e7-784a-4d81-a1b5-a9cdcd7edf57")
 		)
@@ -9675,7 +9664,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "bc47f55b-5f7d-4ae3-a799-644f24a5fafe")
-		(at 7.48 -78.75 90)
+		(at 7.48 -98 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R42"
@@ -9700,7 +9689,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9856,7 +9845,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 39 "Net-(IC2-S4)")
+			(net 33 "Net-(IC2-S4)")
 			(pintype "passive")
 			(uuid "6699622e-4496-4b39-81bc-4d8e752f01d4")
 		)
@@ -9901,7 +9890,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10075,7 +10064,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c6a1ab3a-43e1-4b01-95d7-823253f4c815")
-		(at -78.5 -10)
+		(at -117.5 -16.25)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
@@ -10100,7 +10089,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10247,7 +10236,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 26 "Net-(D6-A)")
+			(net 22 "Net-(D6-A)")
 			(pintype "passive")
 			(uuid "60313e6e-a6ea-4799-a56d-e237a494245b")
 		)
@@ -10276,13 +10265,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c7176eb4-c087-472c-8abd-268e04d97d81")
-		(at -3.5 50.5 90)
+		(at -30 51.75 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
 			(at 0 -1.65 90)
 			(layer "F.SilkS")
-			(uuid "6525a5e2-932d-459b-bf3b-dfb655c88991")
+			(uuid "dfaa1975-b8a1-499a-a2b8-e809925807c7")
 			(effects
 				(font
 					(size 1 1)
@@ -10293,7 +10282,7 @@
 		(property "Value" "330"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "56ca05b4-5a60-4eab-8f26-b37711418676")
+			(uuid "953866f2-b1e9-45fd-acc7-3f3f036561fd")
 			(effects
 				(font
 					(size 1 1)
@@ -10301,12 +10290,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d150f52-b1ca-43e8-8e08-1703549a2ea2")
+			(uuid "416a6094-d6ad-43fd-8bba-7c799b95be30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10319,7 +10308,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "81aebeae-fad6-4fb3-a3a2-0c51a44d33da")
+			(uuid "57dd74e0-190c-4d60-bf51-17bff2bd1a13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10448,7 +10437,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 23 "Net-(D3-A)")
+			(net 19 "Net-(D3-A)")
 			(pintype "passive")
 			(uuid "1bac0173-c776-4327-bd8c-03d8d8d14e1f")
 		)
@@ -10477,13 +10466,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ce537b7f-04b2-4c92-bea7-8faaf34e1782")
-		(at 2 46 -90)
+		(at -22.5 51.75 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R22"
 			(at 0 -1.65 90)
 			(layer "F.SilkS")
-			(uuid "eb69205f-20ca-4461-a9c3-d1c5bb98ba1c")
+			(uuid "c495101b-cc35-4898-b270-0035b30acdd2")
 			(effects
 				(font
 					(size 1 1)
@@ -10494,7 +10483,7 @@
 		(property "Value" "10k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "8ac13c39-2e8d-4893-9a04-bbbea7eac073")
+			(uuid "9a908a96-2184-4c72-b2a0-b065e8b59e71")
 			(effects
 				(font
 					(size 1 1)
@@ -10502,12 +10491,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d1ca3da-c885-4ed7-8bfb-8abdea4b722e")
+			(uuid "16475f73-c082-483c-8572-a5eff15ddb82")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10520,7 +10509,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e3b5bcd-c398-499b-9fe9-70328ab7c28b")
+			(uuid "893f750f-d21c-48ff-b92b-85975b0abab1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,7 +10647,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 31 "Net-(IC1-S2)")
+			(net 27 "Net-(IC1-S2)")
 			(pintype "passive")
 			(uuid "a8cce55c-aa0b-4fe4-9b71-dbbcd44742f2")
 		)
@@ -10703,7 +10692,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10848,7 +10837,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 66 "Net-(D22-A)")
+			(net 54 "Net-(D22-A)")
 			(pintype "passive")
 			(uuid "e66b05ff-2175-44af-94ad-6d9cd9a50975")
 		)
@@ -10902,7 +10891,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11047,7 +11036,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 67 "Net-(D23-A)")
+			(net 55 "Net-(D23-A)")
 			(pintype "passive")
 			(uuid "f29ffd69-9661-4223-b99e-f4bb4c1264ce")
 		)
@@ -11101,7 +11090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11490,7 +11479,7 @@
 			(size 1 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 76 "LED_2_OUT")
+			(net 64 "LED_2_OUT")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "6b3df7a1-4ec9-40dd-bfec-022cfc0915bb")
@@ -11500,7 +11489,7 @@
 			(size 1 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 78 "LED_2_A0")
+			(net 66 "LED_2_A0")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "af87fdf7-6c79-4206-a6d7-5ec5ae83dd74")
@@ -11510,7 +11499,7 @@
 			(size 1 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 75 "LED_2_A1")
+			(net 63 "LED_2_A1")
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "4e8195bc-d7fd-4849-81fe-fba7ba64dad9")
@@ -11520,7 +11509,7 @@
 			(size 1 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 74 "LED_2_A2")
+			(net 62 "LED_2_A2")
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "4aac04b6-5691-452c-a8c9-65cb46b1b752")
@@ -11530,7 +11519,7 @@
 			(size 1.6 3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
-			(net 77 "unconnected-(J2-MountPin-PadMP)")
+			(net 65 "unconnected-(J2-MountPin-PadMP)")
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(uuid "8d8fe81e-b985-47f6-a392-6491cceff4bf")
@@ -11540,7 +11529,7 @@
 			(size 1.6 3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
-			(net 77 "unconnected-(J2-MountPin-PadMP)")
+			(net 65 "unconnected-(J2-MountPin-PadMP)")
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(uuid "f9702ae9-bc38-4c9a-a6a5-77b5ee767d8d")
@@ -11586,7 +11575,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11740,7 +11729,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 19 "Net-(IC3-S2)")
+			(net 15 "Net-(IC3-S2)")
 			(pintype "passive")
 			(uuid "2716357e-bc49-447c-b0ff-3353957ba0fb")
 		)
@@ -11760,7 +11749,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d7dd59dc-1d62-4999-a187-9d8d9bab0dbe")
-		(at 7 50.5 90)
+		(at 0 51.75 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -11785,7 +11774,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11986,7 +11975,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12131,7 +12120,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 68 "Net-(D24-A)")
+			(net 56 "Net-(D24-A)")
 			(pintype "passive")
 			(uuid "f968f5ab-1467-4570-8447-67a4531eefc4")
 		)
@@ -12185,7 +12174,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12384,7 +12373,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12773,7 +12762,7 @@
 			(size 1 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 71 "LED_1_OUT")
+			(net 59 "LED_1_OUT")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "9eaf6768-72c2-486d-bc69-faabeeabc3ef")
@@ -12783,7 +12772,7 @@
 			(size 1 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 73 "LED_1_A0")
+			(net 61 "LED_1_A0")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "f815b9bc-a0ba-4cd7-b450-fa49564bc58e")
@@ -12793,7 +12782,7 @@
 			(size 1 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 70 "LED_1_A1")
+			(net 58 "LED_1_A1")
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "4bef4146-135f-4fd8-8818-175d573537f2")
@@ -12803,7 +12792,7 @@
 			(size 1 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 72 "LED_1_A2")
+			(net 60 "LED_1_A2")
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "f0e90b87-a213-4620-9d36-d99df8007dca")
@@ -12813,7 +12802,7 @@
 			(size 1.6 3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
-			(net 69 "unconnected-(J1-MountPin-PadMP)")
+			(net 57 "unconnected-(J1-MountPin-PadMP)")
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(uuid "0ac4890b-0071-4110-b1c8-1718e1b08a03")
@@ -12823,7 +12812,7 @@
 			(size 1.6 3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
-			(net 69 "unconnected-(J1-MountPin-PadMP)")
+			(net 57 "unconnected-(J1-MountPin-PadMP)")
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(uuid "6347f7df-e23b-4d8a-97a3-19feb77502d1")
@@ -12844,13 +12833,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e8fc90fe-28ab-4985-abbd-a91a0d78f046")
-		(at -7 50.5 90)
+		(at -45 51.75 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
 			(at 0 -1.65 90)
 			(layer "F.SilkS")
-			(uuid "dd6ae929-64d4-4d16-9747-4bf91ee5958d")
+			(uuid "f34d5a49-af40-40d2-98a2-0bfba277162e")
 			(effects
 				(font
 					(size 1 1)
@@ -12861,7 +12850,7 @@
 		(property "Value" "330"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "c77d4d2f-ab99-4224-9e12-8bbe62772df9")
+			(uuid "067e5f04-e75f-4d2a-8a36-0cacda969be3")
 			(effects
 				(font
 					(size 1 1)
@@ -12869,12 +12858,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d2f5e0b-d7e3-4925-b508-70465bd0da63")
+			(uuid "b3c06aff-951a-461a-9a6e-911fe326e60a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12887,7 +12876,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42e39f50-a6db-4988-86c8-92f463330f99")
+			(uuid "7cbf6980-3ea8-49bb-9266-6d40d33ec84a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13016,7 +13005,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 24 "Net-(D4-A)")
+			(net 20 "Net-(D4-A)")
 			(pintype "passive")
 			(uuid "2f7101c3-f2ff-426e-bb45-8a0950f37a52")
 		)
@@ -13070,7 +13059,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13244,7 +13233,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f0295523-3afc-44ed-84c3-016785ac297d")
-		(at -2.52 -78.75 90)
+		(at -2.52 -98 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R40"
@@ -13269,7 +13258,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13425,7 +13414,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 45 "Net-(IC2-S2)")
+			(net 37 "Net-(IC2-S2)")
 			(pintype "passive")
 			(uuid "0802d2af-2ba3-41ab-8335-a4fc5ebd09fa")
 		)
@@ -13445,13 +13434,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f28da8b1-9742-4817-90af-3bdc8593ba7f")
-		(at 3.5 50.5 90)
+		(at -59.75 51.75 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
 			(at 0 -1.65 90)
 			(layer "F.SilkS")
-			(uuid "a1dd484a-5350-4f40-92fa-3a6f4b69ebdf")
+			(uuid "80b42bbb-9b69-4623-a41f-023c9069c698")
 			(effects
 				(font
 					(size 1 1)
@@ -13462,7 +13451,7 @@
 		(property "Value" "330"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "233b33ad-fe4a-468b-91d2-946c422390d0")
+			(uuid "a7aef24c-3ad6-461d-8df0-8a834e831033")
 			(effects
 				(font
 					(size 1 1)
@@ -13470,12 +13459,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "837877e9-5f3f-48a7-af3e-1f396713c23c")
+			(uuid "33526d80-9090-4c48-ad7c-fa5a2194d50b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13488,7 +13477,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "03ae30c9-4ec9-4483-9712-712a1b2ecda9")
+			(uuid "5bc1231b-1c8f-4864-b47a-933278b320d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13617,7 +13606,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 25 "Net-(D5-A)")
+			(net 21 "Net-(D5-A)")
 			(pintype "passive")
 			(uuid "a1ebac39-37d0-4b58-b886-efc5cc0db300")
 		)
@@ -13646,7 +13635,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f52cdf52-0163-4910-9829-48e11aec25bc")
-		(at 6 46 -90)
+		(at -7.5 51.75 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R21"
@@ -13671,7 +13660,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13827,7 +13816,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 33 "Net-(IC1-S1)")
+			(net 29 "Net-(IC1-S1)")
 			(pintype "passive")
 			(uuid "68b3dbf0-fe14-4612-83b6-93a4bbc9e983")
 		)
@@ -13872,7 +13861,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14071,7 +14060,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14247,7 +14236,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "fe1a1ec5-9374-42b5-bee2-0771ed0b6499")
-		(at 78.75 10 180)
+		(at 99 10 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R20"
@@ -14272,7 +14261,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14419,7 +14408,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 64 "Net-(D20-A)")
+			(net 52 "Net-(D20-A)")
 			(pintype "passive")
 			(uuid "68a8afc5-f51c-4f0b-bb79-9e4d9c9d412a")
 		)
@@ -14448,7 +14437,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "fe2e9940-02f0-42d1-916a-9ddc768e85bf")
-		(at -10.02 -78.75 -90)
+		(at -10.02 -98 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
@@ -14473,7 +14462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14620,7 +14609,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 55 "Net-(D11-A)")
+			(net 43 "Net-(D11-A)")
 			(pintype "passive")
 			(uuid "100861b4-1532-4252-9715-1fe8e9a322b8")
 		)
@@ -14649,7 +14638,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ff33f340-60bf-4b7b-8bc1-40b275d922b3")
-		(at 78.75 0 180)
+		(at 99 0 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R18"
@@ -14674,7 +14663,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14821,7 +14810,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 62 "Net-(D18-A)")
+			(net 50 "Net-(D18-A)")
 			(pintype "passive")
 			(uuid "5fcbe719-4a15-4911-8675-30bb72a49aee")
 		)
@@ -14850,11 +14839,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "0532f202-206d-47b7-80bf-fb9e74b76376")
-		(at -73.997423 -28 -30)
+		(at -125 -21.25)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q8"
-			(at 0 2.5 150)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
 			(uuid "87cb5dd3-170f-49b3-818e-bbdf9719601f")
 			(effects
@@ -14866,7 +14855,7 @@
 			)
 		)
 		(property "Value" "SFH320"
-			(at 0 -2.5 150)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "e8053fcd-81f5-43b4-8228-c421bea26421")
 			(effects
@@ -14878,7 +14867,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/5397c5d8583a26cf/original/SFH-320.pdf"
-			(at 0 0 150)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -14892,7 +14881,7 @@
 			)
 		)
 		(property "Description" "Silicon NPN Phototransistor, PLCC-2"
-			(at 0 0 150)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -14921,16 +14910,6 @@
 			(uuid "c737a8f0-9a91-4cd7-8ba8-a59eaed8bc00")
 		)
 		(fp_line
-			(start 2.25 1.6)
-			(end -2.51 1.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c616046b-62f0-4f26-b780-dece0120371f")
-		)
-		(fp_line
 			(start 2.25 -1.6)
 			(end -2.51 -1.6)
 			(stroke
@@ -14939,6 +14918,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "b967f8f1-6865-4b64-8869-b6d167fcda5d")
+		)
+		(fp_line
+			(start 2.25 1.6)
+			(end -2.51 1.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "c616046b-62f0-4f26-b780-dece0120371f")
 		)
 		(fp_line
 			(start -2.500001 1.75)
@@ -14981,14 +14970,14 @@
 			(uuid "1b61550e-c44d-49ea-828d-39745ad64bd6")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
+			(start -1.7 -1.5)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "37692106-3092-40fc-ae02-67b043d9c76f")
+			(uuid "de9c4d78-984f-44e7-bca2-36c397ae1574")
 		)
 		(fp_line
 			(start -1.7 0.6)
@@ -15001,24 +14990,14 @@
 			(uuid "31ca2abd-2adb-41b2-9cce-f9acabd9d4aa")
 		)
 		(fp_line
-			(start -1.7 -1.5)
-			(end 1.7 -1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "de9c4d78-984f-44e7-bca2-36c397ae1574")
-		)
-		(fp_line
-			(start 1.7 1.5)
-			(end -1.7 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "7e040aa8-a06d-4839-9b0b-b40022a97f45")
+			(uuid "37692106-3092-40fc-ae02-67b043d9c76f")
 		)
 		(fp_line
 			(start 1.7 -1.5)
@@ -15029,6 +15008,16 @@
 			)
 			(layer "B.Fab")
 			(uuid "a5c7c0d2-10fa-4b81-8eaf-72ec749b453b")
+		)
+		(fp_line
+			(start 1.7 1.5)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "7e040aa8-a06d-4839-9b0b-b40022a97f45")
 		)
 		(fp_circle
 			(center 0 0)
@@ -15042,7 +15031,7 @@
 			(uuid "5552ab06-3fb1-4e68-8ab4-57238c9e8fce")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 150)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "1900d040-5e5b-43ac-9bb6-78362ddd2554")
 			(effects
@@ -15054,7 +15043,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 330)
+			(at -1.5 0)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -15064,11 +15053,11 @@
 			(uuid "56481d49-6ed5-49b4-b79d-e4f7c668b00a")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 330)
+			(at 1.5 0)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 37 "Net-(IC1-S8)")
+			(net 32 "Net-(IC1-S8)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "de5336c5-d860-4da7-805c-90b4d40c4ddd")
@@ -15307,7 +15296,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 16 "Net-(IC3-S3)")
+			(net 14 "Net-(IC3-S3)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "0039bc0e-0182-4b52-b639-740c11c691dc")
@@ -15355,7 +15344,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15560,7 +15549,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 68 "Net-(D24-A)")
+			(net 56 "Net-(D24-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "d3d8cf14-d4f8-4233-8819-fe265c96676d")
@@ -15581,11 +15570,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "128975bf-914f-4926-ab9a-9fc756bfde2f")
-		(at -35.996106 -68.398489 -50)
+		(at -20 -107.002577 -90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D11"
-			(at 0 2.5 130)
+			(at 0 2.5 90)
 			(layer "B.SilkS")
 			(uuid "303f8058-3e6d-4fdf-9f41-497b54bd409c")
 			(effects
@@ -15597,7 +15586,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -2.5 130)
+			(at 0 -2.5 90)
 			(layer "B.Fab")
 			(uuid "998f2911-0881-437d-9f19-21310116e0d5")
 			(effects
@@ -15608,8 +15597,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 130)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -15623,7 +15612,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 130)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -15637,7 +15626,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 130)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -15696,16 +15685,6 @@
 			(uuid "9901b8c5-31d7-4e70-bb21-23be81289f66")
 		)
 		(fp_line
-			(start -2.5 -1.75)
-			(end -2.5 1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "155047f6-37b1-4879-8698-2a3c0e8b18ef")
-		)
-		(fp_line
 			(start 2.5 1.75)
 			(end 2.5 -1.75)
 			(stroke
@@ -15714,6 +15693,16 @@
 			)
 			(layer "B.CrtYd")
 			(uuid "eaa738a2-0e1d-429c-87eb-e375da65f77e")
+		)
+		(fp_line
+			(start -2.5 -1.75)
+			(end -2.5 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "155047f6-37b1-4879-8698-2a3c0e8b18ef")
 		)
 		(fp_line
 			(start 2.5 -1.75)
@@ -15736,16 +15725,6 @@
 			(uuid "2b791935-5596-486e-b05c-863cdf72a211")
 		)
 		(fp_line
-			(start -1.7 0.6)
-			(end -0.8 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "a1f8434d-1d42-4249-ade5-7f2e9bfda3ba")
-		)
-		(fp_line
 			(start 1.7 1.5)
 			(end -1.7 1.5)
 			(stroke
@@ -15754,6 +15733,16 @@
 			)
 			(layer "B.Fab")
 			(uuid "b28ffb78-211f-46a4-b68f-b9f1e2ce3f9a")
+		)
+		(fp_line
+			(start -1.7 0.6)
+			(end -0.8 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "a1f8434d-1d42-4249-ade5-7f2e9bfda3ba")
 		)
 		(fp_line
 			(start -1.7 -1.5)
@@ -15787,7 +15776,7 @@
 			(uuid "7f2eb68c-b799-4085-99e0-90f4b6c9dadd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 130)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "5b6f92fd-3f47-438e-9737-f78c72d6af9c")
 			(effects
@@ -15799,7 +15788,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 -0.000001 310)
+			(at -1.5 -0.000001 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -15809,11 +15798,11 @@
 			(uuid "11d6821d-120e-4bf3-b674-435aba061146")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0.000001 310)
+			(at 1.5 0.000001 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 55 "Net-(D11-A)")
+			(net 43 "Net-(D11-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "0650d682-fdc4-4469-ad03-cae8e1c94b9e")
@@ -16052,7 +16041,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 21 "Net-(IC3-S5)")
+			(net 17 "Net-(IC3-S5)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "19c704d8-c906-43c4-bdf6-c45e999492c8")
@@ -16073,11 +16062,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "17d62ad6-c3ed-41b9-a888-05a713657152")
-		(at 68.398489 35.996106 140)
+		(at 105.25 20 180)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D20"
-			(at 0 2.5 140)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
 			(uuid "1d0d6d1f-f1fd-4fdc-8310-27a2d82006fb")
 			(effects
@@ -16089,7 +16078,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -2.5 140)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "90a843d4-624c-4782-8172-22c74e6c73be")
 			(effects
@@ -16100,8 +16089,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 320)
+		(property "Datasheet" ""
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -16115,7 +16104,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 320)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -16129,7 +16118,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 320)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -16148,16 +16137,6 @@
 		(sheetfile "Lower PCB.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.25 -1.6)
-			(end -2.51 -1.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "eb8048e2-d181-40f5-9cbb-028777fb3ade")
-		)
-		(fp_line
 			(start 2.25 1.6)
 			(end -2.51 1.6)
 			(stroke
@@ -16166,6 +16145,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "50cf6cc2-337f-4b3e-9862-19e67221b218")
+		)
+		(fp_line
+			(start 2.25 -1.6)
+			(end -2.51 -1.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "eb8048e2-d181-40f5-9cbb-028777fb3ade")
 		)
 		(fp_line
 			(start -2.51 1.6)
@@ -16178,16 +16167,6 @@
 			(uuid "4e3bd201-7029-48b4-98e2-0592818ae16e")
 		)
 		(fp_line
-			(start 2.5 -1.75)
-			(end -2.5 -1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "cdb0efc8-53b0-4b16-b5b5-6e68917f7870")
-		)
-		(fp_line
 			(start 2.5 1.75)
 			(end 2.5 -1.75)
 			(stroke
@@ -16198,14 +16177,14 @@
 			(uuid "44815505-b4e0-4812-a036-1035e2cf9f96")
 		)
 		(fp_line
-			(start -2.5 -1.75)
-			(end -2.5 1.75)
+			(start 2.5 -1.75)
+			(end -2.5 -1.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "63ce318f-9596-4309-9af5-19d4a4c57fdd")
+			(uuid "cdb0efc8-53b0-4b16-b5b5-6e68917f7870")
 		)
 		(fp_line
 			(start -2.5 1.75)
@@ -16218,14 +16197,14 @@
 			(uuid "628337cc-1603-47a1-bade-0f9269e84f51")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start -2.5 -1.75)
+			(end -2.5 1.75)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "4815d754-8467-4ba9-a25d-7977839ec1b8")
+			(layer "B.CrtYd")
+			(uuid "63ce318f-9596-4309-9af5-19d4a4c57fdd")
 		)
 		(fp_line
 			(start 1.7 1.5)
@@ -16238,14 +16217,24 @@
 			(uuid "b89c0410-0082-4d2d-8669-d3086deb89f1")
 		)
 		(fp_line
-			(start -1.7 -1.5)
-			(end 1.7 -1.5)
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "de779de0-2088-4ed7-aa9d-a5be179e6b1b")
+			(uuid "4815d754-8467-4ba9-a25d-7977839ec1b8")
+		)
+		(fp_line
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "5459ae9d-941a-4168-9f73-c2d06824f94a")
 		)
 		(fp_line
 			(start -1.7 0.6)
@@ -16258,14 +16247,14 @@
 			(uuid "e205eb45-2bc5-409c-bd83-8647b2e1c19f")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
+			(start -1.7 -1.5)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "5459ae9d-941a-4168-9f73-c2d06824f94a")
+			(uuid "de779de0-2088-4ed7-aa9d-a5be179e6b1b")
 		)
 		(fp_circle
 			(center 0 0)
@@ -16279,7 +16268,7 @@
 			(uuid "7c6670cb-d5e4-41f7-af05-4ff0cd317f17")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 140)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "2c37bf52-21ef-4112-859a-4f0dffb47a54")
 			(effects
@@ -16291,7 +16280,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0.000001 140)
+			(at -1.5 0.000001 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -16301,11 +16290,11 @@
 			(uuid "39ca9205-4b9f-4d77-a5e2-16d7f1de59d9")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 -0.000001 140)
+			(at 1.5 -0.000001 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 64 "Net-(D20-A)")
+			(net 52 "Net-(D20-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "b3e8cf26-dc83-4529-a026-54c57cb0b9c5")
@@ -16544,7 +16533,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 22 "Net-(IC3-S1)")
+			(net 18 "Net-(IC3-S1)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "11ed60ec-8abf-4168-83cc-699583aa5606")
@@ -16565,13 +16554,13 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "1d599a0c-cf70-440c-8f19-3ede95ea5ff1")
-		(at 0 58 90)
+		(at -15 56.5 90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D2"
 			(at 0 2.5 90)
 			(layer "B.SilkS")
-			(uuid "18d3f036-c1c8-4fcb-9f46-06471da2bbe0")
+			(uuid "2971b1c4-00ba-495c-a8a6-dd3f5f82fa16")
 			(effects
 				(font
 					(size 1 1)
@@ -16583,7 +16572,7 @@
 		(property "Value" "LED"
 			(at 0 -2.5 90)
 			(layer "B.Fab")
-			(uuid "9a9c2e25-1268-4b17-a37a-6394adce9d24")
+			(uuid "c7c68a6d-f585-47dc-8c8f-e8679a24919d")
 			(effects
 				(font
 					(size 1 1)
@@ -16592,12 +16581,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "51a7b1fe-0a68-44bf-89f2-5886ca5ec931")
+			(uuid "05c1bac4-9065-4c95-acd4-b7c86e454d49")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16611,7 +16600,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fc421206-d6ec-4e84-92a1-fdb80c473a28")
+			(uuid "724309d4-5ac0-44d7-8da5-89c8626dbf36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16818,11 +16807,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "30f13d32-e0c4-4fc8-b8a9-11c339a5c1e7")
-		(at 80.649234 9.724298 170)
+		(at 105.5 5 180)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q15"
-			(at 0 2.5 170)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
 			(uuid "8aa4d756-e3ef-4dfe-8e34-176059368e34")
 			(effects
@@ -16834,7 +16823,7 @@
 			)
 		)
 		(property "Value" "SFH320"
-			(at 0 -2.5 170)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "8e621335-4348-47cc-875d-190b0628e912")
 			(effects
@@ -16846,7 +16835,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/5397c5d8583a26cf/original/SFH-320.pdf"
-			(at 0 0 350)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -16860,7 +16849,7 @@
 			)
 		)
 		(property "Description" "Silicon NPN Phototransistor, PLCC-2"
-			(at 0 0 350)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -16879,16 +16868,6 @@
 		(sheetfile "Lower PCB.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.25 -1.6)
-			(end -2.51 -1.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "652e2ccd-940a-41f5-b99f-0ac64473dd16")
-		)
-		(fp_line
 			(start 2.25 1.6)
 			(end -2.510003 1.6)
 			(stroke
@@ -16897,6 +16876,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "26f963f6-c86f-48d2-9ef9-867c8aa643de")
+		)
+		(fp_line
+			(start 2.25 -1.6)
+			(end -2.51 -1.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "652e2ccd-940a-41f5-b99f-0ac64473dd16")
 		)
 		(fp_line
 			(start -2.510003 1.6)
@@ -16909,16 +16898,6 @@
 			(uuid "14777e91-9fed-44c5-a0ea-5c10c990843a")
 		)
 		(fp_line
-			(start 2.5 -1.75)
-			(end -2.5 -1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "36a872be-123c-43a7-ab46-6161b67f02cc")
-		)
-		(fp_line
 			(start 2.5 1.75)
 			(end 2.5 -1.75)
 			(stroke
@@ -16929,14 +16908,14 @@
 			(uuid "775ea040-75bf-4de0-8867-50a65988d0c7")
 		)
 		(fp_line
-			(start -2.5 -1.75)
-			(end -2.5 1.75)
+			(start 2.5 -1.75)
+			(end -2.5 -1.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "5d3e75fe-0659-4ecd-b1b4-6ce66ae7b35c")
+			(uuid "36a872be-123c-43a7-ab46-6161b67f02cc")
 		)
 		(fp_line
 			(start -2.5 1.75)
@@ -16949,14 +16928,14 @@
 			(uuid "c2b620f7-4127-4800-89ba-2b58b52a35b9")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start -2.5 -1.75)
+			(end -2.5 1.75)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "86a23476-bfce-48a9-90d6-1407afc7948e")
+			(layer "B.CrtYd")
+			(uuid "5d3e75fe-0659-4ecd-b1b4-6ce66ae7b35c")
 		)
 		(fp_line
 			(start 1.7 1.5)
@@ -16969,14 +16948,24 @@
 			(uuid "658d302b-cfdf-47c9-93a9-b4aaf40b3e2d")
 		)
 		(fp_line
-			(start -1.7 -1.5)
-			(end 1.7 -1.5)
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "55c9372f-5397-4136-9255-09046cc89e71")
+			(uuid "86a23476-bfce-48a9-90d6-1407afc7948e")
+		)
+		(fp_line
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "514824d5-7431-4eaf-a482-1f2c308767fb")
 		)
 		(fp_line
 			(start -1.7 0.6)
@@ -16989,14 +16978,14 @@
 			(uuid "8ff55e67-5a92-4302-ad2b-dea1e2e475ee")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
+			(start -1.7 -1.5)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "514824d5-7431-4eaf-a482-1f2c308767fb")
+			(uuid "55c9372f-5397-4136-9255-09046cc89e71")
 		)
 		(fp_circle
 			(center 0 0)
@@ -17010,7 +16999,7 @@
 			(uuid "c4ee73c9-00aa-4e00-84a0-a3292a9ba401")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 170)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "2a464739-19c2-438d-8a6d-4156eb3d84d4")
 			(effects
@@ -17022,7 +17011,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 170)
+			(at -1.5 0 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -17032,11 +17021,11 @@
 			(uuid "7bf37fa7-a5b5-4141-b226-0a9fc190d877")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 170)
+			(at 1.5 0 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 42 "Net-(IC2-S7)")
+			(net 35 "Net-(IC2-S7)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "e61c7668-7a86-476d-bbb9-7744ac8a4301")
@@ -17084,7 +17073,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17310,11 +17299,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "32e50edb-670f-43b8-b784-5bffd429d241")
-		(at -78.122787 -19.153128 -20)
+		(at -125 -16.25)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D7"
-			(at 0 2.5 160)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
 			(uuid "0d58069a-b8c1-4a55-bf4e-c277f2fdc475")
 			(effects
@@ -17326,7 +17315,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -2.5 160)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "3e93844f-e772-4aab-96ec-05b00a6607e2")
 			(effects
@@ -17337,8 +17326,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 160)
+		(property "Datasheet" ""
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -17352,7 +17341,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 160)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -17366,7 +17355,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 160)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -17395,16 +17384,6 @@
 			(uuid "44eeb68b-5d00-47fc-93cb-57bf6b281891")
 		)
 		(fp_line
-			(start 2.25 1.600001)
-			(end -2.51 1.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7e8b70cc-27a9-4a39-9789-f4994ad95645")
-		)
-		(fp_line
 			(start 2.25 -1.6)
 			(end -2.51 -1.6)
 			(stroke
@@ -17415,14 +17394,14 @@
 			(uuid "d793a203-9dee-490e-9ec7-b5b52840d15d")
 		)
 		(fp_line
-			(start -2.5 1.75)
-			(end 2.5 1.75)
+			(start 2.25 1.600001)
+			(end -2.51 1.6)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "5da0533a-3001-41a2-b24d-d40dab37915e")
+			(layer "B.SilkS")
+			(uuid "7e8b70cc-27a9-4a39-9789-f4994ad95645")
 		)
 		(fp_line
 			(start -2.5 -1.75)
@@ -17435,14 +17414,14 @@
 			(uuid "0050b00c-9c0a-484a-aa70-a7ce501edb28")
 		)
 		(fp_line
-			(start 2.5 1.75)
-			(end 2.5 -1.75)
+			(start -2.5 1.75)
+			(end 2.5 1.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "14df5857-0322-4168-bbcf-2bf3c667c289")
+			(uuid "5da0533a-3001-41a2-b24d-d40dab37915e")
 		)
 		(fp_line
 			(start 2.5 -1.75)
@@ -17455,14 +17434,14 @@
 			(uuid "330a93c8-7e25-437d-931a-d77e13431765")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
+			(start 2.5 1.75)
+			(end 2.5 -1.75)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "4b8fc3e4-3657-4f51-a300-1bce0e5f3ba4")
+			(layer "B.CrtYd")
+			(uuid "14df5857-0322-4168-bbcf-2bf3c667c289")
 		)
 		(fp_line
 			(start -1.700001 0.6)
@@ -17485,14 +17464,14 @@
 			(uuid "b86e63ff-8e1c-407d-8668-846c8d7a6bd2")
 		)
 		(fp_line
-			(start 1.7 1.5)
-			(end -1.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "16953410-d935-45c4-9e00-0ec28c39b7b8")
+			(uuid "4b8fc3e4-3657-4f51-a300-1bce0e5f3ba4")
 		)
 		(fp_line
 			(start 1.7 -1.5)
@@ -17503,6 +17482,16 @@
 			)
 			(layer "B.Fab")
 			(uuid "3f6fb294-be8d-4f3f-86dd-9aa58ff927fa")
+		)
+		(fp_line
+			(start 1.7 1.5)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "16953410-d935-45c4-9e00-0ec28c39b7b8")
 		)
 		(fp_circle
 			(center 0 0)
@@ -17516,7 +17505,7 @@
 			(uuid "e4665024-8449-4343-8d6a-9755b3443896")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 160)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "bbc346d4-cc0d-45b5-afe8-465a505c4161")
 			(effects
@@ -17528,7 +17517,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 340)
+			(at -1.5 0)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -17538,11 +17527,11 @@
 			(uuid "94151a65-21a9-4320-8d06-72aea20d3d6f")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 340)
+			(at 1.5 0)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 27 "Net-(D7-A)")
+			(net 23 "Net-(D7-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "8edfbc59-ca5d-4df3-862e-825b2858f6a6")
@@ -17781,7 +17770,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 19 "Net-(IC3-S2)")
+			(net 15 "Net-(IC3-S2)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "68cc8826-4a66-4655-b3a0-7801fbee8892")
@@ -17802,13 +17791,13 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "350ce379-b624-4cf7-aca4-8255968f953f")
-		(at 22.5 58 -90)
+		(at -7.5 56.5 -90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q1"
 			(at 0 2.5 90)
 			(layer "B.SilkS")
-			(uuid "1de4601e-5916-4b27-9506-958ef6003d7e")
+			(uuid "a594bae2-1844-4f77-acf0-2b555c9a74bc")
 			(effects
 				(font
 					(size 1 1)
@@ -17820,7 +17809,7 @@
 		(property "Value" "SFH320"
 			(at 0 -2.5 90)
 			(layer "B.Fab")
-			(uuid "db8cb104-2cd8-4bad-8211-f098148a46fb")
+			(uuid "11099fd8-ec24-4cad-9830-bb9dfeacbdeb")
 			(effects
 				(font
 					(size 1 1)
@@ -17834,7 +17823,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8005ff60-b07c-4cb4-b1c7-11401d14b88e")
+			(uuid "85c5499b-e6e4-492b-8d6d-085c1cb11089")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17848,7 +17837,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4661d7d2-9246-4fc8-9518-ab6ac3d52ca5")
+			(uuid "41887256-828a-4a08-9225-6db8ea8dadfb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18020,7 +18009,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 33 "Net-(IC1-S1)")
+			(net 29 "Net-(IC1-S1)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "bae04703-e9f7-46bb-bf86-eb6719a4afdb")
@@ -18041,11 +18030,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "366e8362-5405-420a-9cff-2feae9f8dae9")
-		(at 28 -73.997423 -120)
+		(at 15 -107 -90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q12"
-			(at 0 2.5 60)
+			(at 0 2.5 90)
 			(layer "B.SilkS")
 			(uuid "389d7f4e-7e46-456c-b0f8-baeaacbb13ad")
 			(effects
@@ -18057,7 +18046,7 @@
 			)
 		)
 		(property "Value" "SFH320"
-			(at 0 -2.5 60)
+			(at 0 -2.5 90)
 			(layer "B.Fab")
 			(uuid "746bf9db-8b55-46f7-b0d1-c596208e0a27")
 			(effects
@@ -18069,7 +18058,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/5397c5d8583a26cf/original/SFH-320.pdf"
-			(at 0 0 60)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18083,7 +18072,7 @@
 			)
 		)
 		(property "Description" "Silicon NPN Phototransistor, PLCC-2"
-			(at 0 0 60)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18102,16 +18091,6 @@
 		(sheetfile "Lower PCB.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.25 1.6)
-			(end -2.51 1.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9d4cfedf-2428-4896-98cf-3e632188d363")
-		)
-		(fp_line
 			(start -2.51 1.6)
 			(end -2.51 -1.6)
 			(stroke
@@ -18120,6 +18099,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "56b983e9-a31d-4111-af1c-b4dc37a68fce")
+		)
+		(fp_line
+			(start 2.25 1.6)
+			(end -2.51 1.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "9d4cfedf-2428-4896-98cf-3e632188d363")
 		)
 		(fp_line
 			(start 2.25 -1.6)
@@ -18132,16 +18121,6 @@
 			(uuid "b7cf035a-edf7-4212-a4f5-7ce7f8a8cd46")
 		)
 		(fp_line
-			(start 2.5 1.749999)
-			(end 2.500001 -1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "da842318-ae9c-4324-a563-b50939effdc7")
-		)
-		(fp_line
 			(start -2.500001 1.75)
 			(end 2.5 1.749999)
 			(stroke
@@ -18152,14 +18131,14 @@
 			(uuid "52594f94-f555-47a0-ab7e-8ad65086a5f5")
 		)
 		(fp_line
-			(start 2.500001 -1.75)
-			(end -2.5 -1.749999)
+			(start 2.5 1.749999)
+			(end 2.500001 -1.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "15f1e10a-6a0d-4390-8a80-b2d4dc8fac2f")
+			(uuid "da842318-ae9c-4324-a563-b50939effdc7")
 		)
 		(fp_line
 			(start -2.5 -1.749999)
@@ -18172,14 +18151,14 @@
 			(uuid "cfc683b9-7d44-4b4c-8730-97954bc37e4d")
 		)
 		(fp_line
-			(start 1.7 1.5)
-			(end -1.7 1.5)
+			(start 2.500001 -1.75)
+			(end -2.5 -1.749999)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "fefc8512-708f-4ae8-90b8-50e88113d265")
+			(layer "B.CrtYd")
+			(uuid "15f1e10a-6a0d-4390-8a80-b2d4dc8fac2f")
 		)
 		(fp_line
 			(start -1.7 1.5)
@@ -18192,6 +18171,16 @@
 			(uuid "424c8da4-be40-46cf-ad55-ecc1214992a6")
 		)
 		(fp_line
+			(start 1.7 1.5)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "fefc8512-708f-4ae8-90b8-50e88113d265")
+		)
+		(fp_line
 			(start -1.7 0.6)
 			(end -0.8 1.5)
 			(stroke
@@ -18202,16 +18191,6 @@
 			(uuid "f4ad3a98-52b0-41a8-83e8-e7c8eafaa310")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "359d68a6-9d9d-4291-961f-17198ed58c2a")
-		)
-		(fp_line
 			(start -1.7 -1.5)
 			(end 1.7 -1.5)
 			(stroke
@@ -18220,6 +18199,16 @@
 			)
 			(layer "B.Fab")
 			(uuid "e66f849d-d6ea-4bda-a9e1-3a4e620c4d7a")
+		)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "359d68a6-9d9d-4291-961f-17198ed58c2a")
 		)
 		(fp_circle
 			(center 0 0)
@@ -18233,7 +18222,7 @@
 			(uuid "4d810ab8-a7f5-4b48-9b1f-bc4d6d2ba394")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 60)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "d0a5f2ec-926d-4f9e-888e-2703bc481696")
 			(effects
@@ -18245,7 +18234,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 240)
+			(at -1.5 0 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -18255,11 +18244,11 @@
 			(uuid "fb4e8ec5-3864-44f3-aa4a-3d114233df48")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 240)
+			(at 1.5 0 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 39 "Net-(IC2-S4)")
+			(net 33 "Net-(IC2-S4)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "395deaa8-c135-422f-af74-8ca225880272")
@@ -18280,11 +18269,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "3be750fb-b3b9-4ac9-bc77-422ac6b17c0d")
-		(at 74 28 150)
+		(at 105.25 15 180)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q16"
-			(at 0 2.5 150)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
 			(uuid "4209a1c4-7c40-4e8c-a87e-69b875a7a4c2")
 			(effects
@@ -18296,7 +18285,7 @@
 			)
 		)
 		(property "Value" "SFH320"
-			(at 0 -2.5 150)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "33276897-63f9-4e5e-991f-e0b7bfe63d57")
 			(effects
@@ -18308,7 +18297,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/5397c5d8583a26cf/original/SFH-320.pdf"
-			(at 0 0 330)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18322,7 +18311,7 @@
 			)
 		)
 		(property "Description" "Silicon NPN Phototransistor, PLCC-2"
-			(at 0 0 330)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18341,16 +18330,6 @@
 		(sheetfile "Lower PCB.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.25 -1.599999)
-			(end -2.51 -1.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "89f8b119-d280-4b4b-85b6-3afa9e9b707d")
-		)
-		(fp_line
 			(start 2.25 1.6)
 			(end -2.51 1.6)
 			(stroke
@@ -18359,6 +18338,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "bf9ba3d8-8fc2-4b60-b8f6-d1c912711901")
+		)
+		(fp_line
+			(start 2.25 -1.599999)
+			(end -2.51 -1.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "89f8b119-d280-4b4b-85b6-3afa9e9b707d")
 		)
 		(fp_line
 			(start -2.51 1.6)
@@ -18441,16 +18430,6 @@
 			(uuid "749c56ee-a53a-40a8-9ee5-e7560e1d3bbf")
 		)
 		(fp_line
-			(start -1.700001 0.6)
-			(end -0.800001 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "8352b947-7f8f-4915-a5d8-2d1131c98fe7")
-		)
-		(fp_line
 			(start -1.700001 1.5)
 			(end -1.7 -1.5)
 			(stroke
@@ -18459,6 +18438,16 @@
 			)
 			(layer "B.Fab")
 			(uuid "2a2d0c1e-0960-42b1-ae57-35e5cd2b9f1e")
+		)
+		(fp_line
+			(start -1.700001 0.6)
+			(end -0.800001 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "8352b947-7f8f-4915-a5d8-2d1131c98fe7")
 		)
 		(fp_circle
 			(center 0 0)
@@ -18472,7 +18461,7 @@
 			(uuid "22d60910-e794-41d9-b7dd-e37bbe87c40a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 150)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "d204ef08-2eca-4cd6-be1c-e26de16fab76")
 			(effects
@@ -18484,7 +18473,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 150)
+			(at -1.5 0 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -18494,11 +18483,11 @@
 			(uuid "055c6d1f-9344-4e9b-93d5-3bd993ec6d28")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 150)
+			(at 1.5 0 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 49 "Net-(IC2-S8)")
+			(net 40 "Net-(IC2-S8)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "b6820de7-6d79-4473-b14b-f8863540171c")
@@ -18519,13 +18508,13 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "3fdb9657-2b6d-4720-b63b-28cef1fdbc1f")
-		(at 15 58 90)
+		(at -59.75 56.5 90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D5"
 			(at 0 2.5 90)
 			(layer "B.SilkS")
-			(uuid "2826996f-d551-4db5-aa1c-c957b84049b7")
+			(uuid "27a0fb1c-2544-47c3-87e3-6d8b22228633")
 			(effects
 				(font
 					(size 1 1)
@@ -18537,7 +18526,7 @@
 		(property "Value" "LED"
 			(at 0 -2.5 90)
 			(layer "B.Fab")
-			(uuid "30c6164b-ce58-4288-9082-6c065e033e6d")
+			(uuid "6c75d4ba-26e4-4b4e-805e-c6fc497fb365")
 			(effects
 				(font
 					(size 1 1)
@@ -18546,12 +18535,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1c81203e-e7bf-4584-a48f-120cb7516f36")
+			(uuid "e74d4a2e-0b26-453d-bf74-979523cc7179")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18565,7 +18554,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "adf3e84f-1e8d-44c3-90a4-dd55b8d8d770")
+			(uuid "658facf9-b7dc-4e2c-a706-3d207b4248cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18751,7 +18740,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 25 "Net-(D5-A)")
+			(net 21 "Net-(D5-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "07124735-a3eb-4ebc-9c96-d2c5197cbdc1")
@@ -18772,11 +18761,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "43bef609-8e96-467f-9cb0-d1589b83c6bd")
-		(at -80.649234 9.724298 10)
+		(at -125 -1.25)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q6"
-			(at 0 2.5 10)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
 			(uuid "cc4f4252-3dac-4ade-b7a5-f5e3f5f5ac65")
 			(effects
@@ -18788,7 +18777,7 @@
 			)
 		)
 		(property "Value" "SFH320"
-			(at 0 -2.5 10)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "b283441c-14f0-4a3d-b66e-70625df80bdf")
 			(effects
@@ -18800,7 +18789,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/5397c5d8583a26cf/original/SFH-320.pdf"
-			(at 0 0 190)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18814,7 +18803,7 @@
 			)
 		)
 		(property "Description" "Silicon NPN Phototransistor, PLCC-2"
-			(at 0 0 190)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18964,7 +18953,7 @@
 			(uuid "478bd887-0087-4ba4-b8bf-c367d0a15ded")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 10)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "031945e5-ffe1-440e-9472-c77dec33084a")
 			(effects
@@ -18976,7 +18965,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 10)
+			(at -1.5 0)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -18986,11 +18975,11 @@
 			(uuid "ed76adc5-46f4-435d-afae-3ddb6caf9fba")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 10)
+			(at 1.5 0)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 35 "Net-(IC1-S6)")
+			(net 30 "Net-(IC1-S6)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "015fabb5-a534-4c0b-8f83-382e1376cd1b")
@@ -19011,13 +19000,13 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "4f2aeb53-95b9-4151-a808-d3a5a88de5c1")
-		(at 81.5 0 180)
+		(at 105.5 0 180)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D18"
 			(at 0 2.5 0)
 			(layer "B.SilkS")
-			(uuid "d1111b22-d628-4eb1-a567-e59ef6421b57")
+			(uuid "4b2736b0-40b2-42fc-997c-300b7751bcb8")
 			(effects
 				(font
 					(size 1 1)
@@ -19029,7 +19018,7 @@
 		(property "Value" "LED"
 			(at 0 -2.5 0)
 			(layer "B.Fab")
-			(uuid "305bf5d7-8f26-410d-bf5d-03911f810137")
+			(uuid "f31beb16-d3c4-4340-b1fc-dbaa73c23e49")
 			(effects
 				(font
 					(size 1 1)
@@ -19038,12 +19027,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4baa0eca-68fd-42fe-988b-7f3b6b1b0a76")
+			(uuid "28f57d4a-f11f-40ac-bda9-74307652c776")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19057,7 +19046,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3264f23a-cd4f-41d0-b086-e06ab93dc81d")
+			(uuid "75ecee80-692a-4d76-a451-7553c9ac2148")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19243,7 +19232,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 62 "Net-(D18-A)")
+			(net 50 "Net-(D18-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9d5d15ea-05a6-43b2-8c5b-a453a715f974")
@@ -19264,11 +19253,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "4f700f72-7bba-4aae-afcc-20167c72d2d8")
-		(at -78.122787 19.153128 20)
+		(at -125 3.75)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D9"
-			(at 0 2.5 20)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
 			(uuid "0f049a81-af9d-4159-a7f6-200d01c405da")
 			(effects
@@ -19280,7 +19269,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -2.5 20)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "f9b474d0-fd93-4e90-8ee8-ebf3a010abb9")
 			(effects
@@ -19291,8 +19280,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 200)
+		(property "Datasheet" ""
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -19306,7 +19295,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 200)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -19320,7 +19309,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 200)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -19470,7 +19459,7 @@
 			(uuid "c38929b9-5c87-4f81-a3b7-0a2ce589d313")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 20)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "47057a9e-3ef4-4eba-9c1d-cec83c7b45d0")
 			(effects
@@ -19482,7 +19471,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 20)
+			(at -1.5 0)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -19492,11 +19481,11 @@
 			(uuid "2d180c24-13ca-47dc-934d-fdbda6a45530")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 20)
+			(at 1.5 0)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 53 "Net-(D9-A)")
+			(net 41 "Net-(D9-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "13b7d453-a937-4582-aeb1-e1005e7b71ff")
@@ -19544,7 +19533,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19797,7 +19786,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20023,13 +20012,13 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "6341e1fe-9ce8-4dc6-b40c-43bae22b8013")
-		(at 68.398489 -35.996106 -140)
+		(at 105.5 -20.5 180)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D16"
-			(at 0 2.5 40)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
-			(uuid "cb5c3507-d1d4-4108-84d9-2b995b998e38")
+			(uuid "07fcf85d-b8b7-4344-8625-31952d59c8b2")
 			(effects
 				(font
 					(size 1 1)
@@ -20039,9 +20028,9 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -2.5 40)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
-			(uuid "01382a4d-c610-48ab-af50-372233024d9c")
+			(uuid "07695480-0bc0-4b77-83e6-04c3f23ac6da")
 			(effects
 				(font
 					(size 1 1)
@@ -20050,12 +20039,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 40)
+		(property "Datasheet" ""
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "608fb584-2a45-4c7c-b3e7-4d7d30f2ff3e")
+			(uuid "a4b6fbcc-5254-45cf-8079-bbb144939823")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20065,11 +20054,11 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 40)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9deb991c-33f0-4545-98de-f9909df6bfd2")
+			(uuid "7a987103-f229-4554-bfcb-609be9f9a466")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20079,7 +20068,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 40)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -20229,7 +20218,7 @@
 			(uuid "028ae380-7561-4f27-a466-1c94e7f3c898")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 40)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "cebb688c-e596-46d1-8888-5913aa01ba7e")
 			(effects
@@ -20241,7 +20230,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 -0.000001 220)
+			(at -1.5 -0.000001 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -20251,11 +20240,11 @@
 			(uuid "cc4b06f0-68ed-4b88-84b0-cab78f75689e")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0.000001 220)
+			(at 1.5 0.000001 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 60 "Net-(D16-A)")
+			(net 48 "Net-(D16-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a27c67d1-3ec9-45d2-bdd7-f1d59e3c6120")
@@ -20276,11 +20265,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "634741b4-b04f-470e-804f-ede7df516f6c")
-		(at -28 -73.997423 -60)
+		(at -15 -107 -90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q9"
-			(at 0 2.5 120)
+			(at 0 2.5 90)
 			(layer "B.SilkS")
 			(uuid "4dadd163-42a1-485b-bbc5-99f41d07f7d9")
 			(effects
@@ -20292,7 +20281,7 @@
 			)
 		)
 		(property "Value" "SFH320"
-			(at 0 -2.5 120)
+			(at 0 -2.5 90)
 			(layer "B.Fab")
 			(uuid "5a122b47-54be-4f06-8cc8-5de12e76a048")
 			(effects
@@ -20304,7 +20293,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/5397c5d8583a26cf/original/SFH-320.pdf"
-			(at 0 0 120)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -20318,7 +20307,7 @@
 			)
 		)
 		(property "Description" "Silicon NPN Phototransistor, PLCC-2"
-			(at 0 0 120)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -20367,16 +20356,6 @@
 			(uuid "e73a1b6a-8881-42c5-96dc-ef6b1a4b29b6")
 		)
 		(fp_line
-			(start -2.5 1.749999)
-			(end 2.500001 1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "a3f814b8-44e8-4a49-92f9-9c81e19a1fc9")
-		)
-		(fp_line
 			(start 2.500001 1.75)
 			(end 2.5 -1.749999)
 			(stroke
@@ -20387,14 +20366,14 @@
 			(uuid "4e2d011f-2fa0-4037-a6fd-c3030d6fc8e4")
 		)
 		(fp_line
-			(start -2.500001 -1.75)
-			(end -2.5 1.749999)
+			(start -2.5 1.749999)
+			(end 2.500001 1.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "aa947c73-be00-4e33-9468-301bc2ed4340")
+			(uuid "a3f814b8-44e8-4a49-92f9-9c81e19a1fc9")
 		)
 		(fp_line
 			(start 2.5 -1.749999)
@@ -20407,6 +20386,16 @@
 			(uuid "9cd8f844-a1f0-4540-8b15-d4c06679179f")
 		)
 		(fp_line
+			(start -2.500001 -1.75)
+			(end -2.5 1.749999)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "aa947c73-be00-4e33-9468-301bc2ed4340")
+		)
+		(fp_line
 			(start -1.7 1.5)
 			(end -1.7 -1.5)
 			(stroke
@@ -20417,16 +20406,6 @@
 			(uuid "bd454a9f-5692-4f7c-8271-086e714aa512")
 		)
 		(fp_line
-			(start -1.7 0.6)
-			(end -0.8 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "a96566a8-1a43-4cc4-88b8-65237a28ad0a")
-		)
-		(fp_line
 			(start 1.7 1.5)
 			(end -1.7 1.5)
 			(stroke
@@ -20435,6 +20414,16 @@
 			)
 			(layer "B.Fab")
 			(uuid "16dec131-bd6d-4802-ac87-0bb8743b4194")
+		)
+		(fp_line
+			(start -1.7 0.6)
+			(end -0.8 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "a96566a8-1a43-4cc4-88b8-65237a28ad0a")
 		)
 		(fp_line
 			(start -1.7 -1.5)
@@ -20468,7 +20457,7 @@
 			(uuid "b85c88ea-ea11-4628-9e48-1cccdad4a679")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 120)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "4d75b2c7-85bb-4c57-aeaa-4fd0cc2c2057")
 			(effects
@@ -20480,7 +20469,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 300)
+			(at -1.5 0 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -20490,11 +20479,11 @@
 			(uuid "9aec20de-21ec-4a20-9206-8f6060219283")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 300)
+			(at 1.5 0 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 43 "Net-(IC2-S1)")
+			(net 36 "Net-(IC2-S1)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "671dfb4d-83e7-4a97-98fb-05b14de1a655")
@@ -20515,13 +20504,13 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "6615bf68-553b-4ff2-8aee-8d8ce6edbdf2")
-		(at 78.122787 -19.153128 -160)
+		(at 105.5 -10.403128 180)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D17"
-			(at 0 2.5 20)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
-			(uuid "65ef2961-4c09-4622-9c9d-55bccdbc4848")
+			(uuid "1bf8f3a4-d754-4bc1-8e7a-28cd04ad9061")
 			(effects
 				(font
 					(size 1 1)
@@ -20531,9 +20520,9 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -2.5 20)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
-			(uuid "dfc552d7-6d99-4299-8a9e-b6904edbb48a")
+			(uuid "ffabf355-84f9-45c9-8c60-87f39a680fcc")
 			(effects
 				(font
 					(size 1 1)
@@ -20542,12 +20531,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 20)
+		(property "Datasheet" ""
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "df85d518-41a5-4faa-9d1e-7d61105789c9")
+			(uuid "e8959874-4255-4013-8f38-4c809fa08992")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20557,11 +20546,11 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 20)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1c09d403-8060-4477-9363-366887a7eb91")
+			(uuid "06b43612-de89-4ac2-a587-594e0b4d01b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20571,7 +20560,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 20)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -20721,7 +20710,7 @@
 			(uuid "2805a159-ae43-4f87-8ca0-2b549e7bce6d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 20)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "6a03fec5-4035-44dd-b162-24d558bd4a8b")
 			(effects
@@ -20733,7 +20722,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 200)
+			(at -1.5 0 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -20743,11 +20732,11 @@
 			(uuid "4ea9c29e-e327-424d-ac67-7610e18177d4")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 200)
+			(at 1.5 0 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 61 "Net-(D17-A)")
+			(net 49 "Net-(D17-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ec0723d1-94cc-4097-a001-fb31af3a90bd")
@@ -20768,13 +20757,13 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "6999e20b-9f0f-4e95-af56-f2d6597c398f")
-		(at 74 -28 -150)
+		(at 105.5 -15.5 180)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q13"
-			(at 0 2.5 30)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
-			(uuid "ee4e1343-e798-4677-92ed-e435ac7f019b")
+			(uuid "3fc7be99-5345-4d7a-b2d5-634a9b242ea9")
 			(effects
 				(font
 					(size 1 1)
@@ -20784,9 +20773,9 @@
 			)
 		)
 		(property "Value" "SFH320"
-			(at 0 -2.5 30)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
-			(uuid "2068c9be-26e3-41d2-98ce-f801373d0ba4")
+			(uuid "866701e7-a0f9-48fd-8a94-58d1121746d3")
 			(effects
 				(font
 					(size 1 1)
@@ -20796,11 +20785,11 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/5397c5d8583a26cf/original/SFH-320.pdf"
-			(at 0 0 30)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b77578fb-d361-45c8-b316-cd18f9d40aa3")
+			(uuid "cb4ee730-0dab-4feb-bf98-4dfc5399951b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20810,11 +20799,11 @@
 			)
 		)
 		(property "Description" "Silicon NPN Phototransistor, PLCC-2"
-			(at 0 0 30)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "89d89a40-fc4a-45a2-b5e0-f60acb299f29")
+			(uuid "8ff9efa3-c0d7-4463-8049-8636edd07b4e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20960,7 +20949,7 @@
 			(uuid "f3ca0023-8a5c-4754-8c17-e239c4043ceb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 30)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "b9685665-3ddf-4c4d-aa6b-a2d90233bfc0")
 			(effects
@@ -20972,7 +20961,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 210)
+			(at -1.5 0 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -20982,11 +20971,11 @@
 			(uuid "51c05e75-45fb-4827-ba04-082b837fd022")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 210)
+			(at 1.5 0 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 47 "Net-(IC2-S5)")
+			(net 39 "Net-(IC2-S5)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "c767cc3c-d2bc-47dc-a113-ef3b0383bdc2")
@@ -21034,7 +21023,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21260,11 +21249,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "71e6240f-e30c-4933-b0c8-6cc8a6cedbbf")
-		(at -19.153126 -78.122787 -70)
+		(at -10 -107 -90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D12"
-			(at 0 2.5 110)
+			(at 0 2.5 90)
 			(layer "B.SilkS")
 			(uuid "645c9197-8615-4eb2-9641-e100f5560fc2")
 			(effects
@@ -21276,7 +21265,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -2.5 110)
+			(at 0 -2.5 90)
 			(layer "B.Fab")
 			(uuid "13ec0295-f07a-4f22-80f7-98cffde38b8c")
 			(effects
@@ -21287,8 +21276,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 110)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -21302,7 +21291,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 110)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -21316,7 +21305,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 110)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -21415,16 +21404,6 @@
 			(uuid "290d531f-dbf7-481f-bc51-f52d02f29759")
 		)
 		(fp_line
-			(start -1.7 0.6)
-			(end -0.8 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "95cdc878-f401-4a6d-98c9-ab101e782f96")
-		)
-		(fp_line
 			(start 1.7 1.5)
 			(end -1.7 1.5)
 			(stroke
@@ -21433,6 +21412,16 @@
 			)
 			(layer "B.Fab")
 			(uuid "43d0295b-9743-4f86-8459-279c0778dfcd")
+		)
+		(fp_line
+			(start -1.7 0.6)
+			(end -0.8 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "95cdc878-f401-4a6d-98c9-ab101e782f96")
 		)
 		(fp_line
 			(start -1.7 -1.5)
@@ -21466,7 +21455,7 @@
 			(uuid "4c93fa7a-7b51-4a4d-ac17-e7d7386c13c3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 110)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "bad92464-13ef-4792-a780-023bba403393")
 			(effects
@@ -21478,7 +21467,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 290)
+			(at -1.5 0 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -21488,11 +21477,11 @@
 			(uuid "8a1d5939-b6d6-4074-8245-4acc3e0b3738")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 290)
+			(at 1.5 0 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 56 "Net-(D12-A)")
+			(net 44 "Net-(D12-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a2b8e954-6676-4671-b6cb-603443f2ffc2")
@@ -21513,13 +21502,13 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "73f6a03d-e9e7-4a0e-8fb9-93bd2c5eacec")
-		(at 30 58 90)
+		(at 0 56.5 90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D1"
 			(at 0 2.5 90)
 			(layer "B.SilkS")
-			(uuid "a5e9e765-d19d-4695-a6ad-30e9c9522aef")
+			(uuid "ffe463a6-10b5-45d3-95ab-6d4e056ebe15")
 			(effects
 				(font
 					(size 1 1)
@@ -21531,7 +21520,7 @@
 		(property "Value" "LED"
 			(at 0 -2.5 90)
 			(layer "B.Fab")
-			(uuid "2227c0ab-a2cb-4172-9145-a5be4ac9d88a")
+			(uuid "4e45f659-7f34-4b71-835e-06d9e691ce10")
 			(effects
 				(font
 					(size 1 1)
@@ -21540,12 +21529,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0c88b3f7-ba09-4d4e-9c38-c3e1708523a8")
+			(uuid "4ae9cd40-00b2-44a7-ba12-53fb55514a28")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21559,7 +21548,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ce5a47f0-a862-4ff0-8f6f-2fd672126eaf")
+			(uuid "299f8a41-74f9-4985-a8ca-1e74ee50963f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21793,7 +21782,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22019,13 +22008,13 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "825d7a1f-fd2c-4587-b8ce-03c490f121cd")
-		(at -22.5 58 -90)
+		(at -52.5 56.5 -90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q4"
 			(at 0 2.5 90)
 			(layer "B.SilkS")
-			(uuid "0f09fc8f-a8b8-4078-846c-a64490536bf1")
+			(uuid "c0336a02-81c8-4955-b525-d38e17c218c1")
 			(effects
 				(font
 					(size 1 1)
@@ -22037,7 +22026,7 @@
 		(property "Value" "SFH320"
 			(at 0 -2.5 90)
 			(layer "B.Fab")
-			(uuid "2ff792cc-092d-4b7f-8f19-0934f28ef400")
+			(uuid "3e46a252-f034-4406-8c1d-96233ae3beb0")
 			(effects
 				(font
 					(size 1 1)
@@ -22051,7 +22040,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7759d882-528b-4f3f-8f4f-5d9b670b4ceb")
+			(uuid "f743a8af-4f8b-4f58-96a4-c460b3eb4e3e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22065,7 +22054,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "617d8359-8e43-4cf9-97c0-146b65b37ea2")
+			(uuid "9ec309e5-b91f-4114-ad59-393057cc4bcd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22237,7 +22226,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 32 "Net-(IC1-S4)")
+			(net 28 "Net-(IC1-S4)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "c6570f84-91c3-48b0-abab-0d3a299bca67")
@@ -22285,7 +22274,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22511,7 +22500,7 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "899f0dd8-bf9a-4890-8bc2-9de4f087b22f")
-		(at -81.5 0)
+		(at -125 -6.25)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D8"
@@ -22538,7 +22527,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22743,7 +22732,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 28 "Net-(D8-A)")
+			(net 24 "Net-(D8-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "b25a6aaa-6113-43bc-ab73-01e1b9d88c78")
@@ -22764,11 +22753,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "8f4da949-bfc6-4ec5-9042-7637e13ac4ab")
-		(at 19.153128 -78.122787 -110)
+		(at 10 -107 -90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D14"
-			(at 0 2.5 70)
+			(at 0 2.5 90)
 			(layer "B.SilkS")
 			(uuid "e57762af-c885-4b7f-8688-5fee4a4aae50")
 			(effects
@@ -22780,7 +22769,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -2.5 70)
+			(at 0 -2.5 90)
 			(layer "B.Fab")
 			(uuid "bf8c35de-a62b-4021-94d6-7e76a0853d5d")
 			(effects
@@ -22791,8 +22780,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 70)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -22806,7 +22795,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 70)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -22820,7 +22809,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 70)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -22869,16 +22858,6 @@
 			(uuid "84232d9d-c57c-4f66-b56c-b50e1611b0a2")
 		)
 		(fp_line
-			(start 2.5 1.75)
-			(end 2.5 -1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "b263f5c8-235e-48f8-9b34-1c9398c46fda")
-		)
-		(fp_line
 			(start -2.5 1.75)
 			(end 2.5 1.75)
 			(stroke
@@ -22889,14 +22868,14 @@
 			(uuid "f008ef76-434a-467a-b93b-78fdc21cc0c9")
 		)
 		(fp_line
-			(start 2.5 -1.75)
-			(end -2.5 -1.75)
+			(start 2.5 1.75)
+			(end 2.5 -1.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "195fd765-c759-42ab-8068-7c6767eed7ae")
+			(uuid "b263f5c8-235e-48f8-9b34-1c9398c46fda")
 		)
 		(fp_line
 			(start -2.5 -1.75)
@@ -22909,14 +22888,14 @@
 			(uuid "0116dc2a-04ab-4ec5-86d3-4b02001b5faa")
 		)
 		(fp_line
-			(start 1.7 1.5)
-			(end -1.7 1.5)
+			(start 2.5 -1.75)
+			(end -2.5 -1.75)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "742263f2-8f8f-410a-8d89-0752bcb306eb")
+			(layer "B.CrtYd")
+			(uuid "195fd765-c759-42ab-8068-7c6767eed7ae")
 		)
 		(fp_line
 			(start -1.7 1.5)
@@ -22929,6 +22908,16 @@
 			(uuid "9ecd2491-77e9-4436-9b11-82b3bdb6549a")
 		)
 		(fp_line
+			(start 1.7 1.5)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "742263f2-8f8f-410a-8d89-0752bcb306eb")
+		)
+		(fp_line
 			(start -1.700001 0.6)
 			(end -0.8 1.5)
 			(stroke
@@ -22939,16 +22928,6 @@
 			(uuid "ac03166d-b3a5-45c0-88be-6c087dcda017")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "4b5a61fc-6d4d-4baa-8ccd-4b7edb63c12e")
-		)
-		(fp_line
 			(start -1.7 -1.5)
 			(end 1.7 -1.5)
 			(stroke
@@ -22957,6 +22936,16 @@
 			)
 			(layer "B.Fab")
 			(uuid "aefcb12b-584d-4f97-a4d3-82cd27af9fad")
+		)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "4b5a61fc-6d4d-4baa-8ccd-4b7edb63c12e")
 		)
 		(fp_circle
 			(center 0 0)
@@ -22970,7 +22959,7 @@
 			(uuid "8b587a20-c4f0-4cdd-8c4e-39125b57f845")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 70)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "a2d8c2d0-de25-45ec-a92a-77d364920bf9")
 			(effects
@@ -22982,7 +22971,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 250)
+			(at -1.5 0 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -22992,11 +22981,11 @@
 			(uuid "81d88c72-4807-47bd-948b-14c211c10ea8")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 250)
+			(at 1.5 0 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 58 "Net-(D14-A)")
+			(net 46 "Net-(D14-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a87212b8-6010-4aa4-8133-6d24eb89e852")
@@ -23017,11 +23006,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "a88cc4c0-af10-4525-9639-2a7bdb5a8560")
-		(at 78.122787 19.153128 160)
+		(at 105.25 10 180)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D19"
-			(at 0 2.5 160)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
 			(uuid "6cbc9e61-4059-45e6-8e6a-d9275e684929")
 			(effects
@@ -23033,7 +23022,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -2.5 160)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "247e0e58-cf5c-4dc9-bbd8-5d288ef8ef55")
 			(effects
@@ -23044,8 +23033,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 340)
+		(property "Datasheet" ""
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -23059,7 +23048,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 340)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -23073,7 +23062,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 340)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -23092,16 +23081,6 @@
 		(sheetfile "Lower PCB.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.25 -1.6)
-			(end -2.51 -1.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8268e3b5-0c06-46a7-8aa4-a497da9937b7")
-		)
-		(fp_line
 			(start 2.25 1.600001)
 			(end -2.51 1.6)
 			(stroke
@@ -23110,6 +23089,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "efe59139-0d3b-4eb0-b0cb-0f049e8e5544")
+		)
+		(fp_line
+			(start 2.25 -1.6)
+			(end -2.51 -1.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "8268e3b5-0c06-46a7-8aa4-a497da9937b7")
 		)
 		(fp_line
 			(start -2.51 1.6)
@@ -23122,16 +23111,6 @@
 			(uuid "6adbc7e3-4c6e-4677-873d-066a98f21c82")
 		)
 		(fp_line
-			(start 2.5 -1.75)
-			(end -2.5 -1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "62829f2e-90b6-47d3-9a43-2f7c605691c7")
-		)
-		(fp_line
 			(start 2.5 1.75)
 			(end 2.5 -1.75)
 			(stroke
@@ -23142,14 +23121,14 @@
 			(uuid "93913944-480b-4d28-845d-f5642b41d2e2")
 		)
 		(fp_line
-			(start -2.5 -1.75)
-			(end -2.5 1.75)
+			(start 2.5 -1.75)
+			(end -2.5 -1.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "94f5d61a-3f3c-4d74-83c6-97397bd26a6c")
+			(uuid "62829f2e-90b6-47d3-9a43-2f7c605691c7")
 		)
 		(fp_line
 			(start -2.5 1.75)
@@ -23162,14 +23141,14 @@
 			(uuid "a6b0f1fc-8c8b-4d38-9b75-2785ce1f5793")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start -2.5 -1.75)
+			(end -2.5 1.75)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "7e364d1a-d93f-4f72-a211-0819339fe72e")
+			(layer "B.CrtYd")
+			(uuid "94f5d61a-3f3c-4d74-83c6-97397bd26a6c")
 		)
 		(fp_line
 			(start 1.7 1.5)
@@ -23180,6 +23159,26 @@
 			)
 			(layer "B.Fab")
 			(uuid "c597eed2-34a0-4ed2-baf0-270178390cc4")
+		)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "7e364d1a-d93f-4f72-a211-0819339fe72e")
+		)
+		(fp_line
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "ce934752-3c20-4dce-9ee8-6d725c3c8118")
 		)
 		(fp_line
 			(start -1.7 -1.5)
@@ -23201,16 +23200,6 @@
 			(layer "B.Fab")
 			(uuid "67ec56e3-44a9-4046-a05e-9a6438224798")
 		)
-		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "ce934752-3c20-4dce-9ee8-6d725c3c8118")
-		)
 		(fp_circle
 			(center 0 0)
 			(end 0 1.25)
@@ -23223,7 +23212,7 @@
 			(uuid "3c7b4d4e-b7c5-4941-88ff-b833901ca62a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 160)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "a4162ce7-622d-4550-b047-87f529236b74")
 			(effects
@@ -23235,7 +23224,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 160)
+			(at -1.5 0 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -23245,11 +23234,11 @@
 			(uuid "0e657ffc-348c-4270-8d78-24c95293cc22")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 160)
+			(at 1.5 0 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 63 "Net-(D19-A)")
+			(net 51 "Net-(D19-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "e98c4eda-7869-419e-ba67-e9a4f99e1a3f")
@@ -23270,13 +23259,13 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "aa651d90-b9ad-448c-b3c5-46aa74721156")
-		(at -7.5 58 -90)
+		(at -37.5 56.5 -90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q3"
 			(at 0 2.5 90)
 			(layer "B.SilkS")
-			(uuid "55651d55-341f-4d4c-859e-7a4b36682554")
+			(uuid "0de3fbeb-2d74-4f6f-bfdd-d70cd117399f")
 			(effects
 				(font
 					(size 1 1)
@@ -23288,7 +23277,7 @@
 		(property "Value" "SFH320"
 			(at 0 -2.5 90)
 			(layer "B.Fab")
-			(uuid "538e0bf2-4d3d-4327-872c-50ac2b683215")
+			(uuid "ec725a47-6fcd-41db-a3cc-6adcf943f897")
 			(effects
 				(font
 					(size 1 1)
@@ -23302,7 +23291,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "82373de0-91b6-406c-8952-e7f824b26ae7")
+			(uuid "4b5d59e9-8ab7-412f-b1e0-94cc18519bd9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23316,7 +23305,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "15de8cf9-cf43-4692-a34b-26e7ed424cd0")
+			(uuid "750594bf-3c3b-4b7c-913d-1eac0eeee025")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23488,7 +23477,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 29 "Net-(IC1-S3)")
+			(net 25 "Net-(IC1-S3)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "3a528adb-a469-4191-87b6-685353aed491")
@@ -23509,13 +23498,13 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "b62b6e9d-cb96-48a3-89e2-9e7ae6388c6f")
-		(at -30 58 90)
+		(at -45 56.5 90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D4"
 			(at 0 2.5 90)
 			(layer "B.SilkS")
-			(uuid "af98a065-df7a-4775-8358-54c45406bc10")
+			(uuid "5cdeb6a5-2231-4f66-b105-e969b7b9acf5")
 			(effects
 				(font
 					(size 1 1)
@@ -23527,7 +23516,7 @@
 		(property "Value" "LED"
 			(at 0 -2.5 90)
 			(layer "B.Fab")
-			(uuid "6ddedf37-3912-4bdf-b2f3-1e0466fa945c")
+			(uuid "96ec666f-1f74-41cc-9588-70681aee4f0f")
 			(effects
 				(font
 					(size 1 1)
@@ -23536,12 +23525,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f59f12b1-3ea8-440c-a8de-27936f6ed222")
+			(uuid "214819e3-3f14-49fd-b29f-12092cf60e11")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23555,7 +23544,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f2ba1967-1255-4009-9bdd-07bd30ab2011")
+			(uuid "169e4dbb-a432-4856-a4a7-60debf4e3a12")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23741,7 +23730,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 24 "Net-(D4-A)")
+			(net 20 "Net-(D4-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "1dfaff7a-d4d6-4e28-8ce6-a092e8d8ef10")
@@ -23789,7 +23778,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23994,7 +23983,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 65 "Net-(D21-A)")
+			(net 53 "Net-(D21-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ccb662ea-7d15-4050-8647-72a20567ac1f")
@@ -24254,11 +24243,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "bdc0a0dc-11f6-4c09-ac62-3d111e8fce6c")
-		(at 36 -68.5 -130)
+		(at 20 -107 -90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D15"
-			(at 0 2.5 50)
+			(at 0 2.5 90)
 			(layer "B.SilkS")
 			(uuid "b3f55468-867c-4652-adb5-28351fb9857c")
 			(effects
@@ -24270,7 +24259,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -2.5 50)
+			(at 0 -2.5 90)
 			(layer "B.Fab")
 			(uuid "38757a8a-eaad-4ce5-8634-8c916ea6b135")
 			(effects
@@ -24281,8 +24270,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 50)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -24296,7 +24285,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 50)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -24310,7 +24299,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 50)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -24328,6 +24317,16 @@
 		(sheetname "/")
 		(sheetfile "Lower PCB.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start -2.51 1.6)
+			(end -2.51 -1.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "caef5940-9ed3-4abe-b965-2dc90db1cf8a")
+		)
 		(fp_line
 			(start 2.25 1.6)
 			(end -2.51 1.6)
@@ -24349,14 +24348,14 @@
 			(uuid "e4ccdb57-a664-404e-894b-947ce4f4211b")
 		)
 		(fp_line
-			(start -2.51 1.6)
-			(end -2.51 -1.6)
+			(start -2.5 1.75)
+			(end 2.5 1.75)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.SilkS")
-			(uuid "caef5940-9ed3-4abe-b965-2dc90db1cf8a")
+			(layer "B.CrtYd")
+			(uuid "b1f7e779-ab93-47b6-a32b-4b495d125e75")
 		)
 		(fp_line
 			(start 2.5 1.75)
@@ -24369,26 +24368,6 @@
 			(uuid "20a0655e-5dd6-4852-afd1-768f382b7e76")
 		)
 		(fp_line
-			(start 2.5 -1.75)
-			(end -2.5 -1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "363ba470-482b-4486-83ac-0db274a516a1")
-		)
-		(fp_line
-			(start -2.5 1.75)
-			(end 2.5 1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "b1f7e779-ab93-47b6-a32b-4b495d125e75")
-		)
-		(fp_line
 			(start -2.5 -1.75)
 			(end -2.5 1.75)
 			(stroke
@@ -24399,14 +24378,14 @@
 			(uuid "d093e2f5-44d8-443b-bcd6-91fe79149a6b")
 		)
 		(fp_line
-			(start 1.7 1.5)
-			(end -1.7 1.5)
+			(start 2.5 -1.75)
+			(end -2.5 -1.75)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "4a3959fc-9c35-495d-bb32-0d2d95af4b5d")
+			(layer "B.CrtYd")
+			(uuid "363ba470-482b-4486-83ac-0db274a516a1")
 		)
 		(fp_line
 			(start -1.7 1.5)
@@ -24419,14 +24398,14 @@
 			(uuid "81b5bf0e-cbd5-4111-90b0-639b0633ad4c")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 1.7 1.5)
+			(end -1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "ff5ee837-f525-4aad-b982-ba4d298b5969")
+			(uuid "4a3959fc-9c35-495d-bb32-0d2d95af4b5d")
 		)
 		(fp_line
 			(start -1.7 0.6)
@@ -24448,6 +24427,16 @@
 			(layer "B.Fab")
 			(uuid "61710560-55fb-44b1-a022-61794689633c")
 		)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "ff5ee837-f525-4aad-b982-ba4d298b5969")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 0 1.250001)
@@ -24460,7 +24449,7 @@
 			(uuid "8479b8e7-1fb1-40bf-b59d-0b31a5e6aae7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 50)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "81a9823d-9de4-46a0-a891-fcb0dd98024f")
 			(effects
@@ -24472,7 +24461,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0.000001 230)
+			(at -1.5 0.000001 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -24482,11 +24471,11 @@
 			(uuid "8d048933-e232-49c8-b2c7-138148dafe68")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 -0.000001 230)
+			(at 1.5 -0.000001 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 59 "Net-(D15-A)")
+			(net 47 "Net-(D15-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "1967e230-ca86-4e8a-8bea-b1ce0d17c236")
@@ -24507,11 +24496,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "bf0244f4-fdb9-40bd-a353-30cd2175b9df")
-		(at -68.398489 35.996106 40)
+		(at -125.12979 13.846872)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D10"
-			(at 0 2.5 40)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
 			(uuid "89d9d1fc-5be7-4f03-8103-acd726165793")
 			(effects
@@ -24523,7 +24512,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -2.5 40)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "6e176720-b8e0-4644-a37b-5db04ee78f30")
 			(effects
@@ -24534,8 +24523,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 220)
+		(property "Datasheet" ""
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -24549,7 +24538,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 220)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -24563,7 +24552,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 220)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -24713,7 +24702,7 @@
 			(uuid "9ce5dba7-ecbd-45aa-803f-2290f8bb81d0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 40)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "c2174f62-21f5-4d46-8e47-2a3d8ef39445")
 			(effects
@@ -24725,7 +24714,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 -0.000001 40)
+			(at -1.5 -0.000001)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -24735,11 +24724,11 @@
 			(uuid "6bffe037-df24-4dfb-8e04-230291cc6b63")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0.000001 40)
+			(at 1.5 0.000001)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 54 "Net-(D10-A)")
+			(net 42 "Net-(D10-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "2b6c7657-afe3-40ed-83ca-6ce4ec44f77f")
@@ -24787,7 +24776,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24992,7 +24981,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 66 "Net-(D22-A)")
+			(net 54 "Net-(D22-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "91715a81-358c-4cc5-89a9-973152a5942f")
@@ -25013,11 +25002,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "cd9f42fa-9054-465f-bfca-9ac99c532ddf")
-		(at 9.724298 -80.649234 -100)
+		(at 5 -107 -90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q11"
-			(at -0.000001 2.5 80)
+			(at -0.000001 2.5 90)
 			(layer "B.SilkS")
 			(uuid "dbf46827-5880-4bf7-890c-a7cc959be2df")
 			(effects
@@ -25029,7 +25018,7 @@
 			)
 		)
 		(property "Value" "SFH320"
-			(at 0.000001 -2.5 80)
+			(at 0.000001 -2.5 90)
 			(layer "B.Fab")
 			(uuid "710fd516-85ca-4f8d-9a6e-b9915ac8636f")
 			(effects
@@ -25041,7 +25030,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/5397c5d8583a26cf/original/SFH-320.pdf"
-			(at 0 0 80)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -25055,7 +25044,7 @@
 			)
 		)
 		(property "Description" "Silicon NPN Phototransistor, PLCC-2"
-			(at 0 0 80)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -25104,16 +25093,6 @@
 			(uuid "6d80a649-877f-4cab-9b00-6485479fe491")
 		)
 		(fp_line
-			(start 2.5 1.75)
-			(end 2.5 -1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "33579701-9f3f-4d64-9477-d519d15d8d4b")
-		)
-		(fp_line
 			(start -2.5 1.75)
 			(end 2.5 1.75)
 			(stroke
@@ -25124,14 +25103,14 @@
 			(uuid "c286ccc0-7e83-45be-90ad-239b770ba560")
 		)
 		(fp_line
-			(start 2.5 -1.75)
-			(end -2.5 -1.75)
+			(start 2.5 1.75)
+			(end 2.5 -1.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "b4ade55b-27e7-4ff3-9b46-816b5de6993b")
+			(uuid "33579701-9f3f-4d64-9477-d519d15d8d4b")
 		)
 		(fp_line
 			(start -2.5 -1.75)
@@ -25142,6 +25121,16 @@
 			)
 			(layer "B.CrtYd")
 			(uuid "c5890571-00e0-4502-88b7-fc45de05f4f2")
+		)
+		(fp_line
+			(start 2.5 -1.75)
+			(end -2.5 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "b4ade55b-27e7-4ff3-9b46-816b5de6993b")
 		)
 		(fp_line
 			(start 1.699999 1.500001)
@@ -25205,7 +25194,7 @@
 			(uuid "442be6d5-f3c8-47be-b80a-57bfb232e124")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 80)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "8e0d5699-7868-418d-ad3a-84364933f75a")
 			(effects
@@ -25217,7 +25206,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 -0.000001 260)
+			(at -1.5 -0.000001 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -25227,11 +25216,11 @@
 			(uuid "06fa3e01-8225-4246-8dfc-cab649153751")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0.000001 260)
+			(at 1.5 0.000001 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 41 "Net-(IC2-S3)")
+			(net 34 "Net-(IC2-S3)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "f06784ac-d1c8-43c4-bebb-d6e91cdf6d21")
@@ -25252,13 +25241,13 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "d278abca-5846-4d20-993a-c4c36d9ebf64")
-		(at 80.649234 -9.724298 -170)
+		(at 105.5 -5.224298 180)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q14"
-			(at 0 2.5 10)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
-			(uuid "b2ed85a5-69d4-4134-b40e-d76191492147")
+			(uuid "83dae66e-9e4c-4436-9882-fdc6e84816f0")
 			(effects
 				(font
 					(size 1 1)
@@ -25268,9 +25257,9 @@
 			)
 		)
 		(property "Value" "SFH320"
-			(at 0 -2.5 10)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
-			(uuid "85a3e43b-892d-49cf-8e4d-987a88d404cc")
+			(uuid "67ffb053-aa51-4654-880b-9d4fc951f95f")
 			(effects
 				(font
 					(size 1 1)
@@ -25280,11 +25269,11 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/5397c5d8583a26cf/original/SFH-320.pdf"
-			(at 0 0 10)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a1713b0a-5b16-4076-9b80-45aace99e187")
+			(uuid "675bdc41-cd59-48b4-897f-9bc9337adb84")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25294,11 +25283,11 @@
 			)
 		)
 		(property "Description" "Silicon NPN Phototransistor, PLCC-2"
-			(at 0 0 10)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d544f960-5004-4c27-b189-e737bb9f189a")
+			(uuid "927ee549-d302-453d-9d3a-5ad3ac705e82")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25444,7 +25433,7 @@
 			(uuid "42db0b9f-2d8a-455c-911c-d907ca9ead13")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 10)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "420275b9-a13c-4df9-9c31-5dd111b1e59c")
 			(effects
@@ -25456,7 +25445,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 190)
+			(at -1.5 0 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -25466,11 +25455,11 @@
 			(uuid "5bfd5e94-4ac1-4cc0-b5ff-3f6a9783c32d")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 190)
+			(at 1.5 0 180)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 46 "Net-(IC2-S6)")
+			(net 38 "Net-(IC2-S6)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "62d1f020-68c8-4dcc-aed8-58aeab18bb07")
@@ -25996,7 +25985,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26201,7 +26190,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 67 "Net-(D23-A)")
+			(net 55 "Net-(D23-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "f9809bfe-fd99-4b78-8092-3afac398cdd4")
@@ -26222,11 +26211,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "dcb5c849-37de-47ed-b1dd-e94579346c43")
-		(at -68.398489 -35.996106 -40)
+		(at -125.002577 -26.250001)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D6"
-			(at 0 2.5 140)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
 			(uuid "c227e8fa-9be5-4abc-890a-f507189646d5")
 			(effects
@@ -26238,7 +26227,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -2.5 140)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "9fabd945-c949-4e6a-92b6-35bc8f0ba275")
 			(effects
@@ -26249,8 +26238,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 140)
+		(property "Datasheet" ""
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26264,7 +26253,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 140)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26278,7 +26267,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 140)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26307,16 +26296,6 @@
 			(uuid "4a5df409-ebd9-4035-b0b2-6f18b17c0aef")
 		)
 		(fp_line
-			(start 2.25 1.6)
-			(end -2.51 1.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "925e3aa9-ff2d-4003-ac91-a0b3c3ab8a71")
-		)
-		(fp_line
 			(start 2.25 -1.6)
 			(end -2.51 -1.6)
 			(stroke
@@ -26327,14 +26306,14 @@
 			(uuid "20f0c8ff-887c-4ac3-bb69-cd7bca80de50")
 		)
 		(fp_line
-			(start -2.5 1.75)
-			(end 2.5 1.75)
+			(start 2.25 1.6)
+			(end -2.51 1.6)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "9c6e6617-4d5f-4b48-ac8e-34f7aa2ebe6a")
+			(layer "B.SilkS")
+			(uuid "925e3aa9-ff2d-4003-ac91-a0b3c3ab8a71")
 		)
 		(fp_line
 			(start -2.5 -1.75)
@@ -26347,14 +26326,14 @@
 			(uuid "a1e9b4ac-145e-4104-b32d-00133c8ffef9")
 		)
 		(fp_line
-			(start 2.5 1.75)
-			(end 2.5 -1.75)
+			(start -2.5 1.75)
+			(end 2.5 1.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f1662473-9162-4af4-96b4-b8f1557afd07")
+			(uuid "9c6e6617-4d5f-4b48-ac8e-34f7aa2ebe6a")
 		)
 		(fp_line
 			(start 2.5 -1.75)
@@ -26367,24 +26346,14 @@
 			(uuid "3bbe5ed3-764a-46fd-af00-0efbfbc6f4f4")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
+			(start 2.5 1.75)
+			(end 2.5 -1.75)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "e0066e08-8b9e-4567-b1ab-bb48f0089bd0")
-		)
-		(fp_line
-			(start -1.7 0.6)
-			(end -0.8 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "376524e2-7382-411c-8c4d-48ef5a27b4b3")
+			(layer "B.CrtYd")
+			(uuid "f1662473-9162-4af4-96b4-b8f1557afd07")
 		)
 		(fp_line
 			(start -1.7 -1.5)
@@ -26397,14 +26366,24 @@
 			(uuid "a639a7a5-687b-4940-ae0a-87dba4ac574e")
 		)
 		(fp_line
-			(start 1.7 1.5)
-			(end -1.7 1.5)
+			(start -1.7 0.6)
+			(end -0.8 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "2f61ce99-94c0-4e68-b0aa-4ff1a750e57b")
+			(uuid "376524e2-7382-411c-8c4d-48ef5a27b4b3")
+		)
+		(fp_line
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "e0066e08-8b9e-4567-b1ab-bb48f0089bd0")
 		)
 		(fp_line
 			(start 1.7 -1.5)
@@ -26415,6 +26394,16 @@
 			)
 			(layer "B.Fab")
 			(uuid "4d2fbef2-b8cd-40a4-83e7-caabd0a02bbd")
+		)
+		(fp_line
+			(start 1.7 1.5)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "2f61ce99-94c0-4e68-b0aa-4ff1a750e57b")
 		)
 		(fp_circle
 			(center 0 0)
@@ -26428,7 +26417,7 @@
 			(uuid "3f5843fe-d10e-417b-a702-d5504a9b8b0f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 140)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "a6de7452-85b8-44d6-af50-b9618fa625f0")
 			(effects
@@ -26440,7 +26429,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0.000001 320)
+			(at -1.5 0.000001)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -26450,11 +26439,11 @@
 			(uuid "3501afd5-f254-40b0-9b57-f0c26bb9f5f3")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 -0.000001 320)
+			(at 1.5 -0.000001)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 26 "Net-(D6-A)")
+			(net 22 "Net-(D6-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "815e9624-bb5c-41ed-882a-62c1073c7de2")
@@ -26475,11 +26464,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "e927c41b-a705-44a4-acaa-8d07e33ec905")
-		(at -73.997423 28 30)
+		(at -125.127213 8.846872)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q5"
-			(at 0 2.5 30)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
 			(uuid "6f452666-4c1d-4aaf-9a2a-fcd301eb2426")
 			(effects
@@ -26491,7 +26480,7 @@
 			)
 		)
 		(property "Value" "SFH320"
-			(at 0 -2.5 30)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "745554b5-cc58-4831-a2da-e0a6dc22207c")
 			(effects
@@ -26503,7 +26492,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/5397c5d8583a26cf/original/SFH-320.pdf"
-			(at 0 0 210)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26517,7 +26506,7 @@
 			)
 		)
 		(property "Description" "Silicon NPN Phototransistor, PLCC-2"
-			(at 0 0 210)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26667,7 +26656,7 @@
 			(uuid "49319ce7-c5db-4661-8600-065ed3f49a47")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 30)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "7e8a8b56-a195-4344-aa7d-802b78a898f7")
 			(effects
@@ -26679,7 +26668,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 30)
+			(at -1.5 0)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -26689,11 +26678,11 @@
 			(uuid "2215d2ee-441d-4f28-8a38-862dea6e57e4")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 30)
+			(at 1.5 0)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 30 "Net-(IC1-S5)")
+			(net 26 "Net-(IC1-S5)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "afc32bc8-fad3-4bc1-8e81-ff0331b3ea1b")
@@ -26714,11 +26703,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "eb7357b9-732f-49af-b56a-b9743b133120")
-		(at -9.724298 -80.649234 -80)
+		(at -5 -107 -90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q10"
-			(at 0 2.5 100)
+			(at 0 2.5 90)
 			(layer "B.SilkS")
 			(uuid "7460a359-1d36-429d-980b-314ea3c03847")
 			(effects
@@ -26730,7 +26719,7 @@
 			)
 		)
 		(property "Value" "SFH320"
-			(at 0 -2.5 100)
+			(at 0 -2.5 90)
 			(layer "B.Fab")
 			(uuid "55b6bfcb-cb3c-469c-a21a-69308f1f019c")
 			(effects
@@ -26742,7 +26731,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/5397c5d8583a26cf/original/SFH-320.pdf"
-			(at 0 0 100)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26756,7 +26745,7 @@
 			)
 		)
 		(property "Description" "Silicon NPN Phototransistor, PLCC-2"
-			(at 0 0 100)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26906,7 +26895,7 @@
 			(uuid "8adb5916-616a-4d92-a714-baabca4ece59")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 100)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "5d5a274d-70a6-4944-9eb3-9185a0b6c968")
 			(effects
@@ -26918,7 +26907,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 280)
+			(at -1.5 0 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -26928,11 +26917,11 @@
 			(uuid "ef7c0f14-8007-4b3b-8b66-017d3f2142ff")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 280)
+			(at 1.5 0 270)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 45 "Net-(IC2-S2)")
+			(net 37 "Net-(IC2-S2)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "67b1463e-24e5-4cce-88c4-2368735e5e32")
@@ -26953,13 +26942,13 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "ebaed1e9-6ed7-4799-b603-6301d2e4c029")
-		(at -15 58 90)
+		(at -30 56.5 90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D3"
 			(at 0 2.5 90)
 			(layer "B.SilkS")
-			(uuid "5f4a272e-68d8-4f04-ae0c-dac3af8bcae9")
+			(uuid "e2c3e3d8-a7fd-48c3-a37e-3859a152e0d9")
 			(effects
 				(font
 					(size 1 1)
@@ -26971,7 +26960,7 @@
 		(property "Value" "LED"
 			(at 0 -2.5 90)
 			(layer "B.Fab")
-			(uuid "d4800ab4-b7fc-4aad-b800-a9f3e62b9102")
+			(uuid "ef39e652-5247-4ff8-8759-cf52db484706")
 			(effects
 				(font
 					(size 1 1)
@@ -26980,12 +26969,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5a5853a9-4f9d-4a30-8173-34fc087f1ca8")
+			(uuid "cc0a0aa4-adf0-41c8-b512-be7b0577a487")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26999,7 +26988,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "24aed22f-a678-4eb3-ba1b-5875eea4fe9f")
+			(uuid "cc0675a5-3573-4727-bc71-2eb28e50c171")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27185,7 +27174,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 23 "Net-(D3-A)")
+			(net 19 "Net-(D3-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "72284f98-5abe-4798-90b7-91245862e873")
@@ -27206,13 +27195,13 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "f39a913d-fae6-4f3d-a531-b7b730b07b33")
-		(at 7.5 58 -90)
+		(at -22.5 56.5 -90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q2"
 			(at 0 2.5 90)
 			(layer "B.SilkS")
-			(uuid "d02fa2d4-5cf9-4bc0-bd21-fd79e5680df2")
+			(uuid "7594c7ee-9585-4264-a246-785b74759513")
 			(effects
 				(font
 					(size 1 1)
@@ -27224,7 +27213,7 @@
 		(property "Value" "SFH320"
 			(at 0 -2.5 90)
 			(layer "B.Fab")
-			(uuid "588b37e8-a4c5-484a-acaf-619ac7f96823")
+			(uuid "174d8649-cf5c-4ff4-a63c-d766c8b9cd3d")
 			(effects
 				(font
 					(size 1 1)
@@ -27238,7 +27227,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "86937cd9-f1ef-436c-83c5-98b3f610da2c")
+			(uuid "9fb9ba41-98e1-4f3c-842c-07251ccb60d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27252,7 +27241,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e189a891-ceef-4056-8da4-4759b1519767")
+			(uuid "0e4590f3-7e32-4214-8248-b5e7432f8fa3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27424,7 +27413,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 31 "Net-(IC1-S2)")
+			(net 27 "Net-(IC1-S2)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "67edd455-5a99-4997-b5be-d8171411949e")
@@ -27445,7 +27434,7 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "f4843a1f-9583-4c39-b488-dcbe8276b044")
-		(at 0 -81.5 -90)
+		(at 0 -107 -90)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "D13"
@@ -27472,7 +27461,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27677,7 +27666,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 57 "Net-(D13-A)")
+			(net 45 "Net-(D13-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "35f7fff6-5006-4cfb-8572-91a57381646f")
@@ -27698,11 +27687,11 @@
 	(footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
 		(layer "B.Cu")
 		(uuid "f5e18274-5aab-4513-bd93-0ba9ad70a37f")
-		(at -80.649234 -9.724298 -10)
+		(at -125 -11.25)
 		(descr "LED PLCC-2 SMD package, orientation marker at cathode, https://look.ams-osram.com/m/112b2fbfa9e71b58/original/SFH-4253.pdf")
 		(tags "LED PLCC-2 SMD TOPLED")
 		(property "Reference" "Q7"
-			(at 0 2.5 170)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
 			(uuid "26b9d52c-a32e-47a6-abaa-37419f396140")
 			(effects
@@ -27714,7 +27703,7 @@
 			)
 		)
 		(property "Value" "SFH320"
-			(at 0 -2.5 170)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "533df6c1-dc95-4daa-ab4c-75a94dac2763")
 			(effects
@@ -27726,7 +27715,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/5397c5d8583a26cf/original/SFH-320.pdf"
-			(at 0 0 170)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -27740,7 +27729,7 @@
 			)
 		)
 		(property "Description" "Silicon NPN Phototransistor, PLCC-2"
-			(at 0 0 170)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -27769,16 +27758,6 @@
 			(uuid "d1f1ef79-488b-4f3b-85ca-418a9490bfe9")
 		)
 		(fp_line
-			(start 2.25 1.6)
-			(end -2.510003 1.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f3344551-1868-4b6b-84b4-470512cde8b9")
-		)
-		(fp_line
 			(start 2.25 -1.6)
 			(end -2.51 -1.6)
 			(stroke
@@ -27789,14 +27768,14 @@
 			(uuid "d36da00d-6512-44df-9fd6-8996b94b46a8")
 		)
 		(fp_line
-			(start -2.5 1.75)
-			(end 2.5 1.75)
+			(start 2.25 1.6)
+			(end -2.510003 1.6)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "15c4235e-96ed-4219-9322-5b2ad4ebd4f6")
+			(layer "B.SilkS")
+			(uuid "f3344551-1868-4b6b-84b4-470512cde8b9")
 		)
 		(fp_line
 			(start -2.5 -1.75)
@@ -27809,14 +27788,14 @@
 			(uuid "23d5b877-f1f9-4767-a960-e86b54bccd1c")
 		)
 		(fp_line
-			(start 2.5 1.75)
-			(end 2.5 -1.75)
+			(start -2.5 1.75)
+			(end 2.5 1.75)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "cff57919-9a24-4787-80ab-c6346490117e")
+			(uuid "15c4235e-96ed-4219-9322-5b2ad4ebd4f6")
 		)
 		(fp_line
 			(start 2.5 -1.75)
@@ -27829,24 +27808,14 @@
 			(uuid "1c2c2097-7c0a-4ed0-bd87-41d36f1af59b")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
+			(start 2.5 1.75)
+			(end 2.5 -1.75)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "3b5f2945-9d84-427d-86af-1ae2831cf475")
-		)
-		(fp_line
-			(start -1.7 0.6)
-			(end -0.8 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "a961b17d-af22-49b1-9d60-a9e76fff7c78")
+			(layer "B.CrtYd")
+			(uuid "cff57919-9a24-4787-80ab-c6346490117e")
 		)
 		(fp_line
 			(start -1.7 -1.5)
@@ -27859,14 +27828,24 @@
 			(uuid "828c0be2-43e1-4faf-8339-10779f555dee")
 		)
 		(fp_line
-			(start 1.7 1.5)
-			(end -1.7 1.5)
+			(start -1.7 0.6)
+			(end -0.8 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "bf7410fb-2d6c-4ab4-bff7-ed4a3f848af8")
+			(uuid "a961b17d-af22-49b1-9d60-a9e76fff7c78")
+		)
+		(fp_line
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "3b5f2945-9d84-427d-86af-1ae2831cf475")
 		)
 		(fp_line
 			(start 1.7 -1.5)
@@ -27877,6 +27856,16 @@
 			)
 			(layer "B.Fab")
 			(uuid "d2902d8e-9f53-4d47-92f1-bc1fe31ef3c0")
+		)
+		(fp_line
+			(start 1.7 1.5)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "bf7410fb-2d6c-4ab4-bff7-ed4a3f848af8")
 		)
 		(fp_circle
 			(center 0 0)
@@ -27890,7 +27879,7 @@
 			(uuid "bc9d4abe-9cd1-4912-b774-bbf62b5f6bba")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 170)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "fb584fc5-4b72-42f4-9913-c3eb980e60a2")
 			(effects
@@ -27902,7 +27891,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5 0 350)
+			(at -1.5 0)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
@@ -27912,11 +27901,11 @@
 			(uuid "5726f3f2-db3b-47d2-bdf8-98401ed9b614")
 		)
 		(pad "2" smd roundrect
-			(at 1.5 0 350)
+			(at 1.5 0)
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 36 "Net-(IC1-S7)")
+			(net 31 "Net-(IC1-S7)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "2bc28f06-3881-4529-84e2-366c35b7f912")
@@ -28155,7 +28144,7 @@
 			(size 1.5 2.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net 20 "Net-(IC3-S8)")
+			(net 16 "Net-(IC3-S8)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "37b2251b-b05a-45a3-b837-b1363e2f9f16")
@@ -28184,6 +28173,16 @@
 		(uuid "06dbb1eb-058c-4c1e-962b-0086e49a436c")
 	)
 	(gr_line
+		(start 73.25 42)
+		(end 60.25 29)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "2de202e6-0142-478e-8e82-a79cc15454de")
+	)
+	(gr_line
 		(start 0 0)
 		(end 54 -54)
 		(stroke
@@ -28192,6 +28191,16 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "4cd09dc7-68d1-4ebc-8c61-928605bd63b2")
+	)
+	(gr_line
+		(start -73.25 -42)
+		(end -60.25 -29)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "59111b1d-60a9-4dcb-b76f-03c72bd1f271")
 	)
 	(gr_line
 		(start 0 0)
@@ -28204,6 +28213,16 @@
 		(uuid "7a0e9b3e-8b4c-41d7-8c5e-38cb6f8e7778")
 	)
 	(gr_line
+		(start 42.25 -73.25)
+		(end 29.25 -60.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7eb9ea00-e37e-48bf-8461-65c944ce9310")
+	)
+	(gr_line
 		(start 0 0)
 		(end 54 54)
 		(stroke
@@ -28212,6 +28231,36 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "8a7c6c3c-3a90-4409-ac11-cd5e4fff4835")
+	)
+	(gr_line
+		(start 73.25 -42.25)
+		(end 60.25 -29.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b86c6d28-6761-45ee-9f10-e105135953ba")
+	)
+	(gr_line
+		(start -42 -73.25)
+		(end -29 -60.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "bc8dd435-9a2f-4cda-b921-09db9225a994")
+	)
+	(gr_line
+		(start -73.5 42.25)
+		(end -60 28.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "f8784518-ac74-4d0d-9453-d8ab282d4b2f")
 	)
 	(gr_arc
 		(start 20.67224 65.546532)

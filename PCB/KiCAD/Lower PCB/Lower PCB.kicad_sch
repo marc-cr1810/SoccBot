@@ -6063,6 +6063,28 @@
 			)
 		)
 	)
+	(global_label "LED_2_A2"
+		(shape input)
+		(at 107.95 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ae40e43-04a9-4ddc-8df7-23f404d62fb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.0749 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_2_OUT"
 		(shape input)
 		(at 151.13 160.02 180)
@@ -6076,6 +6098,72 @@
 		(uuid "2106f297-5a0b-4920-b93c-0bedf13bad34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.9244 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_2_A1"
+		(shape input)
+		(at 107.95 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25430616-c001-46ee-a359-0ad0b19f9c23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.0749 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_3_A1"
+		(shape input)
+		(at 190.5 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29be4343-7ee9-410f-898e-631ce3b9a38d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.6249 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_2_A0"
+		(shape input)
+		(at 107.95 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ebd95a4-48cb-40a6-9fe0-e63388a55342")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.0749 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6129,6 +6217,28 @@
 			)
 		)
 	)
+	(global_label "LED_1_A0"
+		(shape input)
+		(at 25.4 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65d50d11-d290-40be-b692-5c6a05e456d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.5249 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_3_A1"
 		(shape input)
 		(at 151.13 181.61 180)
@@ -6173,6 +6283,28 @@
 			)
 		)
 	)
+	(global_label "LED_3_A2"
+		(shape input)
+		(at 190.5 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7560758d-4578-44cd-8398-93fb045beb97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.6249 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_3_A0"
 		(shape input)
 		(at 151.13 179.07 180)
@@ -6195,6 +6327,28 @@
 			)
 		)
 	)
+	(global_label "LED_3_OUT"
+		(shape input)
+		(at 190.5 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a06579d-0714-4bd9-b544-5af29f6b8390")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.2944 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_2_A0"
 		(shape input)
 		(at 151.13 162.56 180)
@@ -6208,6 +6362,28 @@
 		(uuid "8bc6cf1c-13c7-447d-b1d3-863d4271325a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.2549 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_1_OUT"
+		(shape input)
+		(at 25.4 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c371ea6-f226-4572-b203-db05e04891a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.1944 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6261,6 +6437,28 @@
 			)
 		)
 	)
+	(global_label "LED_1_A1"
+		(shape input)
+		(at 25.4 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c784296d-ea11-4a87-92f3-c6d75356c187")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.5249 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_3_A2"
 		(shape input)
 		(at 151.13 184.15 180)
@@ -6274,6 +6472,72 @@
 		(uuid "ce115101-8850-49df-b63e-63a0a62baac6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.2549 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_2_OUT"
+		(shape input)
+		(at 107.95 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da803368-993d-40e3-a705-8772dfbacd57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.7444 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_1_A2"
+		(shape input)
+		(at 25.4 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dec7fe07-3942-470a-9478-9c99e2e80fd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.5249 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_3_A0"
+		(shape input)
+		(at 190.5 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e379d738-8f83-492f-9a4d-5b13900f457e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.6249 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9381,7 +9645,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 99.822 56.642 90)
+			(at 96.52 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14964,7 +15228,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 17.272 56.642 90)
+			(at 14.224 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18538,7 +18802,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 182.372 56.642 90)
+			(at 179.07 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -643,7 +643,7 @@
         "pattern": "5V_*"
       },
       {
-        "netclass": "+5V",
+        "netclass": "5V-VCC",
         "pattern": "+3V3*"
       },
       {

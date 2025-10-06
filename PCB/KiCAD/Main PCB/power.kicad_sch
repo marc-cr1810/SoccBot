@@ -1197,6 +1197,12 @@
 		(color 0 0 0 0)
 		(uuid "391febfc-4e0c-499d-8705-c0e99910c4ef")
 	)
+	(junction
+		(at 138.43 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b720600b-2775-4bac-ae75-34f403bfbe48")
+	)
 	(wire
 		(pts
 			(xy 129.54 115.57) (xy 127 115.57)
@@ -1239,13 +1245,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 110.49) (xy 138.43 110.49)
+			(xy 138.43 113.03) (xy 144.78 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f0a3dc8-969d-4a36-bb83-d9629c75f26f")
+		(uuid "3602f21c-5b5a-4acc-aa5a-0718c129ce67")
 	)
 	(wire
 		(pts
@@ -1309,6 +1315,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 124.46) (xy 138.43 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d5f74d-3ca4-4637-bddb-9257ea7909fc")
+	)
+	(wire
+		(pts
 			(xy 149.86 83.82) (xy 149.86 82.55)
 		)
 		(stroke
@@ -1346,6 +1362,16 @@
 			(type default)
 		)
 		(uuid "afe9a5f2-7f7b-4b54-be6d-73f8a1b59a8b")
+	)
+	(wire
+		(pts
+			(xy 138.43 124.46) (xy 138.43 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b695c2a5-2b91-4d95-83c9-b626b4b4bd26")
 	)
 	(wire
 		(pts
@@ -1469,7 +1495,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 148.59 127 90)
+		(at 148.59 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1478,7 +1504,7 @@
 		(fields_autoplaced yes)
 		(uuid "08b06ffd-25bf-4ad7-b947-0b3b2aedb73b")
 		(property "Reference" "#PWR0133"
-			(at 152.4 127 0)
+			(at 152.4 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1513,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 144.78 126.9999 90)
+			(at 144.78 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1522,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 127 0)
+			(at 148.59 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 127 0)
+			(at 148.59 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +1540,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 148.59 127 0)
+			(at 148.59 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1694,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 153.67 127 0)
+		(at 153.67 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1677,7 +1703,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c702de7-7836-4a5c-b05b-9097196350ff")
 		(property "Reference" "J10"
-			(at 156.21 126.9999 0)
+			(at 156.21 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1712,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 156.21 129.5399 0)
+			(at 156.21 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1721,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 153.67 127 0)
+			(at 153.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1730,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 127 0)
+			(at 153.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,7 +1739,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 153.67 127 0)
+			(at 153.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,6 +1757,72 @@
 			(project "Main PCB"
 				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/32920b8a-8ee4-4be3-8c67-c1587aa84161"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 144.78 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2de97b83-62a8-46fc-956e-dfefb837c9ae")
+		(property "Reference" "#PWR0141"
+			(at 148.59 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_MOTOR"
+			(at 144.78 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "869d7710-798f-471b-86af-b2b9b2ad2342")
+		)
+		(instances
+			(project "Main PCB"
+				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/32920b8a-8ee4-4be3-8c67-c1587aa84161"
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -1948,7 +2040,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 142.24 270)
+		(at 148.59 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1956,7 +2048,7 @@
 		(dnp no)
 		(uuid "4b11554c-56b8-4408-8c03-001e9979eac9")
 		(property "Reference" "#PWR0136"
-			(at 142.24 142.24 0)
+			(at 142.24 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +2057,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 145.796 142.24 90)
+			(at 145.796 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +2066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 142.24 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +2075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 142.24 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +2084,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 142.24 0)
+			(at 148.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,8 +2172,133 @@
 		)
 	)
 	(symbol
+		(lib_id "1101M2S3CGE2:1101M2S3CGE2")
+		(at 144.78 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "601cab67-4b8f-489f-8336-e87d92104209")
+		(property "Reference" "S5"
+			(at 164.338 122.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1101M2S3CGE2"
+			(at 163.83 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "1101M2S3CGE2:1101M2S3CGE2"
+			(at 163.83 216.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1429/1000.pdf"
+			(at 163.83 316.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "C & K COMPONENTS - 1101M2S3CGE2 - Slide Switch,STRAIGHT,SPDT,ON-ON,PC TAIL Terminal,PCB Hole Count:3"
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11.43"
+			(at 163.83 516.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-1101M2S3CGE2"
+			(at 163.83 616.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/1101M2S3CGE2?qs=lwH5WijZ8ehN3XG160Un%2Fg%3D%3D"
+			(at 163.83 716.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 163.83 816.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1101M2S3CGE2"
+			(at 163.83 916.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26fad24e-96b8-4abc-8693-00014891d7ec")
+		)
+		(pin "3"
+			(uuid "12d12179-a05c-4f89-88d8-615951d0b4cb")
+		)
+		(pin "2"
+			(uuid "7823ce19-822b-481e-a0ef-5bbd1c1f149b")
+		)
+		(instances
+			(project "Main PCB"
+				(path "/2fa7e914-8c49-49b7-a5a9-3cb78b2e953f/32920b8a-8ee4-4be3-8c67-c1587aa84161"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 148.59 129.54 270)
+		(at 148.59 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2090,7 +2307,7 @@
 		(fields_autoplaced yes)
 		(uuid "628dc0ee-4357-4258-8867-03dd3abe3865")
 		(property "Reference" "#PWR0134"
-			(at 142.24 129.54 0)
+			(at 142.24 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2316,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 129.5399 90)
+			(at 144.78 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2325,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 129.54 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 129.54 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +2343,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 129.54 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2365,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 153.67 139.7 0)
+		(at 153.67 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2157,7 +2374,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a893a5b-1afa-4755-88b0-66b41333a2aa")
 		(property "Reference" "J11"
-			(at 156.21 139.6999 0)
+			(at 156.21 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2383,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 156.21 142.2399 0)
+			(at 156.21 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2392,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 153.67 139.7 0)
+			(at 153.67 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2184,7 +2401,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 139.7 0)
+			(at 153.67 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,7 +2410,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 153.67 139.7 0)
+			(at 153.67 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2569,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 137.16 110.49 90)
+		(at 144.78 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2360,7 +2577,7 @@
 		(dnp no)
 		(uuid "c733625c-5d5b-4ae3-ade3-13c8fcb81edf")
 		(property "Reference" "#PWR0132"
-			(at 140.97 110.49 0)
+			(at 148.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2369,7 +2586,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 134.366 110.49 90)
+			(at 141.986 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,7 +2595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 110.49 0)
+			(at 144.78 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 110.49 0)
+			(at 144.78 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2613,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 137.16 110.49 0)
+			(at 144.78 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2702,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 148.59 139.7 90)
+		(at 148.59 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2493,7 +2710,7 @@
 		(dnp no)
 		(uuid "de567ba1-195b-416b-afe8-dd6943a8a65f")
 		(property "Reference" "#PWR0135"
-			(at 152.4 139.7 0)
+			(at 152.4 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2719,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 145.796 139.7 90)
+			(at 145.796 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 139.7 0)
+			(at 148.59 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 139.7 0)
+			(at 148.59 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,7 +2746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 148.59 139.7 0)
+			(at 148.59 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,7 +2768,7 @@
 	)
 	(symbol
 		(lib_id "1101M2S3CGE2:1101M2S3CGE2")
-		(at 138.43 110.49 0)
+		(at 144.78 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2559,7 +2776,7 @@
 		(dnp no)
 		(uuid "e2735b97-c463-4f0c-bcd5-3bc48ea582f6")
 		(property "Reference" "S4"
-			(at 157.988 111.252 90)
+			(at 164.338 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2785,7 @@
 			)
 		)
 		(property "Value" "1101M2S3CGE2"
-			(at 157.48 114.2999 0)
+			(at 163.83 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +2795,7 @@
 			)
 		)
 		(property "Footprint" "1101M2S3CGE2:1101M2S3CGE2"
-			(at 157.48 205.41 0)
+			(at 163.83 205.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2805,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/1429/1000.pdf"
-			(at 157.48 305.41 0)
+			(at 163.83 305.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2815,7 @@
 			)
 		)
 		(property "Description" "C & K COMPONENTS - 1101M2S3CGE2 - Slide Switch,STRAIGHT,SPDT,ON-ON,PC TAIL Terminal,PCB Hole Count:3"
-			(at 138.43 110.49 0)
+			(at 144.78 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2824,7 @@
 			)
 		)
 		(property "Height" "11.43"
-			(at 157.48 505.41 0)
+			(at 163.83 505.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +2834,7 @@
 			)
 		)
 		(property "Mouser Part Number" "611-1101M2S3CGE2"
-			(at 157.48 605.41 0)
+			(at 163.83 605.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,7 +2844,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/1101M2S3CGE2?qs=lwH5WijZ8ehN3XG160Un%2Fg%3D%3D"
-			(at 157.48 705.41 0)
+			(at 163.83 705.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2854,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "C & K COMPONENTS"
-			(at 157.48 805.41 0)
+			(at 163.83 805.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2864,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1101M2S3CGE2"
-			(at 157.48 905.41 0)
+			(at 163.83 905.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
